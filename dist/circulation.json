@@ -1,0 +1,2027 @@
+{
+  "asOf": "2026-10-03",
+  "nodes": [
+    {
+      "id": "NVDA",
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "type": "chips"
+    },
+    {
+      "id": "CRWV",
+      "name": "CoreWeave",
+      "ticker": "CRWV",
+      "type": "AI cloud"
+    },
+    {
+      "id": "DELL",
+      "name": "Dell Technologies",
+      "public": true,
+      "ticker": "DELL",
+      "type": "public"
+    },
+    {
+      "id": "VRT",
+      "name": "Vertiv",
+      "public": true,
+      "ticker": "VRT",
+      "type": "public"
+    },
+    {
+      "id": "SOLIDIGM",
+      "name": "Solidigm",
+      "public": false,
+      "ticker": null,
+      "type": "private_or_project"
+    },
+    {
+      "id": "CORZ",
+      "name": "Core Scientific",
+      "public": true,
+      "ticker": "CORZ",
+      "type": "public"
+    },
+    {
+      "id": "GLXY",
+      "name": "Galaxy Digital",
+      "public": true,
+      "ticker": "GLXY",
+      "type": "public"
+    },
+    {
+      "id": "DB",
+      "name": "Deutsche Bank",
+      "public": true,
+      "ticker": "DB",
+      "type": "public"
+    },
+    {
+      "id": "LENDERS_CRWV",
+      "name": "CoreWeave financing consortium",
+      "ticker": null,
+      "type": "lenders"
+    },
+    {
+      "id": "TSM",
+      "name": "TSMC",
+      "public": true,
+      "ticker": "TSM",
+      "type": "public"
+    },
+    {
+      "id": "MU",
+      "name": "Micron",
+      "public": true,
+      "ticker": "MU",
+      "type": "public"
+    },
+    {
+      "id": "SKHYNIX",
+      "name": "SK hynix",
+      "public": true,
+      "ticker": "000660.KS",
+      "type": "public"
+    },
+    {
+      "id": "FN",
+      "name": "Fabrinet",
+      "public": true,
+      "ticker": "FN",
+      "type": "public"
+    },
+    {
+      "id": "ASML",
+      "name": "ASML",
+      "public": true,
+      "ticker": "ASML",
+      "type": "public"
+    },
+    {
+      "id": "AMAT",
+      "name": "Applied Materials",
+      "public": true,
+      "ticker": "AMAT",
+      "type": "public"
+    },
+    {
+      "id": "LRCX",
+      "name": "Lam Research",
+      "public": true,
+      "ticker": "LRCX",
+      "type": "public"
+    },
+    {
+      "id": "KLAC",
+      "name": "KLA",
+      "public": true,
+      "ticker": "KLAC",
+      "type": "public"
+    },
+    {
+      "id": "ONTO",
+      "name": "Onto Innovation",
+      "public": true,
+      "ticker": "ONTO",
+      "type": "public"
+    },
+    {
+      "id": "MARKETECH",
+      "name": "Marketech International",
+      "public": true,
+      "ticker": "6196.TW",
+      "type": "public"
+    },
+    {
+      "id": "META",
+      "name": "Meta Platforms",
+      "public": true,
+      "ticker": "META",
+      "type": "public"
+    },
+    {
+      "id": "ETR",
+      "name": "Entergy",
+      "public": true,
+      "ticker": "ETR",
+      "type": "public"
+    },
+    {
+      "id": "CHAIN_ELECTRIC",
+      "name": "Chain Electric",
+      "public": false,
+      "ticker": null,
+      "type": "private_or_project"
+    },
+    {
+      "id": "HGA",
+      "name": "Hunt, Guillot and Associates",
+      "public": false,
+      "ticker": null,
+      "type": "private_or_project"
+    },
+    {
+      "id": "RC_BORING",
+      "name": "RC Boring",
+      "public": false,
+      "ticker": null,
+      "type": "private_or_project"
+    },
+    {
+      "id": "ORCL",
+      "name": "Oracle",
+      "ticker": "ORCL",
+      "type": "cloud"
+    },
+    {
+      "id": "BE",
+      "name": "Bloom Energy",
+      "public": true,
+      "ticker": "BE",
+      "type": "public"
+    },
+    {
+      "id": "BROOKFIELD",
+      "name": "Brookfield group / managed funds",
+      "public": false,
+      "ticker": null,
+      "type": "private_or_project"
+    },
+    {
+      "id": "BLOOM_PROJECTS",
+      "name": "Brookfield–Bloom power projects",
+      "public": false,
+      "ticker": null,
+      "type": "private_or_project"
+    },
+    {
+      "id": "NBIS",
+      "name": "Nebius",
+      "ticker": "NBIS",
+      "type": "AI cloud"
+    },
+    {
+      "id": "IDF",
+      "name": "Industrial Development Funding",
+      "public": false,
+      "ticker": null,
+      "type": "private_or_project"
+    },
+    {
+      "id": "OAKTREE",
+      "name": "Oaktree-managed capital",
+      "public": false,
+      "ticker": null,
+      "type": "private_or_project"
+    },
+    {
+      "id": "MS",
+      "name": "Morgan Stanley",
+      "public": true,
+      "ticker": "MS",
+      "type": "public"
+    },
+    {
+      "id": "MUFG",
+      "name": "MUFG Bank",
+      "public": true,
+      "ticker": "MUFG",
+      "type": "public"
+    },
+    {
+      "id": "NEBIUS_POWER_PROJECT",
+      "name": "IDF-led Nebius power project",
+      "public": false,
+      "ticker": null,
+      "type": "private_or_project"
+    },
+    {
+      "id": "SNPS",
+      "name": "Synopsys",
+      "public": true,
+      "ticker": "SNPS",
+      "type": "public"
+    },
+    {
+      "id": "CRWV_VENDOR_FINANCE",
+      "name": "OEM / software financing providers (undisclosed)",
+      "public": false,
+      "ticker": null,
+      "type": "undisclosed"
+    },
+    {
+      "id": "MSFT",
+      "name": "Microsoft",
+      "ticker": "MSFT",
+      "type": "cloud"
+    },
+    {
+      "id": "OPENAI",
+      "name": "OpenAI",
+      "ticker": null,
+      "type": "private model lab"
+    },
+    {
+      "id": "ANTHROPIC",
+      "name": "Anthropic",
+      "ticker": null,
+      "type": "private model lab"
+    },
+    {
+      "id": "AMZN",
+      "name": "Amazon / AWS",
+      "ticker": "AMZN",
+      "type": "cloud"
+    },
+    {
+      "id": "GOOGL",
+      "name": "Alphabet / Google Cloud",
+      "ticker": "GOOGL",
+      "type": "cloud"
+    },
+    {
+      "id": "SBENERGY",
+      "name": "SB Energy",
+      "ticker": null,
+      "type": "private infrastructure"
+    },
+    {
+      "id": "LENDERS_NBIS",
+      "name": "Nebius secured lenders",
+      "ticker": null,
+      "type": "lenders"
+    }
+  ],
+  "edges": [
+    {
+      "id": "msft-oai-funding",
+      "from": "MSFT",
+      "to": "OPENAI",
+      "tier": 1,
+      "flowType": "investment",
+      "status": "partly funded",
+      "title": "Strategic investment",
+      "amountLabel": "$13B committed; $11.9B funded",
+      "detail": "Funding reported through June 30, 2026. Equity ownership is not cloud revenue.",
+      "date": "2026-06-30",
+      "sourceIds": [
+        "msft26"
+      ],
+      "amountUSD": 13000000000,
+      "fundedUSD": 11900000000,
+      "originalFlowType": "equity"
+    },
+    {
+      "id": "oai-msft-cloud",
+      "from": "OPENAI",
+      "to": "MSFT",
+      "tier": 1,
+      "flowType": "commercial",
+      "status": "committed",
+      "title": "Azure services",
+      "amountLabel": "$250B incremental commitment",
+      "detail": "October 2025 commitment, not cash paid. April 2026 terms permit all OpenAI products on other clouds; capped OpenAI-to-Microsoft revenue share continues through 2030.",
+      "date": "2025-10-28",
+      "sourceIds": [
+        "msft25",
+        "msftApril"
+      ],
+      "amountUSD": 250000000000,
+      "evidenceDate": "2026-04-27",
+      "originalFlowType": "cloud"
+    },
+    {
+      "id": "amzn-oai-equity",
+      "from": "AMZN",
+      "to": "OPENAI",
+      "tier": 1,
+      "flowType": "investment",
+      "status": "funded",
+      "title": "OpenAI preferred stock",
+      "amountLabel": "$50B funded",
+      "detail": "$28.7B invested by June 30; remaining $21.3B funded after quarter-end, disclosed in Q2 filing.",
+      "date": "2026-07-30",
+      "sourceIds": [
+        "amzn26"
+      ],
+      "amountUSD": 50000000000,
+      "originalFlowType": "equity"
+    },
+    {
+      "id": "oai-amzn-cloud",
+      "from": "OPENAI",
+      "to": "AMZN",
+      "tier": 1,
+      "flowType": "commercial",
+      "status": "committed",
+      "title": "AWS capacity expansion",
+      "amountLabel": "$100B expansion over 8 years",
+      "detail": "Incremental to prior $38B arrangement; includes roughly 2 GW Trainium. Contract value is not annual revenue or current payment.",
+      "date": "2026-02-27",
+      "sourceIds": [
+        "oaiAws"
+      ],
+      "amountUSD": 100000000000,
+      "originalFlowType": "cloud"
+    },
+    {
+      "id": "nvda-oai-equity",
+      "from": "NVDA",
+      "to": "OPENAI",
+      "tier": 1,
+      "flowType": "investment",
+      "status": "announced commitment",
+      "title": "OpenAI financing round",
+      "amountLabel": "$30B announced investment",
+      "detail": "Part of February round, later closed as committed capital. Individual funding timing not established here; do not add the earlier $100B letter-of-intent headline.",
+      "date": "2026-02-27",
+      "sourceIds": [
+        "oaiFunding",
+        "oaiClose"
+      ],
+      "amountUSD": 30000000000,
+      "originalFlowType": "equity"
+    },
+    {
+      "id": "amzn-ant-funded",
+      "from": "AMZN",
+      "to": "ANTHROPIC",
+      "tier": 1,
+      "flowType": "investment",
+      "status": "funded",
+      "title": "Anthropic investment history",
+      "amountLabel": "$18B invested through June 2026",
+      "detail": "$8B historical convertible notes plus $10B preferred stock in Q2. Instrument conversions and valuation gains are not additional cash.",
+      "date": "2026-06-30",
+      "sourceIds": [
+        "amzn26"
+      ],
+      "amountUSD": 18000000000,
+      "originalFlowType": "equity_and_convertible"
+    },
+    {
+      "id": "amzn-ant-facility",
+      "from": "AMZN",
+      "to": "ANTHROPIC",
+      "tier": 1,
+      "flowType": "finance",
+      "status": "conditional facility",
+      "title": "Compute-linked financing",
+      "amountLabel": "$15B remaining facility",
+      "detail": "Original $20B capacity reduced by $5B Series H purchase. Further availability depends on compute-delivery milestones; draws may be convertible notes or stock.",
+      "date": "2026-06-30",
+      "sourceIds": [
+        "amzn26"
+      ],
+      "amountUSD": 15000000000,
+      "originalFlowType": "financing"
+    },
+    {
+      "id": "ant-amzn-cloud",
+      "from": "ANTHROPIC",
+      "to": "AMZN",
+      "tier": 1,
+      "flowType": "commercial",
+      "status": "committed",
+      "title": "AWS compute agreement",
+      "amountLabel": ">$100B over 10 years",
+      "detail": "Expanded Trainium and Graviton capacity agreement. Delivery and chip-performance obligations matter; not recognized AWS revenue.",
+      "date": "2026-04-20",
+      "sourceIds": [
+        "antAws"
+      ],
+      "amountUSD": 100000000000,
+      "amountQualifier": "greater_than",
+      "originalFlowType": "cloud"
+    },
+    {
+      "id": "msft-ant-equity",
+      "from": "MSFT",
+      "to": "ANTHROPIC",
+      "tier": 1,
+      "flowType": "investment",
+      "status": "announced commitment",
+      "title": "Anthropic equity commitment",
+      "amountLabel": "Up to $5B",
+      "detail": "Announced commitment. Anthropic's February Series G includes a portion of the previously announced Microsoft/NVIDIA investments; do not add both headlines.",
+      "date": "2025-11-18",
+      "sourceIds": [
+        "antMsft",
+        "antG"
+      ],
+      "amountUSD": 5000000000,
+      "originalFlowType": "equity"
+    },
+    {
+      "id": "nvda-ant-equity",
+      "from": "NVDA",
+      "to": "ANTHROPIC",
+      "tier": 1,
+      "flowType": "investment",
+      "status": "announced commitment",
+      "title": "Anthropic equity commitment",
+      "amountLabel": "Up to $10B",
+      "detail": "Announced commitment; paid amount not established here. The Series G partly overlaps this commitment.",
+      "date": "2025-11-18",
+      "sourceIds": [
+        "antMsft",
+        "antG"
+      ],
+      "amountUSD": 10000000000,
+      "originalFlowType": "equity"
+    },
+    {
+      "id": "ant-msft-cloud",
+      "from": "ANTHROPIC",
+      "to": "MSFT",
+      "tier": 1,
+      "flowType": "commercial",
+      "status": "committed",
+      "title": "Claude on Azure",
+      "amountLabel": "$30B compute commitment",
+      "detail": "Azure service purchase commitment, with additional capacity up to 1 GW. NVIDIA systems support this deployment; purchase dollars for hardware are undisclosed.",
+      "date": "2025-11-18",
+      "sourceIds": [
+        "antMsft"
+      ],
+      "amountUSD": 30000000000,
+      "originalFlowType": "cloud"
+    },
+    {
+      "id": "ant-googl-cloud",
+      "from": "ANTHROPIC",
+      "to": "GOOGL",
+      "tier": 1,
+      "flowType": "commercial",
+      "status": "committed",
+      "title": "Google TPU capacity",
+      "amountLabel": "Tens of billions; exact value undisclosed",
+      "detail": "October expansion targets up to one million TPUs. April 2026 Google/Broadcom agreement adds multiple GW starting 2027; no comparable incremental dollar amount given.",
+      "date": "2025-10-23",
+      "sourceIds": [
+        "antTpu",
+        "antTpu26"
+      ],
+      "evidenceDate": "2026-04-06",
+      "originalFlowType": "cloud"
+    },
+    {
+      "id": "nvda-crwv-equity",
+      "from": "NVDA",
+      "to": "CRWV",
+      "tier": 2,
+      "flowType": "investment",
+      "status": "funded",
+      "title": "CoreWeave stock purchase",
+      "amountLabel": "$2B cash",
+      "detail": "Completed January 23: 22,935,780 Class A shares at $87.20. Equity issuance cash, not revenue.",
+      "date": "2026-01-23",
+      "sourceIds": [
+        "crwvNvdaEquity",
+        "downstream_nvda_crwv_equity"
+      ],
+      "amountUSD": 2000000000,
+      "originalFlowType": "equity"
+    },
+    {
+      "id": "nvda-crwv-backstop",
+      "from": "NVDA",
+      "to": "CRWV",
+      "tier": 2,
+      "flowType": "commercial",
+      "status": "conditional obligation",
+      "title": "Residual cloud capacity",
+      "amountLabel": "$6.3B initial order value",
+      "detail": "NVIDIA must buy qualifying unsold capacity through April 13, 2032, subject to delivery, availability and termination terms. Not an unconditional $6.3B cash transfer.",
+      "date": "2025-09-09",
+      "sourceIds": [
+        "crwvBackstop",
+        "downstream_nvda_crwv_backstop"
+      ],
+      "amountUSD": 6300000000,
+      "originalFlowType": "capacity_backstop"
+    },
+    {
+      "id": "crwv-nvda-hardware",
+      "from": "CRWV",
+      "to": "NVDA",
+      "tier": 2,
+      "flowType": "supplier",
+      "status": "supplier relationship",
+      "title": "GPU infrastructure purchases",
+      "amountLabel": "Amount undisclosed",
+      "detail": "CoreWeave filing identifies NVIDIA as GPU supplier and shareholder. Direct versus OEM-mediated purchase mix and transaction dollars are not quantified here.",
+      "date": "2025-09-15",
+      "sourceIds": [
+        "crwvBackstop"
+      ],
+      "originalFlowType": "hardware"
+    },
+    {
+      "id": "oai-crwv-cloud",
+      "from": "OPENAI",
+      "to": "CRWV",
+      "tier": 2,
+      "flowType": "commercial",
+      "status": "committed",
+      "title": "Model training and inference",
+      "amountLabel": "Up to ~$22.4B combined contracts",
+      "detail": "Total includes March $11.9B, May $4B and September $6.5B agreements; do not sum the total with its components. Not current-year revenue.",
+      "date": "2025-09-25",
+      "sourceIds": [
+        "crwvOai"
+      ],
+      "amountUSD": 22400000000,
+      "originalFlowType": "cloud"
+    },
+    {
+      "id": "msft-nbis-cloud",
+      "from": "MSFT",
+      "to": "NBIS",
+      "tier": 2,
+      "flowType": "commercial",
+      "status": "committed",
+      "title": "Dedicated GPU capacity",
+      "amountLabel": "Original $17.4B; optional ~$19.4B",
+      "detail": "September 2025 contract through 2031, conditional on deployment and availability. Original disclosed values shown; later option exercise not verified here.",
+      "date": "2025-09-08",
+      "sourceIds": [
+        "nbisMsft"
+      ],
+      "amountUSD": 17400000000,
+      "originalFlowType": "cloud"
+    },
+    {
+      "id": "nvda-nbis-equity",
+      "from": "NVDA",
+      "to": "NBIS",
+      "tier": 2,
+      "flowType": "investment",
+      "status": "funded",
+      "title": "Pre-funded share warrant",
+      "amountLabel": "Approximately $2B proceeds",
+      "detail": "Nebius reports sale of a pre-funded Class A share warrant to NVIDIA; distinct from payment for GPU hardware.",
+      "date": "2026-03-11",
+      "sourceIds": [
+        "nbis20f"
+      ],
+      "amountUSD": 2000000000,
+      "originalFlowType": "equity"
+    },
+    {
+      "id": "oai-orcl-cloud",
+      "from": "OPENAI",
+      "to": "ORCL",
+      "tier": 1,
+      "flowType": "commercial",
+      "status": "committed",
+      "title": "Stargate capacity partnership",
+      "amountLabel": ">$300B over 5 years",
+      "detail": "Issuer describes up to 4.5 GW additional capacity under its July agreement. Overlapping Stargate investment totals are not additive.",
+      "date": "2025-09-23",
+      "sourceIds": [
+        "oaiOracle"
+      ],
+      "amountUSD": 300000000000,
+      "amountQualifier": "greater_than",
+      "originalFlowType": "cloud"
+    },
+    {
+      "id": "nvda-sb-guarantee",
+      "from": "NVDA",
+      "to": "SBENERGY",
+      "tier": 3,
+      "flowType": "guarantee",
+      "status": "contingent",
+      "title": "Credit support for OpenAI leases",
+      "amountLabel": "Up to $105B exposure",
+      "detail": "August guarantee covers defined lease/power obligations for ~4.25 GW. Tenant defaults trigger payment; phases expected from FY2029. This is not cash spent, drawn debt or revenue.",
+      "date": "2026-08",
+      "sourceIds": [
+        "nvda26"
+      ],
+      "amountUSD": 105000000000,
+      "originalFlowType": "guarantee"
+    },
+    {
+      "id": "oai-msft-revenue",
+      "from": "OPENAI",
+      "to": "MSFT",
+      "tier": 1,
+      "flowType": "commercial",
+      "status": "recognized",
+      "title": "Actual related-party revenue",
+      "amountLabel": "$24.1B FY2026 revenue",
+      "detail": "Includes commercial arrangements and revenue sharing; $6B receivable at June 30. Revenue is not proof of cash collection and is not incremental to all other contract figures.",
+      "date": "2026-06-30",
+      "sourceIds": [
+        "msft26"
+      ],
+      "amountUSD": 24100000000,
+      "originalFlowType": "recognized_revenue"
+    },
+    {
+      "id": "orcl-nvda-hardware",
+      "from": "ORCL",
+      "to": "NVDA",
+      "tier": 2,
+      "flowType": "supplier",
+      "status": "deployed",
+      "title": "Blackwell infrastructure",
+      "amountLabel": "Dollar value undisclosed",
+      "detail": "NVIDIA reports thousands of Blackwell GPUs deployed on OCI. Monetary direction denotes buyer-to-supplier economics; reseller routing is not established.",
+      "date": "2025-04-28",
+      "sourceIds": [
+        "oracleGpu"
+      ],
+      "originalFlowType": "hardware"
+    },
+    {
+      "id": "nbis-nvda-hardware",
+      "from": "NBIS",
+      "to": "NVDA",
+      "tier": 2,
+      "flowType": "supplier",
+      "status": "supplier relationship",
+      "title": "NVIDIA cloud platform",
+      "amountLabel": "Dollar value undisclosed",
+      "detail": "Nebius already deploys NVIDIA hardware; partnership targets more than 5 GW by end-2030. This target is not a purchase order or recognized revenue.",
+      "date": "2026-03-11",
+      "sourceIds": [
+        "nbisNvda"
+      ],
+      "originalFlowType": "hardware"
+    },
+    {
+      "id": "lenders-crwv-debt",
+      "from": "LENDERS_CRWV",
+      "to": "CRWV",
+      "tier": 2,
+      "flowType": "finance",
+      "status": "facility closed",
+      "title": "GPU and contract-backed loan",
+      "amountLabel": "$8.5B facility; ~$7.5B initially available",
+      "detail": "DDTL 4.0 secured by infrastructure and customer contract; maturity March 2032. Drawn amount is not stated. MUFG/Morgan Stanley structure; Blackstone anchors.",
+      "date": "2026-03-31",
+      "sourceIds": [
+        "crwvDebt",
+        "downstream_crwv_ddtl"
+      ],
+      "amountUSD": 8500000000,
+      "originalFlowType": "debt"
+    },
+    {
+      "id": "lenders-nbis-debt",
+      "from": "LENDERS_NBIS",
+      "to": "NBIS",
+      "tier": 2,
+      "flowType": "finance",
+      "status": "facility signed",
+      "title": "Monetizing installed GPU contracts",
+      "amountLabel": "Approximately $775M facility",
+      "detail": "Secured by deployed GPUs and contracted customer cash flows; SOFR+2.5%, maturity October 2030. Source does not identify this facility's customer; do not assume Microsoft.",
+      "date": "2026-07-17",
+      "sourceIds": [
+        "nbisDebt"
+      ],
+      "amountUSD": 775000000,
+      "originalFlowType": "debt"
+    },
+    {
+      "id": "oai-sb-lease",
+      "from": "OPENAI",
+      "to": "SBENERGY",
+      "tier": 3,
+      "flowType": "commercial",
+      "status": "future obligation",
+      "title": "PORTS campus leases",
+      "amountLabel": "20-year leases; total payments undisclosed",
+      "detail": "OpenAI affiliate is tenant. NVIDIA guarantee only covers defined portions; its $105B cap is not the total lease price.",
+      "date": "2026-08",
+      "sourceIds": [
+        "nvda26"
+      ],
+      "originalFlowType": "lease"
+    },
+    {
+      "id": "downstream_crwv_dell",
+      "from": "CRWV",
+      "to": "DELL",
+      "flowType": "supplier",
+      "status": "delivered unquantified",
+      "label": "AI rack procurement",
+      "fact": "Dell delivered GB300 NVL72 integrated racks to CoreWeave.",
+      "sourceIds": [
+        "downstream_dell_coreweave"
+      ],
+      "date": "2025-07-03",
+      "amount": null,
+      "amountLabel": "Value undisclosed",
+      "amountBasis": null,
+      "caveat": "Shipment confirmed; payment amount and date undisclosed. Do not add its full server value to NVIDIA component revenue.",
+      "rootExample": "NVDA",
+      "tierExample": 2,
+      "routeEvidence": "documented",
+      "tier": 2,
+      "title": "AI rack procurement",
+      "detail": "Dell delivered GB300 NVL72 integrated racks to CoreWeave. Shipment confirmed; payment amount and date undisclosed. Do not add its full server value to NVIDIA component revenue.",
+      "originalFlowType": "supplier"
+    },
+    {
+      "id": "downstream_dell_nvda",
+      "from": "DELL",
+      "to": "NVDA",
+      "flowType": "supplier",
+      "status": "unquantified",
+      "label": "NVIDIA content in Dell racks",
+      "fact": "Dell racks delivered to CoreWeave contain NVIDIA GPUs and CPUs.",
+      "sourceIds": [
+        "downstream_dell_coreweave"
+      ],
+      "date": "2025-07-03",
+      "amount": null,
+      "amountLabel": "Undisclosed",
+      "amountBasis": null,
+      "caveat": "Economic component route; this source does not disclose the invoice entity or direct Dell-to-NVIDIA cash payment.",
+      "rootExample": "NVDA",
+      "tierExample": 3,
+      "routeEvidence": "economic_inference_from_named_components",
+      "tier": 2,
+      "title": "NVIDIA content in Dell racks",
+      "detail": "Dell racks delivered to CoreWeave contain NVIDIA GPUs and CPUs. Economic component route; this source does not disclose the invoice entity or direct Dell-to-NVIDIA cash payment.",
+      "originalFlowType": "component_route"
+    },
+    {
+      "id": "downstream_crwv_vertiv",
+      "from": "CRWV",
+      "to": "VRT",
+      "flowType": "supplier",
+      "status": "deployed unquantified",
+      "label": "Cooling dependency",
+      "fact": "Vertiv cooling and engineering supported CoreWeave’s Dell GB300 deployment.",
+      "sourceIds": [
+        "downstream_vertiv_coreweave"
+      ],
+      "date": "2026-06-19",
+      "amount": null,
+      "amountLabel": "Undisclosed",
+      "amountBasis": null,
+      "caveat": "Named deployment relationship. Purchaser may be CoreWeave, Dell, or a site partner; direct CoreWeave-to-Vertiv payment is not established.",
+      "rootExample": "NVDA",
+      "tierExample": 2,
+      "routeEvidence": "commercial_relationship_payer_undisclosed",
+      "tier": 3,
+      "title": "Cooling dependency",
+      "detail": "Vertiv cooling and engineering supported CoreWeave’s Dell GB300 deployment. Named deployment relationship. Purchaser may be CoreWeave, Dell, or a site partner; direct CoreWeave-to-Vertiv payment is not established.",
+      "originalFlowType": "supplier"
+    },
+    {
+      "id": "downstream_crwv_solidigm",
+      "from": "CRWV",
+      "to": "SOLIDIGM",
+      "flowType": "supplier",
+      "status": "signed unquantified",
+      "label": "SSD supply allocation",
+      "fact": "CoreWeave signed a direct, multi-year agreement for priority enterprise SSD capacity.",
+      "sourceIds": [
+        "downstream_solidigm"
+      ],
+      "date": "2026-08-05",
+      "amount": null,
+      "amountLabel": "Undisclosed",
+      "amountBasis": null,
+      "caveat": "Contract value and cash paid undisclosed.",
+      "rootExample": "NVDA",
+      "tierExample": 2,
+      "routeEvidence": "documented",
+      "tier": 2,
+      "title": "SSD supply allocation",
+      "detail": "CoreWeave signed a direct, multi-year agreement for priority enterprise SSD capacity. Contract value and cash paid undisclosed.",
+      "originalFlowType": "supplier"
+    },
+    {
+      "id": "downstream_crwv_corz",
+      "from": "CRWV",
+      "to": "CORZ",
+      "flowType": "commercial",
+      "status": "contracted partly operating",
+      "label": "Data-center colocation",
+      "fact": "Core Scientific reports 590 MW contracted to CoreWeave, with over 430 MW billing by mid-July 2026.",
+      "sourceIds": [
+        "downstream_core_scientific"
+      ],
+      "date": "2026-07",
+      "amount": 10000000000.0,
+      "amountLabel": "$10B+ revenue potential over contract terms",
+      "amountBasis": "USD estimated lifetime contractual revenue potential",
+      "caveat": "Not cash received to date. Take-or-pay contracts include escalators; customer funds capex, power and utilities. Do not count capex credits twice.",
+      "rootExample": "NVDA",
+      "tierExample": 2,
+      "routeEvidence": "documented",
+      "tier": 3,
+      "title": "Data-center colocation",
+      "detail": "Core Scientific reports 590 MW contracted to CoreWeave, with over 430 MW billing by mid-July 2026. Not cash received to date. Take-or-pay contracts include escalators; customer funds capex, power and utilities. Do not count capex credits twice.",
+      "originalFlowType": "lease_purchase"
+    },
+    {
+      "id": "downstream_crwv_glxy",
+      "from": "CRWV",
+      "to": "GLXY",
+      "flowType": "commercial",
+      "status": "contracted partly operating",
+      "label": "Helios data-center lease",
+      "fact": "Galaxy delivered 133 MW of critical IT load to CoreWeave under a 15-year lease.",
+      "sourceIds": [
+        "downstream_galaxy_lease"
+      ],
+      "date": "2026-07-06",
+      "amount": null,
+      "amountLabel": "15-year lease; value not used",
+      "amountBasis": null,
+      "caveat": "Delivery status July 2026; no implied full lifetime rent already paid.",
+      "rootExample": "NVDA",
+      "tierExample": 2,
+      "routeEvidence": "documented",
+      "tier": 3,
+      "title": "Helios data-center lease",
+      "detail": "Galaxy delivered 133 MW of critical IT load to CoreWeave under a 15-year lease. Delivery status July 2026; no implied full lifetime rent already paid.",
+      "originalFlowType": "lease_purchase"
+    },
+    {
+      "id": "downstream_db_glxy",
+      "from": "DB",
+      "to": "GLXY",
+      "flowType": "finance",
+      "status": "drawn partly",
+      "label": "Helios project debt",
+      "fact": "Deutsche Bank credit agreement provides a $1.4B facility; Galaxy disclosed $1.1B drawn at March 31, 2026.",
+      "sourceIds": [
+        "downstream_galaxy_draw",
+        "downstream_galaxy_finance"
+      ],
+      "date": "2026-03-31",
+      "amount": 1400000000.0,
+      "amountLabel": "$1.4B facility; $1.1B drawn at 31 Mar 2026",
+      "amountBasis": "USD debt capacity and dated drawn balance",
+      "caveat": "Facility borrower is Galaxy Helios I LLC. Deutsche Bank is contractual counterparty, not necessarily sole economic lender; current outstanding balance may differ.",
+      "rootExample": "CRWV",
+      "tierExample": 2,
+      "routeEvidence": "documented",
+      "tier": 3,
+      "title": "Helios project debt",
+      "detail": "Deutsche Bank credit agreement provides a $1.4B facility; Galaxy disclosed $1.1B drawn at March 31, 2026. Facility borrower is Galaxy Helios I LLC. Deutsche Bank is contractual counterparty, not necessarily sole economic lender; current outstanding balance may differ.",
+      "originalFlowType": "project_finance"
+    },
+    {
+      "id": "downstream_nvda_tsm",
+      "from": "NVDA",
+      "to": "TSM",
+      "flowType": "supplier",
+      "status": "existing unquantified",
+      "label": "Wafer fabrication",
+      "fact": "NVIDIA identifies TSMC as a wafer foundry.",
+      "sourceIds": [
+        "downstream_nvda_suppliers"
+      ],
+      "date": "FY2026, period ended 2026-01-25",
+      "amount": null,
+      "amountLabel": "Undisclosed",
+      "amountBasis": null,
+      "caveat": "Supplier relationship disclosed; bilateral spend and AI-only allocation undisclosed.",
+      "rootExample": "NVDA",
+      "tierExample": 1,
+      "routeEvidence": "documented",
+      "tier": 2,
+      "title": "Wafer fabrication",
+      "detail": "NVIDIA identifies TSMC as a wafer foundry. Supplier relationship disclosed; bilateral spend and AI-only allocation undisclosed.",
+      "originalFlowType": "supplier"
+    },
+    {
+      "id": "downstream_nvda_mu",
+      "from": "NVDA",
+      "to": "MU",
+      "flowType": "supplier",
+      "status": "existing unquantified",
+      "label": "Memory purchases",
+      "fact": "NVIDIA identifies Micron as a memory supplier.",
+      "sourceIds": [
+        "downstream_nvda_suppliers"
+      ],
+      "date": "FY2026, period ended 2026-01-25",
+      "amount": null,
+      "amountLabel": "Undisclosed",
+      "amountBasis": null,
+      "caveat": "Supplier relationship disclosed; bilateral spend and AI-only allocation undisclosed.",
+      "rootExample": "NVDA",
+      "tierExample": 1,
+      "routeEvidence": "documented",
+      "tier": 2,
+      "title": "Memory purchases",
+      "detail": "NVIDIA identifies Micron as a memory supplier. Supplier relationship disclosed; bilateral spend and AI-only allocation undisclosed.",
+      "originalFlowType": "supplier"
+    },
+    {
+      "id": "downstream_nvda_skhynix",
+      "from": "NVDA",
+      "to": "SKHYNIX",
+      "flowType": "supplier",
+      "status": "existing unquantified",
+      "label": "Memory purchases",
+      "fact": "NVIDIA identifies SK hynix as a memory supplier.",
+      "sourceIds": [
+        "downstream_nvda_suppliers"
+      ],
+      "date": "FY2026, period ended 2026-01-25",
+      "amount": null,
+      "amountLabel": "Undisclosed",
+      "amountBasis": null,
+      "caveat": "Supplier relationship disclosed; bilateral spend and AI-only allocation undisclosed.",
+      "rootExample": "NVDA",
+      "tierExample": 1,
+      "routeEvidence": "documented",
+      "tier": 2,
+      "title": "Memory purchases",
+      "detail": "NVIDIA identifies SK hynix as a memory supplier. Supplier relationship disclosed; bilateral spend and AI-only allocation undisclosed.",
+      "originalFlowType": "supplier"
+    },
+    {
+      "id": "downstream_nvda_fn",
+      "from": "NVDA",
+      "to": "FN",
+      "flowType": "supplier",
+      "status": "existing unquantified",
+      "label": "Assembly, testing and packaging",
+      "fact": "NVIDIA identifies Fabrinet as a manufacturing subcontractor.",
+      "sourceIds": [
+        "downstream_nvda_suppliers"
+      ],
+      "date": "FY2026, period ended 2026-01-25",
+      "amount": null,
+      "amountLabel": "Undisclosed",
+      "amountBasis": null,
+      "caveat": "Supplier relationship disclosed; bilateral spend and AI-only allocation undisclosed.",
+      "rootExample": "NVDA",
+      "tierExample": 1,
+      "routeEvidence": "documented",
+      "tier": 2,
+      "title": "Assembly, testing and packaging",
+      "detail": "NVIDIA identifies Fabrinet as a manufacturing subcontractor. Supplier relationship disclosed; bilateral spend and AI-only allocation undisclosed.",
+      "originalFlowType": "supplier"
+    },
+    {
+      "id": "downstream_tsm_asml",
+      "from": "TSM",
+      "to": "ASML",
+      "flowType": "supplier",
+      "status": "existing unquantified",
+      "label": "Fab equipment",
+      "fact": "TSMC names ASML among its award-winning suppliers.",
+      "sourceIds": [
+        "downstream_tsmc_suppliers"
+      ],
+      "date": "2025-11-28",
+      "amount": null,
+      "amountLabel": "Undisclosed",
+      "amountBasis": null,
+      "caveat": "Relationship verified, but the award gives no order value or AI-specific revenue allocation.",
+      "rootExample": "NVDA",
+      "tierExample": 2,
+      "routeEvidence": "documented",
+      "tier": 3,
+      "title": "Fab equipment",
+      "detail": "TSMC names ASML among its award-winning suppliers. Relationship verified, but the award gives no order value or AI-specific revenue allocation.",
+      "originalFlowType": "supplier"
+    },
+    {
+      "id": "downstream_tsm_amat",
+      "from": "TSM",
+      "to": "AMAT",
+      "flowType": "supplier",
+      "status": "existing unquantified",
+      "label": "Fab equipment",
+      "fact": "TSMC names Applied Materials among its award-winning suppliers.",
+      "sourceIds": [
+        "downstream_tsmc_suppliers"
+      ],
+      "date": "2025-11-28",
+      "amount": null,
+      "amountLabel": "Undisclosed",
+      "amountBasis": null,
+      "caveat": "Relationship verified, but the award gives no order value or AI-specific revenue allocation.",
+      "rootExample": "NVDA",
+      "tierExample": 2,
+      "routeEvidence": "documented",
+      "tier": 3,
+      "title": "Fab equipment",
+      "detail": "TSMC names Applied Materials among its award-winning suppliers. Relationship verified, but the award gives no order value or AI-specific revenue allocation.",
+      "originalFlowType": "supplier"
+    },
+    {
+      "id": "downstream_tsm_lrcx",
+      "from": "TSM",
+      "to": "LRCX",
+      "flowType": "supplier",
+      "status": "existing unquantified",
+      "label": "Fab equipment",
+      "fact": "TSMC names Lam Research among its award-winning suppliers.",
+      "sourceIds": [
+        "downstream_tsmc_suppliers"
+      ],
+      "date": "2025-11-28",
+      "amount": null,
+      "amountLabel": "Undisclosed",
+      "amountBasis": null,
+      "caveat": "Relationship verified, but the award gives no order value or AI-specific revenue allocation.",
+      "rootExample": "NVDA",
+      "tierExample": 2,
+      "routeEvidence": "documented",
+      "tier": 3,
+      "title": "Fab equipment",
+      "detail": "TSMC names Lam Research among its award-winning suppliers. Relationship verified, but the award gives no order value or AI-specific revenue allocation.",
+      "originalFlowType": "supplier"
+    },
+    {
+      "id": "downstream_tsm_klac",
+      "from": "TSM",
+      "to": "KLAC",
+      "flowType": "supplier",
+      "status": "existing unquantified",
+      "label": "Fab inspection",
+      "fact": "TSMC names KLA among its award-winning suppliers.",
+      "sourceIds": [
+        "downstream_tsmc_suppliers"
+      ],
+      "date": "2025-11-28",
+      "amount": null,
+      "amountLabel": "Undisclosed",
+      "amountBasis": null,
+      "caveat": "Relationship verified, but the award gives no order value or AI-specific revenue allocation.",
+      "rootExample": "NVDA",
+      "tierExample": 2,
+      "routeEvidence": "documented",
+      "tier": 3,
+      "title": "Fab inspection",
+      "detail": "TSMC names KLA among its award-winning suppliers. Relationship verified, but the award gives no order value or AI-specific revenue allocation.",
+      "originalFlowType": "supplier"
+    },
+    {
+      "id": "downstream_tsm_onto",
+      "from": "TSM",
+      "to": "ONTO",
+      "flowType": "supplier",
+      "status": "existing unquantified",
+      "label": "Fab metrology",
+      "fact": "TSMC names Onto Innovation among its award-winning suppliers.",
+      "sourceIds": [
+        "downstream_tsmc_suppliers"
+      ],
+      "date": "2025-11-28",
+      "amount": null,
+      "amountLabel": "Undisclosed",
+      "amountBasis": null,
+      "caveat": "Relationship verified, but the award gives no order value or AI-specific revenue allocation.",
+      "rootExample": "NVDA",
+      "tierExample": 2,
+      "routeEvidence": "documented",
+      "tier": 3,
+      "title": "Fab metrology",
+      "detail": "TSMC names Onto Innovation among its award-winning suppliers. Relationship verified, but the award gives no order value or AI-specific revenue allocation.",
+      "originalFlowType": "supplier"
+    },
+    {
+      "id": "downstream_tsm_marketech",
+      "from": "TSM",
+      "to": "MARKETECH",
+      "flowType": "supplier",
+      "status": "existing unquantified",
+      "label": "Fab construction",
+      "fact": "TSMC names Marketech International among its award-winning suppliers.",
+      "sourceIds": [
+        "downstream_tsmc_suppliers"
+      ],
+      "date": "2025-11-28",
+      "amount": null,
+      "amountLabel": "Undisclosed",
+      "amountBasis": null,
+      "caveat": "Relationship verified, but the award gives no order value or AI-specific revenue allocation.",
+      "rootExample": "NVDA",
+      "tierExample": 2,
+      "routeEvidence": "documented",
+      "tier": 3,
+      "title": "Fab construction",
+      "detail": "TSMC names Marketech International among its award-winning suppliers. Relationship verified, but the award gives no order value or AI-specific revenue allocation.",
+      "originalFlowType": "supplier"
+    },
+    {
+      "id": "downstream_meta_entergy",
+      "from": "META",
+      "to": "ETR",
+      "flowType": "commercial",
+      "status": "contracted unquantified",
+      "label": "Power and grid costs",
+      "fact": "Meta says it pays energy costs for its Richland Parish data center supplied with Entergy support.",
+      "sourceIds": [
+        "downstream_meta_entergy"
+      ],
+      "date": "Accessed 2026-10-03",
+      "amount": null,
+      "amountLabel": "Undisclosed",
+      "amountBasis": null,
+      "caveat": "Do not equate total data-center investment with Entergy revenue; no bilateral cash total established here.",
+      "rootExample": "META",
+      "tierExample": 1,
+      "routeEvidence": "documented",
+      "tier": 3,
+      "title": "Power and grid costs",
+      "detail": "Meta says it pays energy costs for its Richland Parish data center supplied with Entergy support. Do not equate total data-center investment with Entergy revenue; no bilateral cash total established here.",
+      "originalFlowType": "power_purchase"
+    },
+    {
+      "id": "downstream_entergy_chain_electric",
+      "from": "ETR",
+      "to": "CHAIN_ELECTRIC",
+      "flowType": "supplier",
+      "status": "work completed",
+      "label": "Construction-power upgrades",
+      "fact": "Chain Electric is a named contractor on Entergy’s completed Meta construction-power upgrades.",
+      "sourceIds": [
+        "downstream_entergy_contractors"
+      ],
+      "date": "2025-04-22",
+      "amount": null,
+      "amountLabel": "Undisclosed",
+      "amountBasis": null,
+      "caveat": "Entergy reported about $3M paid to Louisiana contract partners collectively; individual allocation undisclosed. Do not assign $3M to each contractor.",
+      "rootExample": "META",
+      "tierExample": 2,
+      "routeEvidence": "documented",
+      "tier": 3,
+      "title": "Construction-power upgrades",
+      "detail": "Chain Electric is a named contractor on Entergy’s completed Meta construction-power upgrades. Entergy reported about $3M paid to Louisiana contract partners collectively; individual allocation undisclosed. Do not assign $3M to each contractor.",
+      "originalFlowType": "supplier"
+    },
+    {
+      "id": "downstream_entergy_hga",
+      "from": "ETR",
+      "to": "HGA",
+      "flowType": "supplier",
+      "status": "work completed",
+      "label": "Construction-power upgrades",
+      "fact": "Hunt, Guillot and Associates is a named contractor on Entergy’s completed Meta construction-power upgrades.",
+      "sourceIds": [
+        "downstream_entergy_contractors"
+      ],
+      "date": "2025-04-22",
+      "amount": null,
+      "amountLabel": "Undisclosed",
+      "amountBasis": null,
+      "caveat": "Entergy reported about $3M paid to Louisiana contract partners collectively; individual allocation undisclosed. Do not assign $3M to each contractor.",
+      "rootExample": "META",
+      "tierExample": 2,
+      "routeEvidence": "documented",
+      "tier": 3,
+      "title": "Construction-power upgrades",
+      "detail": "Hunt, Guillot and Associates is a named contractor on Entergy’s completed Meta construction-power upgrades. Entergy reported about $3M paid to Louisiana contract partners collectively; individual allocation undisclosed. Do not assign $3M to each contractor.",
+      "originalFlowType": "supplier"
+    },
+    {
+      "id": "downstream_entergy_rc_boring",
+      "from": "ETR",
+      "to": "RC_BORING",
+      "flowType": "supplier",
+      "status": "work completed",
+      "label": "Construction-power upgrades",
+      "fact": "RC Boring is a named contractor on Entergy’s completed Meta construction-power upgrades.",
+      "sourceIds": [
+        "downstream_entergy_contractors"
+      ],
+      "date": "2025-04-22",
+      "amount": null,
+      "amountLabel": "Undisclosed",
+      "amountBasis": null,
+      "caveat": "Entergy reported about $3M paid to Louisiana contract partners collectively; individual allocation undisclosed. Do not assign $3M to each contractor.",
+      "rootExample": "META",
+      "tierExample": 2,
+      "routeEvidence": "documented",
+      "tier": 3,
+      "title": "Construction-power upgrades",
+      "detail": "RC Boring is a named contractor on Entergy’s completed Meta construction-power upgrades. Entergy reported about $3M paid to Louisiana contract partners collectively; individual allocation undisclosed. Do not assign $3M to each contractor.",
+      "originalFlowType": "supplier"
+    },
+    {
+      "id": "downstream_oracle_bloom",
+      "from": "ORCL",
+      "to": "BE",
+      "flowType": "supplier",
+      "status": "contracted partly deploying",
+      "label": "On-site fuel-cell procurement",
+      "fact": "Oracle’s framework covers up to 2.8 GW, including an initial contracted 1.2 GW.",
+      "sourceIds": [
+        "downstream_oracle_bloom",
+        "downstream_bloom_warrant"
+      ],
+      "date": "2026-04-13",
+      "amount": null,
+      "amountLabel": "1.2 GW contracted; up to 2.8 GW framework",
+      "amountBasis": "Physical capacity, not dollars",
+      "caveat": "Dollar price undisclosed. Bloom’s filing calls Oracle a customer’s customer, so project owners can mediate payment.",
+      "rootExample": "ORCL",
+      "tierExample": 1,
+      "routeEvidence": "economic_route_may_include_project_owner",
+      "tier": 3,
+      "title": "On-site fuel-cell procurement",
+      "detail": "Oracle’s framework covers up to 2.8 GW, including an initial contracted 1.2 GW. Dollar price undisclosed. Bloom’s filing calls Oracle a customer’s customer, so project owners can mediate payment.",
+      "originalFlowType": "supplier"
+    },
+    {
+      "id": "downstream_bloom_oracle_equity",
+      "from": "BE",
+      "to": "ORCL",
+      "flowType": "noncash",
+      "status": "issued cashless",
+      "label": "Customer equity incentive",
+      "fact": "Oracle cashlessly exercised Bloom’s warrant on May 1; Bloom also issued inducement shares.",
+      "sourceIds": [
+        "downstream_bloom_warrant"
+      ],
+      "date": "2026-05-01",
+      "amount": 324400000.0,
+      "amountLabel": "$324.4M fair value; no cash paid",
+      "amountBasis": "USD accounting fair value of aggregate share consideration",
+      "caveat": "Shares, not cash financing. Bloom records consideration to a customer’s customer as revenue reductions as systems ship. Do not add this fair value to cash circulation.",
+      "rootExample": "ORCL",
+      "tierExample": 2,
+      "routeEvidence": "documented",
+      "tier": 3,
+      "title": "Customer equity incentive",
+      "detail": "Oracle cashlessly exercised Bloom’s warrant on May 1; Bloom also issued inducement shares. Shares, not cash financing. Bloom records consideration to a customer’s customer as revenue reductions as systems ship. Do not add this fair value to cash circulation.",
+      "originalFlowType": "noncash_equity"
+    },
+    {
+      "id": "downstream_brookfield_bloom",
+      "from": "BROOKFIELD",
+      "to": "BLOOM_PROJECTS",
+      "flowType": "finance",
+      "status": "framework",
+      "label": "Fuel-cell project capital",
+      "fact": "Brookfield increased its framework to finance Bloom-based AI power projects from $5B to $25B.",
+      "sourceIds": [
+        "downstream_brookfield_bloom"
+      ],
+      "date": "2026-06-30",
+      "amount": 25000000000.0,
+      "amountLabel": "Up to $25B framework",
+      "amountBasis": "USD announced financing framework",
+      "caveat": "Not $25B invested in Bloom shares, paid to Bloom, or all committed to specific projects.",
+      "rootExample": "ORCL",
+      "tierExample": 2,
+      "routeEvidence": "documented",
+      "tier": 3,
+      "title": "Fuel-cell project capital",
+      "detail": "Brookfield increased its framework to finance Bloom-based AI power projects from $5B to $25B. Not $25B invested in Bloom shares, paid to Bloom, or all committed to specific projects.",
+      "originalFlowType": "project_finance"
+    },
+    {
+      "id": "downstream_bloom_projects_be",
+      "from": "BLOOM_PROJECTS",
+      "to": "BE",
+      "flowType": "supplier",
+      "status": "framework projects",
+      "label": "Equipment purchases",
+      "fact": "The Brookfield framework finances power projects deploying Bloom fuel cells.",
+      "sourceIds": [
+        "downstream_brookfield_bloom"
+      ],
+      "date": "2026-06-30",
+      "amount": null,
+      "amountLabel": "Undisclosed",
+      "amountBasis": null,
+      "caveat": "Economic project-to-vendor route; individual contracts and revenue recognition schedules are not disclosed in this announcement.",
+      "rootExample": "ORCL",
+      "tierExample": 3,
+      "routeEvidence": "economic_inference_from_project_structure",
+      "tier": 3,
+      "title": "Equipment purchases",
+      "detail": "The Brookfield framework finances power projects deploying Bloom fuel cells. Economic project-to-vendor route; individual contracts and revenue recognition schedules are not disclosed in this announcement.",
+      "originalFlowType": "supplier"
+    },
+    {
+      "id": "downstream_nebius_bloom",
+      "from": "NBIS",
+      "to": "BE",
+      "flowType": "supplier",
+      "status": "announced agreement",
+      "label": "Dedicated fuel-cell power",
+      "fact": "Nebius selected Bloom for an initial 328 MW installation planned for 2026.",
+      "sourceIds": [
+        "downstream_nebius_bloom"
+      ],
+      "date": "2026-05-20",
+      "amount": null,
+      "amountLabel": "328 MW initially planned",
+      "amountBasis": "Physical installed capacity, not dollars",
+      "caveat": "Project financing intermediates the cash path; do not assume Nebius directly prepays equipment.",
+      "rootExample": "NBIS",
+      "tierExample": 1,
+      "routeEvidence": "economic_route_may_include_project_owner",
+      "tier": 3,
+      "title": "Dedicated fuel-cell power",
+      "detail": "Nebius selected Bloom for an initial 328 MW installation planned for 2026. Project financing intermediates the cash path; do not assume Nebius directly prepays equipment.",
+      "originalFlowType": "supplier"
+    },
+    {
+      "id": "downstream_idf_nebius_power",
+      "from": "IDF",
+      "to": "NEBIUS_POWER_PROJECT",
+      "flowType": "finance",
+      "status": "announced financing",
+      "label": "Lead developer",
+      "fact": "IDF leads the Nebius dedicated-power project.",
+      "sourceIds": [
+        "downstream_nebius_project"
+      ],
+      "date": "2026-07-16",
+      "amount": null,
+      "amountLabel": "Share of $1.7B project total undisclosed",
+      "amountBasis": null,
+      "caveat": "Do not assign the full $1.7B announced project investment to each participant.",
+      "rootExample": "NBIS",
+      "tierExample": 2,
+      "routeEvidence": "documented",
+      "tier": 3,
+      "title": "Lead developer",
+      "detail": "IDF leads the Nebius dedicated-power project. Do not assign the full $1.7B announced project investment to each participant.",
+      "originalFlowType": "project_equity"
+    },
+    {
+      "id": "downstream_oaktree_nebius_power",
+      "from": "OAKTREE",
+      "to": "NEBIUS_POWER_PROJECT",
+      "flowType": "finance",
+      "status": "announced financing",
+      "label": "Minority project equity",
+      "fact": "Oaktree supplies minority project equity.",
+      "sourceIds": [
+        "downstream_nebius_project"
+      ],
+      "date": "2026-07-16",
+      "amount": null,
+      "amountLabel": "Share of $1.7B project total undisclosed",
+      "amountBasis": null,
+      "caveat": "Do not assign the full $1.7B announced project investment to each participant.",
+      "rootExample": "NBIS",
+      "tierExample": 2,
+      "routeEvidence": "documented",
+      "tier": 3,
+      "title": "Minority project equity",
+      "detail": "Oaktree supplies minority project equity. Do not assign the full $1.7B announced project investment to each participant.",
+      "originalFlowType": "project_equity"
+    },
+    {
+      "id": "downstream_ms_nebius_power",
+      "from": "MS",
+      "to": "NEBIUS_POWER_PROJECT",
+      "flowType": "finance",
+      "status": "announced financing",
+      "label": "Tax equity",
+      "fact": "Morgan Stanley is the sole tax-equity investor and placement agent.",
+      "sourceIds": [
+        "downstream_nebius_project"
+      ],
+      "date": "2026-07-16",
+      "amount": null,
+      "amountLabel": "Share of $1.7B project total undisclosed",
+      "amountBasis": null,
+      "caveat": "Do not assign the full $1.7B announced project investment to each participant.",
+      "rootExample": "NBIS",
+      "tierExample": 2,
+      "routeEvidence": "documented",
+      "tier": 3,
+      "title": "Tax equity",
+      "detail": "Morgan Stanley is the sole tax-equity investor and placement agent. Do not assign the full $1.7B announced project investment to each participant.",
+      "originalFlowType": "tax_equity"
+    },
+    {
+      "id": "downstream_mufg_nebius_power",
+      "from": "MUFG",
+      "to": "NEBIUS_POWER_PROJECT",
+      "flowType": "finance",
+      "status": "announced financing",
+      "label": "Senior project debt",
+      "fact": "MUFG Bank provides senior project debt.",
+      "sourceIds": [
+        "downstream_nebius_project"
+      ],
+      "date": "2026-07-16",
+      "amount": null,
+      "amountLabel": "Share of $1.7B project total undisclosed",
+      "amountBasis": null,
+      "caveat": "Do not assign the full $1.7B announced project investment to each participant.",
+      "rootExample": "NBIS",
+      "tierExample": 2,
+      "routeEvidence": "documented",
+      "tier": 3,
+      "title": "Senior project debt",
+      "detail": "MUFG Bank provides senior project debt. Do not assign the full $1.7B announced project investment to each participant.",
+      "originalFlowType": "project_debt"
+    },
+    {
+      "id": "downstream_nebius_power_bloom",
+      "from": "NEBIUS_POWER_PROJECT",
+      "to": "BE",
+      "flowType": "supplier",
+      "status": "announced project",
+      "label": "Power equipment deployment",
+      "fact": "The $1.7B financing package supports Bloom fuel-cell deployment dedicated to Nebius.",
+      "sourceIds": [
+        "downstream_nebius_project"
+      ],
+      "date": "2026-07-16",
+      "amount": 1700000000.0,
+      "amountLabel": "Equipment payment undisclosed; $1.7B whole-project financing",
+      "amountBasis": "USD project financing, not Bloom revenue",
+      "caveat": "Exact equipment consideration and cash paid to Bloom undisclosed.",
+      "rootExample": "NBIS",
+      "tierExample": 3,
+      "routeEvidence": "economic_inference_from_project_structure",
+      "tier": 3,
+      "title": "Power equipment deployment",
+      "detail": "The $1.7B financing package supports Bloom fuel-cell deployment dedicated to Nebius. Exact equipment consideration and cash paid to Bloom undisclosed.",
+      "originalFlowType": "supplier"
+    },
+    {
+      "id": "downstream_nvda_synopsys",
+      "from": "NVDA",
+      "to": "SNPS",
+      "flowType": "investment",
+      "status": "reported invested",
+      "label": "Strategic software stake",
+      "fact": "NVIDIA disclosed a $2B investment in Synopsys common stock alongside GPU-accelerated engineering collaboration.",
+      "sourceIds": [
+        "downstream_nvda_synopsys"
+      ],
+      "date": "2025-12-01",
+      "amount": 2000000000.0,
+      "amountLabel": "$2B equity investment",
+      "amountBasis": "USD share purchase",
+      "caveat": "Investment disclosed; do not invent a matching Synopsys GPU-purchase commitment.",
+      "rootExample": "NVDA",
+      "tierExample": 1,
+      "routeEvidence": "documented",
+      "tier": 2,
+      "title": "Strategic software stake",
+      "detail": "NVIDIA disclosed a $2B investment in Synopsys common stock alongside GPU-accelerated engineering collaboration. Investment disclosed; do not invent a matching Synopsys GPU-purchase commitment.",
+      "originalFlowType": "cash_equity"
+    },
+    {
+      "id": "downstream_crwv_vendor_finance",
+      "from": "CRWV_VENDOR_FINANCE",
+      "to": "CRWV",
+      "tier": 2,
+      "flowType": "finance",
+      "status": "outstanding balance",
+      "title": "Equipment and software credit",
+      "label": "Equipment and software credit",
+      "amount": 5102000000,
+      "amountLabel": "$5.102B outstanding at 30 Jun 2026",
+      "amountBasis": "USD debt balance: $4.220B recourse plus $0.882B non-recourse",
+      "date": "2026-06-30",
+      "sourceIds": [
+        "downstream_crwv_vendor_finance"
+      ],
+      "fact": "CoreWeave reports OEM and software-license financing of $4.220B recourse and $0.882B non-recourse.",
+      "caveat": "A stock of outstanding debt, not new cash raised in this period. Providers are unnamed; do not assign this financing to Dell, NVIDIA or a named vendor.",
+      "routeEvidence": "documented_aggregate_unnamed_counterparties",
+      "detail": "CoreWeave reports OEM and software-license financing of $4.220B recourse and $0.882B non-recourse. A stock of outstanding debt, not new cash raised in this period. Providers are unnamed; do not assign this financing to Dell, NVIDIA or a named vendor.",
+      "originalFlowType": "vendor_finance"
+    }
+  ],
+  "cases": [
+    {
+      "id": "msft-oai",
+      "title": "Investor, cloud vendor and revenue-share recipient",
+      "tier": 1,
+      "kind": "documented reciprocal relationships",
+      "summary": "Microsoft finances OpenAI; OpenAI buys Azure services and generates reported Microsoft revenue.",
+      "edgeIds": [
+        "msft-oai-funding",
+        "oai-msft-cloud",
+        "oai-msft-revenue"
+      ],
+      "insight": "Separate contracted demand, recognized revenue and receivables. Growth financed by new capital can be real, yet remains sensitive to the lab's eventual cash generation.",
+      "limitation": "No tracing of identical dollars. Microsoft's investment valuation is not investment cash, and recognized revenue is not profit."
+    },
+    {
+      "id": "amazon-labs",
+      "title": "Funding customers of your own cloud",
+      "tier": 1,
+      "kind": "documented reciprocal relationships",
+      "summary": "Amazon funds both OpenAI and Anthropic while both commit to long-term AWS capacity.",
+      "edgeIds": [
+        "amzn-oai-equity",
+        "oai-amzn-cloud",
+        "amzn-ant-funded",
+        "amzn-ant-facility",
+        "ant-amzn-cloud"
+      ],
+      "insight": "The commercial and financing exposures can weaken together if AI customers cannot cover compute costs from external demand.",
+      "limitation": "Different horizons and instruments; no valid single 'circulating dollars' total. Deliveries, conditions and funding milestones differ."
+    },
+    {
+      "id": "anthropic-triangle",
+      "title": "Two investors, one NVIDIA-powered cloud route",
+      "tier": 1,
+      "kind": "conditional triangle",
+      "summary": "Microsoft and NVIDIA back Anthropic, which contracts Azure capacity on NVIDIA systems.",
+      "edgeIds": [
+        "msft-ant-equity",
+        "nvda-ant-equity",
+        "ant-msft-cloud"
+      ],
+      "insight": "One relationship supports model funding, cloud demand and accelerator demand. Hardware capacity alone does not reveal NVIDIA's transaction revenue.",
+      "limitation": "The supplier leg is documented technologically but not monetarily sized; Anthropic's other chip platforms diversify dependence."
+    },
+    {
+      "id": "coreweave",
+      "title": "Supplier, shareholder and buyer of spare capacity",
+      "tier": 2,
+      "kind": "documented reciprocal relationships",
+      "summary": "NVIDIA sells GPUs, invests in CoreWeave and backstops qualifying spare cloud capacity. Contract-backed loans finance deployment.",
+      "edgeIds": [
+        "nvda-crwv-equity",
+        "nvda-crwv-backstop",
+        "crwv-nvda-hardware",
+        "oai-crwv-cloud",
+        "lenders-crwv-debt"
+      ],
+      "insight": "The key test is third-party utilization versus vendor support, alongside interest, GPU life, collateral and delivery obligations.",
+      "limitation": "Backstop value is conditional and cannot be added to equity, debt capacity or customer contract values as current sales."
+    },
+    {
+      "id": "nebius",
+      "title": "A hyperscaler contract becomes financing capacity",
+      "tier": 2,
+      "kind": "documented funding chain",
+      "summary": "Microsoft contracts capacity; NVIDIA provides capital and hardware; lenders advance against deployed GPUs and customer cash flows.",
+      "edgeIds": [
+        "msft-nbis-cloud",
+        "nvda-nbis-equity",
+        "nbis-nvda-hardware",
+        "lenders-nbis-debt"
+      ],
+      "insight": "Customer commitments can finance expansion into new enterprise workloads. Watch how much growth relies on deposits, refinancing and a few creditworthy buyers.",
+      "limitation": "The named Microsoft contract and July secured loan are not proven to be the same collateral pool. This is a financing chain, not a proven closed loop."
+    },
+    {
+      "id": "stargate-guarantee",
+      "title": "Chip supplier underwrites the infrastructure tenant",
+      "tier": 3,
+      "kind": "Contingent credit-support chain",
+      "summary": "NVIDIA's SB Energy guarantee supports OpenAI's future campus leases and an overwhelmingly NVIDIA-based site.",
+      "edgeIds": [
+        "nvda-oai-equity",
+        "nvda-sb-guarantee",
+        "oai-sb-lease"
+      ],
+      "insight": "Credit support can unlock physical construction before tenant cash flows mature. The supplier gains deployment opportunities while accepting long-lived contingent risk.",
+      "limitation": "Ohio and Oracle projects are separate routes, not one contract. Guarantees are contingent exposure, not money already transferred."
+    },
+    {
+      "id": "downstream_gpu_feedback",
+      "title": "Vendor financing → GPU cloud → hardware → vendor",
+      "edgeIds": [
+        "nvda-crwv-equity",
+        "nvda-crwv-backstop",
+        "downstream_crwv_dell",
+        "downstream_dell_nvda",
+        "lenders-crwv-debt",
+        "downstream_crwv_vendor_finance"
+      ],
+      "classification": "Documented capital/commercial feedback; individual dollars not traced",
+      "analysis": "NVIDIA supplies equity and a conditional capacity backstop while CoreWeave builds an NVIDIA-based cloud, including Dell racks. Lenders convert assets and contracts into funding. Vendor revenue, equity, and total contract values are different accounting objects; summing them overstates final demand.",
+      "watch": [
+        "Operating cash generated from customers unaffiliated with equipment vendors",
+        "Cash actually drawn versus facility headline",
+        "Capacity utilization, GPU resale value and debt amortization",
+        "Revenue earned versus remaining contractual backlog"
+      ],
+      "risk": "Supplier, investor, customer and collateral exposure can correlate; this does not by itself establish fraudulent round-tripping.",
+      "kind": "Investment, capacity and vendor credit",
+      "summary": "NVIDIA supplies equity and a conditional capacity backstop while CoreWeave builds an NVIDIA-based cloud, including Dell racks. Lenders convert assets and contracts into funding. Vendor revenue, equity, and total contract values are different accounting objects; summing them overstates final demand. CoreWeave also reports financing from unnamed equipment and software vendors.",
+      "insight": "Watch: Operating cash generated from customers unaffiliated with equipment vendors; Cash actually drawn versus facility headline; Capacity utilization, GPU resale value and debt amortization; Revenue earned versus remaining contractual backlog.",
+      "limitation": "Supplier, investor, customer and collateral exposure can correlate; this does not by itself establish fraudulent round-tripping.",
+      "tier": 2
+    },
+    {
+      "id": "downstream_silicon_cascade",
+      "title": "Chip revenue → foundry → tools and construction",
+      "edgeIds": [
+        "downstream_nvda_tsm",
+        "downstream_tsm_asml",
+        "downstream_tsm_amat",
+        "downstream_tsm_onto",
+        "downstream_nvda_mu",
+        "downstream_nvda_fn"
+      ],
+      "classification": "Verified supply-chain pass-through; no closed financing loop established",
+      "analysis": "AI equipment demand reaches memory, fabrication, packaging, tools and fab construction. The named relationships are evidence of economic exposure. They do not reveal what fraction of a particular cloud contract each supplier captures.",
+      "watch": [
+        "Foundry capacity utilization and customer prepayments",
+        "Equipment backlog conversion, cancellations and cash collection",
+        "HBM capacity additions versus realized prices",
+        "Customer concentration and export controls"
+      ],
+      "risk": "Downstream revenue can grow before the ultimate AI service earns an acceptable return.",
+      "kind": "Supplier cascade; no closed loop proved",
+      "summary": "AI equipment demand reaches memory, fabrication, packaging, tools and fab construction. The named relationships are evidence of economic exposure. They do not reveal what fraction of a particular cloud contract each supplier captures.",
+      "insight": "Watch: Foundry capacity utilization and customer prepayments; Equipment backlog conversion, cancellations and cash collection; HBM capacity additions versus realized prices; Customer concentration and export controls.",
+      "limitation": "Downstream revenue can grow before the ultimate AI service earns an acceptable return.",
+      "tier": 3
+    },
+    {
+      "id": "downstream_power_equity_feedback",
+      "title": "Cloud procurement → fuel cells → shares back to the customer",
+      "edgeIds": [
+        "downstream_oracle_bloom",
+        "downstream_bloom_oracle_equity",
+        "downstream_brookfield_bloom",
+        "downstream_bloom_projects_be"
+      ],
+      "classification": "Documented non-cash customer incentive alongside procurement",
+      "analysis": "Bloom’s Oracle arrangement includes both equipment deployment and a cashlessly exercised share incentive. Project financing can place a capital provider between the cloud customer and equipment vendor. This is an economic feedback link, not proof that the identical cash was recycled.",
+      "watch": [
+        "Revenue reductions from customer consideration",
+        "Equipment versus service margin and replacement obligations",
+        "Project-level debt, ownership and power-purchase terms",
+        "Signed projects versus broad capital frameworks"
+      ],
+      "risk": "Equity incentives and headline financing frameworks can make headline demand look larger than near-term, independent cash receipts.",
+      "kind": "Non-cash commercial feedback",
+      "summary": "Bloom’s Oracle arrangement includes both equipment deployment and a cashlessly exercised share incentive. Project financing can place a capital provider between the cloud customer and equipment vendor. This is an economic feedback link, not proof that the identical cash was recycled.",
+      "insight": "Watch: Revenue reductions from customer consideration; Equipment versus service margin and replacement obligations; Project-level debt, ownership and power-purchase terms; Signed projects versus broad capital frameworks.",
+      "limitation": "Equity incentives and headline financing frameworks can make headline demand look larger than near-term, independent cash receipts.",
+      "tier": 3
+    },
+    {
+      "id": "downstream_third_party_power_finance",
+      "title": "AI cloud → project developer → debt, tax equity and fuel cells",
+      "edgeIds": [
+        "downstream_nebius_bloom",
+        "downstream_idf_nebius_power",
+        "downstream_oaktree_nebius_power",
+        "downstream_ms_nebius_power",
+        "downstream_mufg_nebius_power",
+        "downstream_nebius_power_bloom"
+      ],
+      "classification": "Documented project financing stack; no closed cash loop established",
+      "analysis": "Nebius-related power deployment brings together a lead developer, minority equity, tax equity, bank debt and Bloom equipment. The $1.7B headline describes the project financing package, not four separate investments or all Bloom revenue.",
+      "watch": [
+        "Project completion and power availability",
+        "Who owns assets and bears fuel-price and outage risk",
+        "PPA tenor and credit support from the cloud tenant",
+        "Interest coverage after maintenance and service obligations"
+      ],
+      "risk": "Financing can accelerate deployment but also moves risk into SPVs, leases and long-term power contracts.",
+      "kind": "Project financing chain",
+      "summary": "Nebius-related power deployment brings together a lead developer, minority equity, tax equity, bank debt and Bloom equipment. The $1.7B headline describes the project financing package, not four separate investments or all Bloom revenue.",
+      "insight": "Watch: Project completion and power availability; Who owns assets and bears fuel-price and outage risk; PPA tenor and credit support from the cloud tenant; Interest coverage after maintenance and service obligations.",
+      "limitation": "Financing can accelerate deployment but also moves risk into SPVs, leases and long-term power contracts.",
+      "tier": 3
+    },
+    {
+      "id": "downstream_real_economy",
+      "title": "Cloud and utility spending reaches sites and local contractors",
+      "edgeIds": [
+        "downstream_crwv_corz",
+        "downstream_crwv_glxy",
+        "downstream_db_glxy",
+        "downstream_meta_entergy",
+        "downstream_entergy_chain_electric",
+        "downstream_entergy_hga"
+      ],
+      "classification": "Long-term leases and ordinary construction spending",
+      "analysis": "A cloud tenant supports long-duration data-center rent, which helps finance property buildout. Utility spending reaches named local engineers and contractors. These are additional recipients of AI-linked expenditure, not automatically financial loops.",
+      "watch": [
+        "Prepayments, rent credits and actual billed capacity",
+        "Lease duration versus tenant/customer contract duration",
+        "Construction cost overruns and power permits",
+        "Parent guarantees versus project-only recourse"
+      ],
+      "risk": "A landlord’s contracted rent is only as strong as delivery conditions and tenant credit; local construction revenue may be one-off.",
+      "kind": "Supply-chain spending into local work",
+      "summary": "A cloud tenant supports long-duration data-center rent, which helps finance property buildout. Utility spending reaches named local engineers and contractors. These are additional recipients of AI-linked expenditure, not automatically financial loops.",
+      "insight": "Watch: Prepayments, rent credits and actual billed capacity; Lease duration versus tenant/customer contract duration; Construction cost overruns and power permits; Parent guarantees versus project-only recourse.",
+      "limitation": "A landlord’s contracted rent is only as strong as delivery conditions and tenant credit; local construction revenue may be one-off.",
+      "tier": 3
+    }
+  ],
+  "sources": {
+    "msft26": {
+      "title": "Microsoft FY2026 Form 10-K, OpenAI related-party disclosure",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+      "date": "2026-07-29"
+    },
+    "msft25": {
+      "title": "Microsoft–OpenAI partnership amendment",
+      "url": "https://blogs.microsoft.com/blog/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/",
+      "date": "2025-10-28"
+    },
+    "msftApril": {
+      "title": "Microsoft–OpenAI April 2026 amendment",
+      "url": "https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership/",
+      "date": "2026-04-27"
+    },
+    "amzn26": {
+      "title": "Amazon Q2 2026 Form 10-Q, non-marketable investments",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+      "date": "2026-07-30"
+    },
+    "oaiAws": {
+      "title": "OpenAI–Amazon strategic partnership",
+      "url": "https://openai.com/index/amazon-partnership/",
+      "date": "2026-02-27"
+    },
+    "antAws": {
+      "title": "Amazon–Anthropic expanded collaboration",
+      "url": "https://www.aboutamazon.com/news/company-news/amazon-invests-additional-5-billion-anthropic-ai",
+      "date": "2026-04-20"
+    },
+    "oaiFunding": {
+      "title": "OpenAI February 2026 financing and NVIDIA capacity",
+      "url": "https://openai.com/index/scaling-ai-for-everyone/",
+      "date": "2026-02-27"
+    },
+    "oaiClose": {
+      "title": "OpenAI closes $122B committed-capital round",
+      "url": "https://openai.com/index/accelerating-the-next-phase-ai/",
+      "date": "2026-03-31"
+    },
+    "antMsft": {
+      "title": "Microsoft, NVIDIA and Anthropic partnership",
+      "url": "https://blogs.nvidia.com/blog/microsoft-nvidia-anthropic-announce-partnership/",
+      "date": "2025-11-18"
+    },
+    "antG": {
+      "title": "Anthropic Series G financing",
+      "url": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
+      "date": "2026-02-12"
+    },
+    "antTpu": {
+      "title": "Anthropic expands Google Cloud TPUs",
+      "url": "https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services",
+      "date": "2025-10-23"
+    },
+    "antTpu26": {
+      "title": "Anthropic Google–Broadcom compute expansion",
+      "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+      "date": "2026-04-06"
+    },
+    "crwvNvdaEquity": {
+      "title": "CoreWeave January 2026 securities purchase 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000044/crwv-20260123.htm",
+      "date": "2026-01-26"
+    },
+    "crwvBackstop": {
+      "title": "CoreWeave NVIDIA residual-capacity 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000047/crwv-20250909.htm",
+      "date": "2025-09-15"
+    },
+    "crwvOai": {
+      "title": "CoreWeave expands OpenAI contracts to approximately $22.4B",
+      "url": "https://www.coreweave.com/news/coreweave-expands-agreement-with-openai-by-up-to-6-5b",
+      "date": "2025-09-25"
+    },
+    "nbisMsft": {
+      "title": "Nebius September 2025 6-K, Microsoft contract",
+      "url": "https://assets.nebius.com/assets/86625727-9e66-46c1-af79-c27d57434e3c/25-25580-1_Nebius%2520Group%2520N.V._6-K.pdf%3Fcache-buster=2025-09-08T21:23:09.625Z",
+      "date": "2025-09-08"
+    },
+    "nbis20f": {
+      "title": "Nebius FY2025 Form 20-F, NVIDIA warrant proceeds",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/nbis-20251231x20f.htm",
+      "date": "2026-04-30"
+    },
+    "nbisNvda": {
+      "title": "NVIDIA–Nebius full-stack cloud partnership",
+      "url": "https://nebius.com/newsroom/nvidia-and-nebius-partner-to-scale-full-stack-ai-cloud",
+      "date": "2026-03-11"
+    },
+    "oaiOracle": {
+      "title": "OpenAI, Oracle and SoftBank Stargate expansion",
+      "url": "https://openai.com/index/five-new-stargate-sites/",
+      "date": "2025-09-23"
+    },
+    "oracleGpu": {
+      "title": "Oracle deploys NVIDIA Blackwell infrastructure",
+      "url": "https://blogs.nvidia.com/blog/oracle-cloud-infrastructure-blackwell-gpus-agentic-ai-reasoning-models/",
+      "date": "2025-04-28"
+    },
+    "nvda26": {
+      "title": "NVIDIA Q2 FY2027 10-Q, SB Energy guarantees",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+      "date": "2026-08-26"
+    },
+    "crwvDebt": {
+      "title": "CoreWeave DDTL 4.0 financing facility",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Closes-Landmark-8-5-Billion-Financing-Facility-Achieving-First-Investment-Grade-Rated-GPU-backed-Financing/default.aspx",
+      "date": "2026-03-31"
+    },
+    "nbisDebt": {
+      "title": "Nebius $775M secured debt financing",
+      "url": "https://nebius.com/newsroom/nebius-raises-775-million-in-first-secured-debt-financing-to-accelerate-global-buildout",
+      "date": "2026-07-17"
+    },
+    "downstream_nvda_crwv_equity": {
+      "id": "downstream_nvda_crwv_equity",
+      "title": "CoreWeave 8-K: completed NVIDIA equity sale",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000044/crwv-20260123.htm",
+      "date": "2026-01-23",
+      "type": "primary"
+    },
+    "downstream_nvda_crwv_backstop": {
+      "id": "downstream_nvda_crwv_backstop",
+      "title": "CoreWeave 8-K: NVIDIA residual-capacity purchase agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000047/crwv-20250909.htm",
+      "date": "2025-09-15",
+      "type": "primary"
+    },
+    "downstream_dell_coreweave": {
+      "id": "downstream_dell_coreweave",
+      "title": "Dell delivers NVIDIA GB300 NVL72 racks to CoreWeave",
+      "url": "https://www.dell.com/en-us/blog/dell-delivers-market-s-first-nvidia-gb300-nvl72-to-coreweave/",
+      "date": "2025-07-03",
+      "type": "primary"
+    },
+    "downstream_vertiv_coreweave": {
+      "id": "downstream_vertiv_coreweave",
+      "title": "Vertiv: cooling for CoreWeave and Dell GB300 deployment",
+      "url": "https://www.vertiv.com/en-emea/insights/articles/blog-posts/how-vertiv-and-coreweave-are-orchestrating-ai-innovation/",
+      "date": "2026-06-19",
+      "type": "primary"
+    },
+    "downstream_solidigm": {
+      "id": "downstream_solidigm",
+      "title": "CoreWeave signs multi-year SSD supply agreement with Solidigm",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Signs-Multi-Year-Agreement-With-Solidigm-to-Strengthen-Its-Integrated-AI-Cloud-Platform/default.aspx",
+      "date": "2026-08-05",
+      "type": "primary"
+    },
+    "downstream_crwv_ddtl": {
+      "id": "downstream_crwv_ddtl",
+      "title": "CoreWeave closes $8.5 billion DDTL 4.0 financing facility",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Closes-Landmark-8-5-Billion-Financing-Facility-Achieving-First-Investment-Grade-Rated-GPU-backed-Financing/default.aspx",
+      "date": "2026-03-31",
+      "type": "primary"
+    },
+    "downstream_galaxy_lease": {
+      "id": "downstream_galaxy_lease",
+      "title": "Galaxy completes Helios Phase I for CoreWeave",
+      "url": "https://www.galaxy.com/newsroom/galaxy-completes-phase-i-of-its-helios-data-center-campus",
+      "date": "2026-07-06",
+      "type": "primary"
+    },
+    "downstream_galaxy_finance": {
+      "id": "downstream_galaxy_finance",
+      "title": "Galaxy closes $1.4 billion Helios project facility",
+      "url": "https://www.galaxy.com/newsroom/galaxy-closes-helios-project-financing",
+      "date": "2025-08-15",
+      "type": "primary"
+    },
+    "downstream_galaxy_draw": {
+      "id": "downstream_galaxy_draw",
+      "title": "Galaxy SEC prospectus, Q1 2026 financing disclosure",
+      "url": "https://www.sec.gov/Archives/edgar/data/1859392/000162828026032994/a424b3-decemberresalesx1q1.htm",
+      "date": "2026-05",
+      "type": "primary"
+    },
+    "downstream_core_scientific": {
+      "id": "downstream_core_scientific",
+      "title": "Core Scientific Q2 2026 investor presentation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000012/q2fy26earningsdeck728am.htm",
+      "date": "2026-07",
+      "type": "primary"
+    },
+    "downstream_nvda_suppliers": {
+      "id": "downstream_nvda_suppliers",
+      "title": "NVIDIA FY2026 sustainability report, page 19: named suppliers",
+      "url": "https://images.nvidia.com/aem-dam/Solutions/documents/NVIDIA-Sustainability-Report-Fiscal-Year-2026.pdf",
+      "date": "FY2026, period ended 2026-01-25",
+      "type": "primary"
+    },
+    "downstream_tsmc_suppliers": {
+      "id": "downstream_tsmc_suppliers",
+      "title": "TSMC 2025 supply-chain awards: named equipment and construction suppliers",
+      "url": "https://pr.tsmc.com/english/news/3274",
+      "date": "2025-11-28",
+      "type": "primary"
+    },
+    "downstream_meta_entergy": {
+      "id": "downstream_meta_entergy",
+      "title": "Meta Richland Parish data-center page: energy cost responsibility",
+      "url": "https://datacenters.atmeta.com/richland-parish-data-center/",
+      "date": "Accessed 2026-10-03",
+      "type": "primary"
+    },
+    "downstream_entergy_contractors": {
+      "id": "downstream_entergy_contractors",
+      "title": "Entergy: completed Meta construction-power upgrades and local payments",
+      "url": "https://www.entergy.com/news/entergy-louisiana-supports-metas-new-data-center-with-infrastructure-upgrades-in-richland-parish",
+      "date": "2025-04-22",
+      "type": "primary"
+    },
+    "downstream_oracle_bloom": {
+      "id": "downstream_oracle_bloom",
+      "title": "Bloom: Oracle 1.2 GW contracted, 2.8 GW procurement framework",
+      "url": "https://www.bloomenergy.com/news/bloom-energy-and-oracle-expand-strategic-partnership-to-deploy-up-to-2-8-gw-to-accelerate-ai-infrastructure-build-out/",
+      "date": "2026-04-13",
+      "type": "primary"
+    },
+    "downstream_bloom_warrant": {
+      "id": "downstream_bloom_warrant",
+      "title": "Bloom Q2 2026 10-Q: Oracle cashless warrant exercise and revenue accounting",
+      "url": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026050325/be-20260630.htm",
+      "date": "2026-07-28",
+      "type": "primary"
+    },
+    "downstream_brookfield_bloom": {
+      "id": "downstream_brookfield_bloom",
+      "title": "Brookfield/Bloom financing framework increased to $25 billion",
+      "url": "https://www.bloomenergy.com/news/brookfield-and-bloom-energy-expand-ai-infrastructure-partnership/",
+      "date": "2026-06-30",
+      "type": "primary"
+    },
+    "downstream_nebius_bloom": {
+      "id": "downstream_nebius_bloom",
+      "title": "Nebius/Bloom agreement for 328 MW initial deployment",
+      "url": "https://nebius.com/newsroom/nebius-and-bloom-energy-partner-to-power-ai-infrastructure-build-out",
+      "date": "2026-05-20",
+      "type": "primary"
+    },
+    "downstream_nebius_project": {
+      "id": "downstream_nebius_project",
+      "title": "IDF issuer release: $1.7 billion Nebius power project financing roles",
+      "url": "https://www.prnewswire.com/news-releases/industrial-development-funding-and-oaktree-announce-1-7-billion-project-investment-in-bloom-energy-fuel-cells-for-nebius-ai-infrastructure-build-out-302827566.html",
+      "date": "2026-07-16",
+      "type": "primary"
+    },
+    "downstream_nvda_synopsys": {
+      "id": "downstream_nvda_synopsys",
+      "title": "NVIDIA and Synopsys strategic partnership and $2 billion equity investment",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-synopsys-announce-strategic-partnership-to-revolutionize-engineering-and-design",
+      "date": "2025-12-01",
+      "type": "primary"
+    },
+    "downstream_crwv_vendor_finance": {
+      "id": "downstream_crwv_vendor_finance",
+      "title": "CoreWeave Q2 2026 10-Q, Note 10: OEM and software-license financing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm",
+      "date": "2026-08-10",
+      "type": "primary"
+    }
+  },
+  "methodology": [
+    "Tier 1: model labs and major cloud providers. Tier 2: compute operators, hardware and direct suppliers. Tier 3: manufacturing enablers, power, sites, contractors and project financing. Cases include upstream links when needed for context.",
+    "Relationships are based on named counterparties in primary sources. Some describe an established supplier route without a disclosed invoice or payment.",
+    "Paid investments, outstanding borrowing, signed commitments, frameworks, conditional guarantees and recognized revenue retain separate labels. No aggregate capital-flow total is calculated.",
+    "The same dollar is not traced through the system. Interdependence can amplify a spending shock, but is not proof of fictitious revenue."
+  ]
+}

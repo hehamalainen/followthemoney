@@ -1,0 +1,721 @@
+{
+  "asOf": "2026-10-03",
+  "title": "Core AI money circulation",
+  "scope": "Public disclosures known by the snapshot; dates identify agreements or financial cutoffs, not proof of every later cash payment.",
+  "methodology": [
+    "Arrows follow funding or buyer-to-supplier economics, not product delivery.",
+    "A matching triangle does not establish that identical dollars recycle, that demand is fake, or that revenue is artificial.",
+    "Do not sum investment amounts, contract ceilings, recognized revenue, receivables, facilities, guarantees and overlapping project totals.",
+    "Use actual external customer receipts, margins, cash collection, utilization, debt service and independent demand to assess sustainability.",
+    "OpenAI and Anthropic appear as private ecosystem nodes, not additions to the app's 100 public-stock universe."
+  ],
+  "nodes": [
+    {
+      "id": "MSFT",
+      "name": "Microsoft",
+      "ticker": "MSFT",
+      "type": "cloud"
+    },
+    {
+      "id": "OPENAI",
+      "name": "OpenAI",
+      "ticker": null,
+      "type": "private model lab"
+    },
+    {
+      "id": "ANTHROPIC",
+      "name": "Anthropic",
+      "ticker": null,
+      "type": "private model lab"
+    },
+    {
+      "id": "NVDA",
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "type": "chips"
+    },
+    {
+      "id": "AMZN",
+      "name": "Amazon / AWS",
+      "ticker": "AMZN",
+      "type": "cloud"
+    },
+    {
+      "id": "GOOGL",
+      "name": "Alphabet / Google Cloud",
+      "ticker": "GOOGL",
+      "type": "cloud"
+    },
+    {
+      "id": "ORCL",
+      "name": "Oracle",
+      "ticker": "ORCL",
+      "type": "cloud"
+    },
+    {
+      "id": "CRWV",
+      "name": "CoreWeave",
+      "ticker": "CRWV",
+      "type": "AI cloud"
+    },
+    {
+      "id": "NBIS",
+      "name": "Nebius",
+      "ticker": "NBIS",
+      "type": "AI cloud"
+    },
+    {
+      "id": "SBENERGY",
+      "name": "SB Energy",
+      "ticker": null,
+      "type": "private infrastructure"
+    },
+    {
+      "id": "LENDERS_CRWV",
+      "name": "CoreWeave financing consortium",
+      "ticker": null,
+      "type": "lenders"
+    },
+    {
+      "id": "LENDERS_NBIS",
+      "name": "Nebius secured lenders",
+      "ticker": null,
+      "type": "lenders"
+    }
+  ],
+  "edges": [
+    {
+      "id": "msft-oai-funding",
+      "from": "MSFT",
+      "to": "OPENAI",
+      "tier": 1,
+      "flowType": "equity",
+      "status": "partly_funded",
+      "title": "Strategic investment",
+      "amountLabel": "$13B committed; $11.9B funded",
+      "detail": "Funding reported through June 30, 2026. Equity ownership is not cloud revenue.",
+      "date": "2026-06-30",
+      "sourceIds": [
+        "msft26"
+      ],
+      "amountUSD": 13000000000,
+      "fundedUSD": 11900000000
+    },
+    {
+      "id": "oai-msft-cloud",
+      "from": "OPENAI",
+      "to": "MSFT",
+      "tier": 1,
+      "flowType": "cloud",
+      "status": "committed",
+      "title": "Azure services",
+      "amountLabel": "$250B incremental commitment",
+      "detail": "October 2025 commitment, not cash paid. April 2026 terms permit all OpenAI products on other clouds; capped OpenAI-to-Microsoft revenue share continues through 2030.",
+      "date": "2025-10-28",
+      "sourceIds": [
+        "msft25",
+        "msftApril"
+      ],
+      "amountUSD": 250000000000,
+      "evidenceDate": "2026-04-27"
+    },
+    {
+      "id": "amzn-oai-equity",
+      "from": "AMZN",
+      "to": "OPENAI",
+      "tier": 1,
+      "flowType": "equity",
+      "status": "funded",
+      "title": "OpenAI preferred stock",
+      "amountLabel": "$50B funded",
+      "detail": "$28.7B invested by June 30; remaining $21.3B funded after quarter-end, disclosed in Q2 filing.",
+      "date": "2026-07-30",
+      "sourceIds": [
+        "amzn26"
+      ],
+      "amountUSD": 50000000000
+    },
+    {
+      "id": "oai-amzn-cloud",
+      "from": "OPENAI",
+      "to": "AMZN",
+      "tier": 1,
+      "flowType": "cloud",
+      "status": "committed",
+      "title": "AWS capacity expansion",
+      "amountLabel": "$100B expansion over 8 years",
+      "detail": "Incremental to prior $38B arrangement; includes roughly 2 GW Trainium. Contract value is not annual revenue or current payment.",
+      "date": "2026-02-27",
+      "sourceIds": [
+        "oaiAws"
+      ],
+      "amountUSD": 100000000000
+    },
+    {
+      "id": "nvda-oai-equity",
+      "from": "NVDA",
+      "to": "OPENAI",
+      "tier": 1,
+      "flowType": "equity",
+      "status": "announced_commitment",
+      "title": "OpenAI financing round",
+      "amountLabel": "$30B announced investment",
+      "detail": "Part of February round, later closed as committed capital. Individual funding timing not established here; do not add the earlier $100B letter-of-intent headline.",
+      "date": "2026-02-27",
+      "sourceIds": [
+        "oaiFunding",
+        "oaiClose"
+      ],
+      "amountUSD": 30000000000
+    },
+    {
+      "id": "amzn-ant-funded",
+      "from": "AMZN",
+      "to": "ANTHROPIC",
+      "tier": 1,
+      "flowType": "equity_and_convertible",
+      "status": "funded",
+      "title": "Anthropic investment history",
+      "amountLabel": "$18B invested through June 2026",
+      "detail": "$8B historical convertible notes plus $10B preferred stock in Q2. Instrument conversions and valuation gains are not additional cash.",
+      "date": "2026-06-30",
+      "sourceIds": [
+        "amzn26"
+      ],
+      "amountUSD": 18000000000
+    },
+    {
+      "id": "amzn-ant-facility",
+      "from": "AMZN",
+      "to": "ANTHROPIC",
+      "tier": 1,
+      "flowType": "financing",
+      "status": "conditional_facility",
+      "title": "Compute-linked financing",
+      "amountLabel": "$15B remaining facility",
+      "detail": "Original $20B capacity reduced by $5B Series H purchase. Further availability depends on compute-delivery milestones; draws may be convertible notes or stock.",
+      "date": "2026-06-30",
+      "sourceIds": [
+        "amzn26"
+      ],
+      "amountUSD": 15000000000
+    },
+    {
+      "id": "ant-amzn-cloud",
+      "from": "ANTHROPIC",
+      "to": "AMZN",
+      "tier": 1,
+      "flowType": "cloud",
+      "status": "committed",
+      "title": "AWS compute agreement",
+      "amountLabel": ">$100B over 10 years",
+      "detail": "Expanded Trainium and Graviton capacity agreement. Delivery and chip-performance obligations matter; not recognized AWS revenue.",
+      "date": "2026-04-20",
+      "sourceIds": [
+        "antAws"
+      ],
+      "amountUSD": 100000000000,
+      "amountQualifier": "greater_than"
+    },
+    {
+      "id": "msft-ant-equity",
+      "from": "MSFT",
+      "to": "ANTHROPIC",
+      "tier": 1,
+      "flowType": "equity",
+      "status": "announced_commitment",
+      "title": "Anthropic equity commitment",
+      "amountLabel": "Up to $5B",
+      "detail": "Announced commitment. Anthropic's February Series G includes a portion of the previously announced Microsoft/NVIDIA investments; do not add both headlines.",
+      "date": "2025-11-18",
+      "sourceIds": [
+        "antMsft",
+        "antG"
+      ],
+      "amountUSD": 5000000000
+    },
+    {
+      "id": "nvda-ant-equity",
+      "from": "NVDA",
+      "to": "ANTHROPIC",
+      "tier": 1,
+      "flowType": "equity",
+      "status": "announced_commitment",
+      "title": "Anthropic equity commitment",
+      "amountLabel": "Up to $10B",
+      "detail": "Announced commitment; paid amount not established here. The Series G partly overlaps this commitment.",
+      "date": "2025-11-18",
+      "sourceIds": [
+        "antMsft",
+        "antG"
+      ],
+      "amountUSD": 10000000000
+    },
+    {
+      "id": "ant-msft-cloud",
+      "from": "ANTHROPIC",
+      "to": "MSFT",
+      "tier": 1,
+      "flowType": "cloud",
+      "status": "committed",
+      "title": "Claude on Azure",
+      "amountLabel": "$30B compute commitment",
+      "detail": "Azure service purchase commitment, with additional capacity up to 1 GW. NVIDIA systems support this deployment; purchase dollars for hardware are undisclosed.",
+      "date": "2025-11-18",
+      "sourceIds": [
+        "antMsft"
+      ],
+      "amountUSD": 30000000000
+    },
+    {
+      "id": "ant-googl-cloud",
+      "from": "ANTHROPIC",
+      "to": "GOOGL",
+      "tier": 1,
+      "flowType": "cloud",
+      "status": "committed",
+      "title": "Google TPU capacity",
+      "amountLabel": "Tens of billions; exact value undisclosed",
+      "detail": "October expansion targets up to one million TPUs. April 2026 Google/Broadcom agreement adds multiple GW starting 2027; no comparable incremental dollar amount given.",
+      "date": "2025-10-23",
+      "sourceIds": [
+        "antTpu",
+        "antTpu26"
+      ],
+      "evidenceDate": "2026-04-06"
+    },
+    {
+      "id": "nvda-crwv-equity",
+      "from": "NVDA",
+      "to": "CRWV",
+      "tier": 2,
+      "flowType": "equity",
+      "status": "funded",
+      "title": "CoreWeave stock purchase",
+      "amountLabel": "$2B cash",
+      "detail": "Completed January 23: 22,935,780 Class A shares at $87.20. Equity issuance cash, not revenue.",
+      "date": "2026-01-23",
+      "sourceIds": [
+        "crwvNvdaEquity"
+      ],
+      "amountUSD": 2000000000
+    },
+    {
+      "id": "nvda-crwv-backstop",
+      "from": "NVDA",
+      "to": "CRWV",
+      "tier": 2,
+      "flowType": "capacity_backstop",
+      "status": "conditional_obligation",
+      "title": "Residual cloud capacity",
+      "amountLabel": "$6.3B initial order value",
+      "detail": "NVIDIA must buy qualifying unsold capacity through April 13, 2032, subject to delivery, availability and termination terms. Not an unconditional $6.3B cash transfer.",
+      "date": "2025-09-09",
+      "sourceIds": [
+        "crwvBackstop"
+      ],
+      "amountUSD": 6300000000
+    },
+    {
+      "id": "crwv-nvda-hardware",
+      "from": "CRWV",
+      "to": "NVDA",
+      "tier": 2,
+      "flowType": "hardware",
+      "status": "supplier_relationship",
+      "title": "GPU infrastructure purchases",
+      "amountLabel": "Amount undisclosed",
+      "detail": "CoreWeave filing identifies NVIDIA as GPU supplier and shareholder. Direct versus OEM-mediated purchase mix and transaction dollars are not quantified here.",
+      "date": "2025-09-15",
+      "sourceIds": [
+        "crwvBackstop"
+      ]
+    },
+    {
+      "id": "oai-crwv-cloud",
+      "from": "OPENAI",
+      "to": "CRWV",
+      "tier": 2,
+      "flowType": "cloud",
+      "status": "committed",
+      "title": "Model training and inference",
+      "amountLabel": "Up to ~$22.4B combined contracts",
+      "detail": "Total includes March $11.9B, May $4B and September $6.5B agreements; do not sum the total with its components. Not current-year revenue.",
+      "date": "2025-09-25",
+      "sourceIds": [
+        "crwvOai"
+      ],
+      "amountUSD": 22400000000
+    },
+    {
+      "id": "msft-nbis-cloud",
+      "from": "MSFT",
+      "to": "NBIS",
+      "tier": 2,
+      "flowType": "cloud",
+      "status": "committed",
+      "title": "Dedicated GPU capacity",
+      "amountLabel": "Original $17.4B; optional ~$19.4B",
+      "detail": "September 2025 contract through 2031, conditional on deployment and availability. Original disclosed values shown; later option exercise not verified here.",
+      "date": "2025-09-08",
+      "sourceIds": [
+        "nbisMsft"
+      ],
+      "amountUSD": 17400000000
+    },
+    {
+      "id": "nvda-nbis-equity",
+      "from": "NVDA",
+      "to": "NBIS",
+      "tier": 2,
+      "flowType": "equity",
+      "status": "funded",
+      "title": "Pre-funded share warrant",
+      "amountLabel": "Approximately $2B proceeds",
+      "detail": "Nebius reports sale of a pre-funded Class A share warrant to NVIDIA; distinct from payment for GPU hardware.",
+      "date": "2026-03-11",
+      "sourceIds": [
+        "nbis20f"
+      ],
+      "amountUSD": 2000000000
+    },
+    {
+      "id": "oai-orcl-cloud",
+      "from": "OPENAI",
+      "to": "ORCL",
+      "tier": 1,
+      "flowType": "cloud",
+      "status": "committed",
+      "title": "Stargate capacity partnership",
+      "amountLabel": ">$300B over 5 years",
+      "detail": "Issuer describes up to 4.5 GW additional capacity under its July agreement. Overlapping Stargate investment totals are not additive.",
+      "date": "2025-09-23",
+      "sourceIds": [
+        "oaiOracle"
+      ],
+      "amountUSD": 300000000000,
+      "amountQualifier": "greater_than"
+    },
+    {
+      "id": "nvda-sb-guarantee",
+      "from": "NVDA",
+      "to": "SBENERGY",
+      "tier": 2,
+      "flowType": "guarantee",
+      "status": "contingent",
+      "title": "Credit support for OpenAI leases",
+      "amountLabel": "Up to $105B exposure",
+      "detail": "August guarantee covers defined lease/power obligations for ~4.25 GW. Tenant defaults trigger payment; phases expected from FY2029. This is not cash spent, drawn debt or revenue.",
+      "date": "2026-08",
+      "sourceIds": [
+        "nvda26"
+      ],
+      "amountUSD": 105000000000
+    }
+  ],
+  "supportingEdges": [
+    {
+      "id": "oai-msft-revenue",
+      "from": "OPENAI",
+      "to": "MSFT",
+      "tier": 1,
+      "flowType": "recognized_revenue",
+      "status": "recognized",
+      "title": "Actual related-party revenue",
+      "amountLabel": "$24.1B FY2026 revenue",
+      "detail": "Includes commercial arrangements and revenue sharing; $6B receivable at June 30. Revenue is not proof of cash collection and is not incremental to all other contract figures.",
+      "date": "2026-06-30",
+      "sourceIds": [
+        "msft26"
+      ],
+      "amountUSD": 24100000000
+    },
+    {
+      "id": "orcl-nvda-hardware",
+      "from": "ORCL",
+      "to": "NVDA",
+      "tier": 2,
+      "flowType": "hardware",
+      "status": "deployed",
+      "title": "Blackwell infrastructure",
+      "amountLabel": "Dollar value undisclosed",
+      "detail": "NVIDIA reports thousands of Blackwell GPUs deployed on OCI. Monetary direction denotes buyer-to-supplier economics; reseller routing is not established.",
+      "date": "2025-04-28",
+      "sourceIds": [
+        "oracleGpu"
+      ]
+    },
+    {
+      "id": "nbis-nvda-hardware",
+      "from": "NBIS",
+      "to": "NVDA",
+      "tier": 2,
+      "flowType": "hardware",
+      "status": "supplier_relationship",
+      "title": "NVIDIA cloud platform",
+      "amountLabel": "Dollar value undisclosed",
+      "detail": "Nebius already deploys NVIDIA hardware; partnership targets more than 5 GW by end-2030. This target is not a purchase order or recognized revenue.",
+      "date": "2026-03-11",
+      "sourceIds": [
+        "nbisNvda"
+      ]
+    },
+    {
+      "id": "lenders-crwv-debt",
+      "from": "LENDERS_CRWV",
+      "to": "CRWV",
+      "tier": 2,
+      "flowType": "debt",
+      "status": "facility_closed",
+      "title": "GPU and contract-backed loan",
+      "amountLabel": "$8.5B facility; ~$7.5B initially available",
+      "detail": "DDTL 4.0 secured by infrastructure and customer contract; maturity March 2032. Drawn amount is not stated. MUFG/Morgan Stanley structure; Blackstone anchors.",
+      "date": "2026-03-31",
+      "sourceIds": [
+        "crwvDebt"
+      ],
+      "amountUSD": 8500000000
+    },
+    {
+      "id": "lenders-nbis-debt",
+      "from": "LENDERS_NBIS",
+      "to": "NBIS",
+      "tier": 2,
+      "flowType": "debt",
+      "status": "facility_signed",
+      "title": "Monetizing installed GPU contracts",
+      "amountLabel": "Approximately $775M facility",
+      "detail": "Secured by deployed GPUs and contracted customer cash flows; SOFR+2.5%, maturity October 2030. Source does not identify this facility's customer; do not assume Microsoft.",
+      "date": "2026-07-17",
+      "sourceIds": [
+        "nbisDebt"
+      ],
+      "amountUSD": 775000000
+    },
+    {
+      "id": "oai-sb-lease",
+      "from": "OPENAI",
+      "to": "SBENERGY",
+      "tier": 2,
+      "flowType": "lease",
+      "status": "future_obligation",
+      "title": "PORTS campus leases",
+      "amountLabel": "20-year leases; total payments undisclosed",
+      "detail": "OpenAI affiliate is tenant. NVIDIA guarantee only covers defined portions; its $105B cap is not the total lease price.",
+      "date": "2026-08",
+      "sourceIds": [
+        "nvda26"
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "msft-oai",
+      "title": "Investor, cloud vendor and revenue-share recipient",
+      "tier": 1,
+      "kind": "documented reciprocal relationships",
+      "summary": "Microsoft finances OpenAI; OpenAI buys Azure services and generates reported Microsoft revenue.",
+      "edgeIds": [
+        "msft-oai-funding",
+        "oai-msft-cloud",
+        "oai-msft-revenue"
+      ],
+      "insight": "Separate contracted demand, recognized revenue and receivables. Growth financed by new capital can be real, yet remains sensitive to the lab's eventual cash generation.",
+      "limitation": "No tracing of identical dollars. Microsoft's investment valuation is not investment cash, and recognized revenue is not profit."
+    },
+    {
+      "id": "amazon-labs",
+      "title": "Funding customers of your own cloud",
+      "tier": 1,
+      "kind": "documented reciprocal relationships",
+      "summary": "Amazon funds both OpenAI and Anthropic while both commit to long-term AWS capacity.",
+      "edgeIds": [
+        "amzn-oai-equity",
+        "oai-amzn-cloud",
+        "amzn-ant-funded",
+        "amzn-ant-facility",
+        "ant-amzn-cloud"
+      ],
+      "insight": "The commercial and financing exposures can weaken together if AI customers cannot cover compute costs from external demand.",
+      "limitation": "Different horizons and instruments; no valid single 'circulating dollars' total. Deliveries, conditions and funding milestones differ."
+    },
+    {
+      "id": "anthropic-triangle",
+      "title": "Two investors, one NVIDIA-powered cloud route",
+      "tier": 1,
+      "kind": "conditional triangle",
+      "summary": "Microsoft and NVIDIA back Anthropic, which contracts Azure capacity on NVIDIA systems.",
+      "edgeIds": [
+        "msft-ant-equity",
+        "nvda-ant-equity",
+        "ant-msft-cloud"
+      ],
+      "insight": "One relationship supports model funding, cloud demand and accelerator demand. Hardware capacity alone does not reveal NVIDIA's transaction revenue.",
+      "limitation": "The supplier leg is documented technologically but not monetarily sized; Anthropic's other chip platforms diversify dependence."
+    },
+    {
+      "id": "coreweave",
+      "title": "Supplier, shareholder and buyer of spare capacity",
+      "tier": 2,
+      "kind": "documented reciprocal relationships",
+      "summary": "NVIDIA sells GPUs, invests in CoreWeave and backstops qualifying spare cloud capacity. Contract-backed loans finance deployment.",
+      "edgeIds": [
+        "nvda-crwv-equity",
+        "nvda-crwv-backstop",
+        "crwv-nvda-hardware",
+        "oai-crwv-cloud",
+        "lenders-crwv-debt"
+      ],
+      "insight": "The key test is third-party utilization versus vendor support, alongside interest, GPU life, collateral and delivery obligations.",
+      "limitation": "Backstop value is conditional and cannot be added to equity, debt capacity or customer contract values as current sales."
+    },
+    {
+      "id": "nebius",
+      "title": "A hyperscaler contract becomes financing capacity",
+      "tier": 2,
+      "kind": "documented funding chain",
+      "summary": "Microsoft contracts capacity; NVIDIA provides capital and hardware; lenders advance against deployed GPUs and customer cash flows.",
+      "edgeIds": [
+        "msft-nbis-cloud",
+        "nvda-nbis-equity",
+        "nbis-nvda-hardware",
+        "lenders-nbis-debt"
+      ],
+      "insight": "Customer commitments can finance expansion into new enterprise workloads. Watch how much growth relies on deposits, refinancing and a few creditworthy buyers.",
+      "limitation": "The named Microsoft contract and July secured loan are not proven to be the same collateral pool. This is a financing chain, not a proven closed loop."
+    },
+    {
+      "id": "stargate-guarantee",
+      "title": "Chip supplier underwrites the infrastructure tenant",
+      "tier": 2,
+      "kind": "contingent financing loop",
+      "summary": "NVIDIA's SB Energy guarantee supports OpenAI's future campus leases and an overwhelmingly NVIDIA-based site.",
+      "edgeIds": [
+        "nvda-oai-equity",
+        "nvda-sb-guarantee",
+        "oai-sb-lease",
+        "oai-orcl-cloud",
+        "orcl-nvda-hardware"
+      ],
+      "insight": "Credit support can unlock physical construction before tenant cash flows mature. The supplier gains deployment opportunities while accepting long-lived contingent risk.",
+      "limitation": "Ohio and Oracle projects are separate routes, not one contract. Guarantees are contingent exposure, not money already transferred."
+    }
+  ],
+  "sources": {
+    "msft26": {
+      "title": "Microsoft FY2026 Form 10-K, OpenAI related-party disclosure",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+      "date": "2026-07-29"
+    },
+    "msft25": {
+      "title": "Microsoft–OpenAI partnership amendment",
+      "url": "https://blogs.microsoft.com/blog/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/",
+      "date": "2025-10-28"
+    },
+    "msftApril": {
+      "title": "Microsoft–OpenAI April 2026 amendment",
+      "url": "https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership/",
+      "date": "2026-04-27"
+    },
+    "amzn26": {
+      "title": "Amazon Q2 2026 Form 10-Q, non-marketable investments",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+      "date": "2026-07-30"
+    },
+    "oaiAws": {
+      "title": "OpenAI–Amazon strategic partnership",
+      "url": "https://openai.com/index/amazon-partnership/",
+      "date": "2026-02-27"
+    },
+    "antAws": {
+      "title": "Amazon–Anthropic expanded collaboration",
+      "url": "https://www.aboutamazon.com/news/company-news/amazon-invests-additional-5-billion-anthropic-ai",
+      "date": "2026-04-20"
+    },
+    "oaiFunding": {
+      "title": "OpenAI February 2026 financing and NVIDIA capacity",
+      "url": "https://openai.com/index/scaling-ai-for-everyone/",
+      "date": "2026-02-27"
+    },
+    "oaiClose": {
+      "title": "OpenAI closes $122B committed-capital round",
+      "url": "https://openai.com/index/accelerating-the-next-phase-ai/",
+      "date": "2026-03-31"
+    },
+    "antMsft": {
+      "title": "Microsoft, NVIDIA and Anthropic partnership",
+      "url": "https://blogs.nvidia.com/blog/microsoft-nvidia-anthropic-announce-partnership/",
+      "date": "2025-11-18"
+    },
+    "antG": {
+      "title": "Anthropic Series G financing",
+      "url": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
+      "date": "2026-02-12"
+    },
+    "antTpu": {
+      "title": "Anthropic expands Google Cloud TPUs",
+      "url": "https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services",
+      "date": "2025-10-23"
+    },
+    "antTpu26": {
+      "title": "Anthropic Google–Broadcom compute expansion",
+      "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+      "date": "2026-04-06"
+    },
+    "crwvNvdaEquity": {
+      "title": "CoreWeave January 2026 securities purchase 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000044/crwv-20260123.htm",
+      "date": "2026-01-26"
+    },
+    "crwvBackstop": {
+      "title": "CoreWeave NVIDIA residual-capacity 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000047/crwv-20250909.htm",
+      "date": "2025-09-15"
+    },
+    "crwvOai": {
+      "title": "CoreWeave expands OpenAI contracts to approximately $22.4B",
+      "url": "https://www.coreweave.com/news/coreweave-expands-agreement-with-openai-by-up-to-6-5b",
+      "date": "2025-09-25"
+    },
+    "nbisMsft": {
+      "title": "Nebius September 2025 6-K, Microsoft contract",
+      "url": "https://assets.nebius.com/assets/86625727-9e66-46c1-af79-c27d57434e3c/25-25580-1_Nebius%2520Group%2520N.V._6-K.pdf%3Fcache-buster=2025-09-08T21:23:09.625Z",
+      "date": "2025-09-08"
+    },
+    "nbis20f": {
+      "title": "Nebius FY2025 Form 20-F, NVIDIA warrant proceeds",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/nbis-20251231x20f.htm",
+      "date": "2026-04-30"
+    },
+    "nbisNvda": {
+      "title": "NVIDIA–Nebius full-stack cloud partnership",
+      "url": "https://nebius.com/newsroom/nvidia-and-nebius-partner-to-scale-full-stack-ai-cloud",
+      "date": "2026-03-11"
+    },
+    "oaiOracle": {
+      "title": "OpenAI, Oracle and SoftBank Stargate expansion",
+      "url": "https://openai.com/index/five-new-stargate-sites/",
+      "date": "2025-09-23"
+    },
+    "oracleGpu": {
+      "title": "Oracle deploys NVIDIA Blackwell infrastructure",
+      "url": "https://blogs.nvidia.com/blog/oracle-cloud-infrastructure-blackwell-gpus-agentic-ai-reasoning-models/",
+      "date": "2025-04-28"
+    },
+    "nvda26": {
+      "title": "NVIDIA Q2 FY2027 10-Q, SB Energy guarantees",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+      "date": "2026-08-26"
+    },
+    "crwvDebt": {
+      "title": "CoreWeave DDTL 4.0 financing facility",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Closes-Landmark-8-5-Billion-Financing-Facility-Achieving-First-Investment-Grade-Rated-GPU-backed-Financing/default.aspx",
+      "date": "2026-03-31"
+    },
+    "nbisDebt": {
+      "title": "Nebius $775M secured debt financing",
+      "url": "https://nebius.com/newsroom/nebius-raises-775-million-in-first-secured-debt-financing-to-accelerate-global-buildout",
+      "date": "2026-07-17"
+    }
+  }
+}

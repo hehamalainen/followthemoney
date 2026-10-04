@@ -1,0 +1,4 @@
+# FFmpeg is an external executable, required only for MP4 rendering.
+# Install a regular/bold font pair such as DejaVu Sans, or use the font CLI flags.
+numpy>=1.23
+Pillow>=9.1

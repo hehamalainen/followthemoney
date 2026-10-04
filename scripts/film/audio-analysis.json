@@ -1,0 +1,67 @@
+{
+  "duration_seconds": 30.0,
+  "sample_rate": 48000,
+  "channels": 2,
+  "bit_depth": 24,
+  "peak_dbfs": -1.195483684539795,
+  "rms_dbfs": -15.489015579223633,
+  "clipped_samples": 0,
+  "dc_offset": [
+    1.287105624214746e-05,
+    2.3303773559746332e-05
+  ],
+  "stereo_correlation": 0.8641999033907555,
+  "last_0_4_seconds_peak": 0.0,
+  "sections": [
+    {
+      "name": "Intro",
+      "start": 0,
+      "end": 3.75,
+      "rms_dbfs": -15.459989547729492,
+      "peak_dbfs": -2.6175808906555176
+    },
+    {
+      "name": "Forward pulse",
+      "start": 3.75,
+      "end": 11.25,
+      "rms_dbfs": -16.720592498779297,
+      "peak_dbfs": -1.1970641613006592
+    },
+    {
+      "name": "Escalating tiers",
+      "start": 11.25,
+      "end": 18.75,
+      "rms_dbfs": -15.281911849975586,
+      "peak_dbfs": -1.1999740600585938
+    },
+    {
+      "name": "Futures lift",
+      "start": 18.75,
+      "end": 26.25,
+      "rms_dbfs": -14.683027267456055,
+      "peak_dbfs": -1.195483684539795
+    },
+    {
+      "name": "Title resolution",
+      "start": 26.25,
+      "end": 30,
+      "rms_dbfs": -15.569679260253906,
+      "peak_dbfs": -1.1999573707580566
+    }
+  ],
+  "originality": "Original composition and procedural sound synthesis; no samples, soundfonts, existing recordings, melodies, or generation service used.",
+  "tempo": 128,
+  "tonality": "D minor; Dm \u2192 Bb \u2192 F \u2192 C/D; final D minor resolution",
+  "sync_points": [
+    0,
+    3.75,
+    11.25,
+    18.75,
+    26.25,
+    30
+  ],
+  "ebu_r128_summary": "Integrated loudness:\n    I:         -14.5 LUFS\n    Threshold: -24.7 LUFS\n\n  Loudness range:\n    LRA:         4.2 LU\n    Threshold: -34.5 LUFS\n    LRA low:   -16.9 LUFS\n    LRA high:  -12.8 LUFS\n\n  True peak:\n    Peak:       -1.2 dBFS\n[out#0/null @ 0xba103c180] video:0KiB audio:5625KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nsize=N/A time=00:00:30.00 bitrate=N/A speed= 279x elapsed=0:00:00.10",
+  "energy_fraction_below_20hz": 0.0005836692289449275,
+  "energy_fraction_above_8khz": 3.503854532027617e-05,
+  "largest_sample_step": 0.3061342239379883
+}

@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.DS_Store
+.cache/
+.venv/
+.env
+.env.*
+!.env.example
+.openai/
+
+# Reproducible film audio intermediates; distribution MP4s are tracked.
+scripts/film/*.wav
+scripts/film/*.f32
+scripts/film/loudness.txt
+scripts/film/analysis.json

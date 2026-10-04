@@ -1,0 +1,1838 @@
+{
+  "asOf": "2026-10-03",
+  "horizon": "2030-12-31",
+  "scenarios": [
+    {
+      "id": "buildout",
+      "name": "The infrastructure supercycle",
+      "short": "Buildout",
+      "number": "01",
+      "tagline": "Compute demand outruns efficiency gains.",
+      "color": "#315cec",
+      "summary": "Agentic work, reasoning and sovereign AI keep expanding. Usage grows faster than cost per task falls, buyers monetise enough demand to keep funding capacity, and grid projects gradually unlock new sites. Scarcity shifts between chips, interconnects and electrical equipment.",
+      "assumptions": [
+        [
+          "AI infrastructure spending",
+          "Illustrative 2030 spend: 1.9–2.4× 2026."
+        ],
+        [
+          "Demand versus efficiency",
+          "More tasks and more compute per task outweigh falling unit costs."
+        ],
+        [
+          "Monetisation",
+          "Cloud and AI application revenue support continuing investment."
+        ],
+        [
+          "Physical capacity",
+          "Grid, packaging and cooling expand, with local shortages persisting."
+        ]
+      ],
+      "path": [
+        100,
+        125,
+        153,
+        185,
+        220
+      ],
+      "timing": [
+        [
+          "2026–27",
+          "Existing orders convert; power access and advanced packaging constrain delivery."
+        ],
+        [
+          "2028–29",
+          "More capacity reaches production; inference and network traffic become larger demand drivers."
+        ],
+        [
+          "2030",
+          "Watch for overbuilding: scarcity profits can reverse before aggregate AI demand stops growing."
+        ]
+      ],
+      "winners": [
+        "NVDA",
+        "TSM",
+        "VRT",
+        "ETN",
+        "ANET",
+        "GEV"
+      ],
+      "losers": [
+        "AI",
+        "INFY",
+        "BIDU",
+        "INTC"
+      ],
+      "hiddenPriority": [
+        "TEL",
+        "J",
+        "AVGO",
+        "SNPS",
+        "VST",
+        "CEG"
+      ],
+      "watch": [
+        "Aggregate hyperscaler capex keeps rising alongside AI/cloud revenue, not just management promises.",
+        "Electrical orders convert into shipments without worsening receivables or cancellation rates.",
+        "HBM and packaging utilisation stay high as new capacity is added."
+      ],
+      "invalidate": "Two consecutive quarters of broad order cancellations, falling utilisation, or capex rising while AI monetisation stalls would weaken this case.",
+      "risk": "Strong business growth can still produce poor stock returns if today’s price already assumes more. Supplier scarcity margins and new capacity are cyclical."
+    },
+    {
+      "id": "diffusion",
+      "name": "Cheaper AI, wider adoption",
+      "short": "Diffusion",
+      "number": "02",
+      "tagline": "Value moves from building AI to using it.",
+      "color": "#087454",
+      "summary": "Models become cheaper and more interchangeable. Inference spreads across existing clouds, devices and enterprise workflows. Spending keeps growing more slowly, while distribution, proprietary data, security and custom silicon capture a larger share of value.",
+      "assumptions": [
+        [
+          "AI infrastructure spending",
+          "Illustrative 2030 spend: 1.2–1.6× 2026."
+        ],
+        [
+          "Technology",
+          "Smaller models, custom chips and better software lower cost per useful task."
+        ],
+        [
+          "Enterprise adoption",
+          "Customers pay for measurable outcomes; usage grows faster than infrastructure spending."
+        ],
+        [
+          "Competitive pressure",
+          "Commodity GPU rental and undifferentiated software face lower prices."
+        ]
+      ],
+      "path": [
+        100,
+        112,
+        125,
+        138,
+        150
+      ],
+      "timing": [
+        [
+          "2026–27",
+          "Customers test which agents create measurable savings and which tools are interchangeable."
+        ],
+        [
+          "2028–29",
+          "Inference, data integration and workflow adoption broaden; custom-chip economics matter more."
+        ],
+        [
+          "2030",
+          "Winners retain customers and capture outcomes revenue even if traditional seat counts fall."
+        ]
+      ],
+      "winners": [
+        "AVGO",
+        "MSFT",
+        "SNPS",
+        "NOW",
+        "CRM",
+        "META"
+      ],
+      "losers": [
+        "CRWV",
+        "SMCI",
+        "INFY",
+        "AI"
+      ],
+      "hiddenPriority": [
+        "NOW",
+        "CRM",
+        "SNPS",
+        "AVGO",
+        "TEL",
+        "WDAY",
+        "MDB",
+        "PATH"
+      ],
+      "watch": [
+        "Revenue per AI workload improves after compute costs; token volume alone is insufficient.",
+        "Paid renewals, net retention and outcome-based revenue outweigh lost software seats.",
+        "Custom accelerators gain useful workloads while data/security spending remains durable."
+      ],
+      "invalidate": "If efficiency makes AI radically cheaper but customers still will not pay, this shifts toward the reset case. If usage growth overwhelms efficiency, it shifts toward the supercycle.",
+      "risk": "An incumbent’s customer base is an advantage only if its product remains necessary. Agents can expand software usage and simultaneously undermine per-seat pricing."
+    },
+    {
+      "id": "reset",
+      "name": "ROI reset & deployment delays",
+      "short": "Reset",
+      "number": "03",
+      "tagline": "Demand exists, but returns and financing disappoint.",
+      "color": "#a45b30",
+      "summary": "Power delays, rising depreciation and weak customer economics trigger a multi-year spending pause. Existing AI keeps running, but speculative projects are deferred. Cash-generating incumbents and essential security or maintenance fare relatively better than capacity owners and highly cyclical suppliers.",
+      "assumptions": [
+        [
+          "AI infrastructure spending",
+          "Illustrative trough: 0.75× 2026; recovery to 0.7–1.1× by 2030."
+        ],
+        [
+          "Demand and returns",
+          "Some workloads grow, but revenue and utilisation disappoint prior plans."
+        ],
+        [
+          "Financing",
+          "Debt is harder to refinance; dilution and project cancellations become more likely."
+        ],
+        [
+          "Bottlenecks",
+          "Power delays reduce utilisation; only contracted, economic projects proceed."
+        ]
+      ],
+      "path": [
+        100,
+        80,
+        75,
+        83,
+        95
+      ],
+      "timing": [
+        [
+          "2026–27",
+          "Projects slip, working capital rises, and funding costs expose weaker operators."
+        ],
+        [
+          "2028–29",
+          "Orders reset and hardware prices soften; buyers consolidate vendors around proven use cases."
+        ],
+        [
+          "2030",
+          "Survivors gain share as spending stabilises. A recovery need not restore prior peak margins."
+        ]
+      ],
+      "winners": [
+        "MSFT",
+        "IBM",
+        "PANW",
+        "CRWD",
+        "HUBB",
+        "TT"
+      ],
+      "losers": [
+        "CRWV",
+        "NBIS",
+        "ORCL",
+        "SMCI",
+        "MU",
+        "LITE"
+      ],
+      "hiddenPriority": [
+        "MSFT",
+        "CRM",
+        "WDAY"
+      ],
+      "watch": [
+        "GPU rental prices and utilisation fall together; backlog is renegotiated rather than converted to cash.",
+        "Interest, depreciation and capex outgrow operating cash generation.",
+        "Grid delays and cancellations spread beyond isolated projects."
+      ],
+      "invalidate": "Sustained cash returns on new AI capacity, easing power delays and improving financing would undermine the reset. A brief capex pause alone is not enough.",
+      "risk": "“Winner” here means relatively resilient business positioning. It does not mean rising revenue, a safe share price, or immunity to recession."
+    }
+  ],
+  "profiles": {
+    "MSFT": {
+      "scores": [
+        2,
+        3,
+        2
+      ],
+      "mechanism": "Azure, enterprise distribution and paid copilots link compute to existing customers.",
+      "risk": "Capex and depreciation can outrun incremental AI cash profit; third-party model economics can shift.",
+      "watch": "Azure gross margin, paid Copilot renewals and FCF after infrastructure spending.",
+      "sources": [
+        "msft"
+      ],
+      "scenarioNotes": [
+        "Cloud capacity and enterprise monetisation create a broad beneficiary, with cash returns dependent on exceptionally large investment.",
+        "Cheaper models plus distribution can expand adoption and improve economics. The case needs revenue growth that survives price competition.",
+        "Existing profitable businesses offer relative resilience versus debt-dependent new capacity providers. Depreciation and capex commitments are still real headwinds."
+      ],
+      "evidenceLevel": "Linked issuer context"
+    },
+    "AMZN": {
+      "scores": [
+        2,
+        3,
+        1
+      ],
+      "mechanism": "AWS, custom chips and existing customers support inference adoption.",
+      "risk": "Retail dilutes pure AI exposure; cash spending and cloud price competition can absorb gains.",
+      "watch": "AWS operating margin, custom-chip adoption and capex-to-OCF conversion.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "GOOGL": {
+      "scores": [
+        2,
+        3,
+        1
+      ],
+      "mechanism": "Cloud, TPUs and consumer distribution can lower the cost of AI delivery.",
+      "risk": "AI answers can change search-ad economics; investment gains can flatter net income.",
+      "watch": "Search monetisation, Cloud operating profit and cash investment returns.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "META": {
+      "scores": [
+        2,
+        3,
+        1
+      ],
+      "mechanism": "Recommendation and advertising can monetise AI through an existing auction system.",
+      "risk": "Frontier-model spending can outgrow advertising gains and introduce depreciation pressure.",
+      "watch": "Ad conversion, revenue per impression and infrastructure cash returns.",
+      "sources": [],
+      "scenarioNotes": [
+        "Better ad targeting can monetise AI immediately through its existing platform. The constraint is whether incremental ad cash exceeds frontier-model and infrastructure spending.",
+        "Lower inference costs improve the economics of recommendations, ads and user tools. Distribution is valuable if engagement and advertiser returns improve without equally large cost increases.",
+        "A strong core ad business can absorb some investment retrenchment. Advertising remains cyclical, and long-lived infrastructure commitments may outlast weaker demand."
+      ],
+      "evidenceLevel": "Business-model inference"
+    },
+    "ORCL": {
+      "scores": [
+        2,
+        1,
+        -3
+      ],
+      "mechanism": "Cloud capacity and enterprise data create a route to AI infrastructure revenue.",
+      "risk": "Large capacity commitments and negative FCF expose financing and execution risk.",
+      "watch": "Backlog conversion, financing terms and cash flow after capex and leases.",
+      "sources": [],
+      "scenarioNotes": [
+        "Enterprise data relationships and contracted cloud demand offer large growth potential. Funding and delivering capacity on economic terms determine whether that demand creates shareholder value.",
+        "Existing databases and customer relationships support inference, but lower capacity pricing can offset volume growth. This is a mixed case, not an automatic software winner.",
+        "Heavy infrastructure obligations and cash investment become harder to support as utilisation and customer returns disappoint. Backlog does not eliminate financing or counterparty risk."
+      ],
+      "evidenceLevel": "Business-model inference"
+    },
+    "CRWV": {
+      "scores": [
+        3,
+        -2,
+        -3
+      ],
+      "mechanism": "Specialist GPU capacity is highly exposed to sustained compute scarcity.",
+      "risk": "Lower rental prices, customer concentration and financing costs can impair equity economics.",
+      "watch": "Utilisation, realised GPU pricing, interest expense and contract cash collection.",
+      "sources": [
+        "crwv"
+      ],
+      "scenarioNotes": [
+        "High capacity demand could support rapid growth, but the equity case depends on contract quality, financing costs and cash conversion.",
+        "Cheaper compute and more provider choice risk compressing rental returns while fixed obligations remain.",
+        "A utilisation and funding shock creates a particularly adverse combination. A large backlog cannot be treated as unrestricted cash."
+      ],
+      "evidenceLevel": "Linked issuer context"
+    },
+    "NBIS": {
+      "scores": [
+        3,
+        -1,
+        -3
+      ],
+      "mechanism": "New AI cloud capacity can scale rapidly if demand and power access hold.",
+      "risk": "Expansion requires large cash outlays; share dilution and deployment delays matter.",
+      "watch": "Energised capacity, customer cash receipts, capex and financing commitments.",
+      "sources": [
+        "nbis"
+      ],
+      "scenarioNotes": [
+        "Rapid capacity deployment can turn contracted demand into revenue. Energised sites, cash collections and financing terms matter more than the size of announced commitments.",
+        "Cloud customers gain more supply choices and lower compute prices. Growth may remain high while returns on new capacity become less attractive.",
+        "New capacity requires funding before generating cash. Delays and lower utilisation can combine with dilution or refinancing pressure, creating a severe headwind."
+      ],
+      "evidenceLevel": "Linked issuer context"
+    },
+    "AAPL": {
+      "scores": [
+        0,
+        2,
+        2
+      ],
+      "mechanism": "On-device AI and the installed device base offer an efficiency-led channel.",
+      "risk": "Useful AI features may not produce a meaningful replacement cycle or pricing premium.",
+      "watch": "Device upgrades attributable to paid AI value, service retention and margins.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "BABA": {
+      "scores": [
+        2,
+        2,
+        0
+      ],
+      "mechanism": "Cloud and Qwen support domestic AI adoption alongside a large commerce business.",
+      "risk": "AI investment and commerce competition consume cash; regulation and chip access can constrain growth.",
+      "watch": "Cloud profit conversion, actual capex and recurring FCF.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "BIDU": {
+      "scores": [
+        -1,
+        1,
+        -1
+      ],
+      "mechanism": "AI cloud and applications could offset pressure on legacy search advertising.",
+      "risk": "AI growth may fail to replace declining advertising economics and cash investment.",
+      "watch": "Total group revenue, advertising decline and AI-cloud cash returns.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "IBM": {
+      "scores": [
+        1,
+        2,
+        2
+      ],
+      "mechanism": "Hybrid cloud, enterprise software and implementation connect AI to regulated workloads.",
+      "risk": "Consulting demand can slow and AI may reduce billable work faster than new services grow.",
+      "watch": "Software growth, consulting bookings and sustained cash conversion.",
+      "sources": [],
+      "scenarioNotes": [
+        "Hybrid infrastructure and implementation capture some spending, but do not have the same direct scarcity exposure as accelerators or electrical equipment.",
+        "Regulated enterprises need integration, governance and deployment across existing systems. Software adoption must outweigh automation pressure on consulting effort.",
+        "Customers retain essential enterprise systems and may buy efficiency projects. Consulting can still slow; this is a relative cash-generation thesis rather than immunity from cuts."
+      ],
+      "evidenceLevel": "Business-model inference"
+    },
+    "DOCN": {
+      "scores": [
+        2,
+        2,
+        -1
+      ],
+      "mechanism": "Developer distribution can bring AI infrastructure to smaller customers.",
+      "risk": "Smaller customers are price-sensitive; GPU investment can erode capital-light economics.",
+      "watch": "Customer retention, GPU contribution margin and cash return on expansion.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "NVDA": {
+      "scores": [
+        3,
+        1,
+        -2
+      ],
+      "mechanism": "Accelerators, software and networking capture a large share of infrastructure demand.",
+      "risk": "Custom silicon, export constraints, customer financing and supply commitments challenge margins.",
+      "watch": "Data-centre growth, gross margin, supply commitments and customer utilisation.",
+      "sources": [
+        "nvda",
+        "nvda-risk"
+      ],
+      "scenarioNotes": [
+        "Training and inference growth keep accelerator clusters and their networking in demand. Software and system integration can sustain pricing power, but this assumes customers earn enough to fund the next generation.",
+        "Usage can rise while spending per task falls. Custom chips take repeatable workloads; the software ecosystem keeps NVIDIA relevant, but it is a less direct beneficiary of commoditisation.",
+        "A pause in new clusters reduces orders while supply commitments and product transitions remain. Installed usage can keep growing even as new hardware margins and stock expectations fall."
+      ],
+      "evidenceLevel": "Linked issuer context"
+    },
+    "AMD": {
+      "scores": [
+        2,
+        2,
+        -2
+      ],
+      "mechanism": "Alternative GPUs and server CPUs benefit from customers diversifying compute suppliers.",
+      "risk": "Software adoption and execution may limit share gains; hyperscalers can choose custom chips.",
+      "watch": "Production deployments, accelerator margins and repeat customer orders.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "AVGO": {
+      "scores": [
+        3,
+        3,
+        -1
+      ],
+      "mechanism": "Custom accelerators and Ethernet silicon can benefit from both scale and lower-cost inference.",
+      "risk": "A small set of customers can shift designs, bargaining power or schedules.",
+      "watch": "AI semiconductor sales, design wins and FCF alongside customer concentration.",
+      "sources": [
+        "avgo"
+      ],
+      "scenarioNotes": [
+        "Custom accelerators and networking participate directly in expanding hyperscaler capacity. Positive FCF and a lagging one-year share return justify further research.",
+        "More specialised inference favours cost-efficient custom silicon. This is a stronger strategic fit than assuming all compute remains on merchant GPUs.",
+        "Large customers may delay projects, and networking growth can slow. Software cash flow is a cushion; it does not make semiconductor demand defensive."
+      ],
+      "evidenceLevel": "Linked issuer context"
+    },
+    "INTC": {
+      "scores": [
+        -1,
+        1,
+        -2
+      ],
+      "mechanism": "CPUs and foundry optionality provide exposure beyond leading AI accelerators.",
+      "risk": "Manufacturing investment and process execution can consume the benefit of demand.",
+      "watch": "Foundry economics, external production wins and sustainable FCF excluding subsidies.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "MU": {
+      "scores": [
+        3,
+        1,
+        -3
+      ],
+      "mechanism": "HBM and DRAM demand rise with accelerated compute and memory-intensive inference.",
+      "risk": "Memory pricing and returns can collapse when new supply catches demand.",
+      "watch": "HBM mix, capacity additions, inventory and cash return across the cycle.",
+      "sources": [],
+      "scenarioNotes": [
+        "HBM and DRAM demand support favourable mix and pricing while supply is constrained. The risk arrives when capacity additions exceed sustainable demand.",
+        "Memory remains necessary for inference, but efficiency and new supply can moderate pricing. Higher bit demand alone is insufficient for durable profit growth.",
+        "Lower utilisation and excess supply can produce a sharp memory-price correction. High fixed costs make earnings especially sensitive to the investment cycle."
+      ],
+      "evidenceLevel": "Business-model inference"
+    },
+    "ARM": {
+      "scores": [
+        2,
+        3,
+        0
+      ],
+      "mechanism": "Efficient CPU designs and royalty exposure benefit from inference and custom systems.",
+      "risk": "Higher chip volumes do not guarantee better royalty capture; licensing competition remains.",
+      "watch": "Royalty revenue, data-centre adoption and economics per shipped design.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "TSM": {
+      "scores": [
+        3,
+        3,
+        -1
+      ],
+      "mechanism": "Advanced foundry and packaging serve multiple competing AI chip architectures.",
+      "risk": "Taiwan concentration, overseas fab costs and heavy investment create non-demand risks.",
+      "watch": "Leading-node and packaging utilisation, margins and capital intensity.",
+      "sources": [
+        "tsm"
+      ],
+      "scenarioNotes": [
+        "Leading-edge fabrication and advanced packaging earn revenue regardless of which major designer wins. The bottleneck is profitable capacity conversion, not simply more announced fab investment.",
+        "More custom designs widen the customer opportunity and efficient chips still need sophisticated manufacturing. Architecture diversity helps; lower selling prices and overseas fab costs can offset volumes.",
+        "Customer inventory corrections reduce utilisation and operating leverage. Its strategic position can survive while earnings and cash returns weaken during the pause."
+      ],
+      "evidenceLevel": "Linked issuer context"
+    },
+    "UMC": {
+      "scores": [
+        1,
+        1,
+        -1
+      ],
+      "mechanism": "Mature-node and specialty chips support the broader infrastructure electronics bill of materials.",
+      "risk": "AI exposure is indirect and mature-node overcapacity can dominate the outcome.",
+      "watch": "Factory utilisation, specialty-node pricing and AI-related design wins.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "GFS": {
+      "scores": [
+        1,
+        2,
+        -1
+      ],
+      "mechanism": "Specialty process technologies can support connectivity, power and edge AI.",
+      "risk": "Non-AI end markets and fab utilisation can outweigh incremental AI demand.",
+      "watch": "Specialty demand, utilisation and FCF before grant support.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "STM": {
+      "scores": [
+        1,
+        2,
+        -1
+      ],
+      "mechanism": "Power electronics and embedded chips benefit as intelligence spreads beyond data centres.",
+      "risk": "Industrial and automotive cycles may dominate; competition can lower prices.",
+      "watch": "Power-device design wins, inventory normalisation and factory cash returns.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "TXN": {
+      "scores": [
+        1,
+        2,
+        0
+      ],
+      "mechanism": "Analog and power-management chips provide broad exposure to more electrified computing.",
+      "risk": "Large factory investment and non-AI demand cycles can keep FCF uneven.",
+      "watch": "Factory utilisation, revenue per end market and capex normalisation.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "005930.KS": {
+      "scores": [
+        2,
+        1,
+        -2
+      ],
+      "mechanism": "Memory and manufacturing give exposure to HBM, DRAM and advanced compute.",
+      "risk": "Qualification, yields and the memory cycle can overwhelm demand growth.",
+      "watch": "HBM yields, customer qualifications and recurring operating cash flow.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "000660.KS": {
+      "scores": [
+        3,
+        1,
+        -3
+      ],
+      "mechanism": "HBM is a direct input to high-performance AI systems.",
+      "risk": "Rapid capacity additions and price normalisation can reverse scarcity returns.",
+      "watch": "HBM pricing, yields, capital spending and non-operating earnings effects.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "ASML": {
+      "scores": [
+        3,
+        2,
+        -1
+      ],
+      "mechanism": "Lithography enables advanced chips regardless of which designer gains share.",
+      "risk": "Export restrictions and delayed fab investment can defer equipment revenue.",
+      "watch": "Leading-edge customer capex, orders, installed-base services and restrictions.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "AMAT": {
+      "scores": [
+        3,
+        2,
+        -2
+      ],
+      "mechanism": "Materials engineering and packaging complexity increase equipment requirements.",
+      "risk": "Memory and foundry capex are cyclical and export restrictions reduce addressable demand.",
+      "watch": "Customer capex, packaging orders and service revenue resilience.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "LRCX": {
+      "scores": [
+        3,
+        2,
+        -2
+      ],
+      "mechanism": "Etch and deposition support increasingly complex logic and memory manufacturing.",
+      "risk": "High exposure to equipment investment means order cuts can be abrupt.",
+      "watch": "Memory investment, process intensity and service versus equipment mix.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "KLAC": {
+      "scores": [
+        3,
+        2,
+        -1
+      ],
+      "mechanism": "Inspection and process control become more valuable as manufacturing complexity rises.",
+      "risk": "Fab spending delays still affect equipment orders despite critical technology.",
+      "watch": "Inspection intensity per wafer, service revenue and customer investment.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "TER": {
+      "scores": [
+        2,
+        2,
+        -2
+      ],
+      "mechanism": "More complex processors and packaging increase semiconductor testing requirements.",
+      "risk": "Test demand is cyclical and non-AI segments can dilute the benefit.",
+      "watch": "AI-related test orders, utilisation and concentration among large buyers.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "ONTO": {
+      "scores": [
+        3,
+        2,
+        -2
+      ],
+      "mechanism": "Metrology and packaging inspection support complex AI chips.",
+      "risk": "Customer concentration and packaging investment timing can make growth uneven.",
+      "watch": "Advanced-packaging orders, customer diversification and cash conversion.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "CAMT": {
+      "scores": [
+        3,
+        2,
+        -2
+      ],
+      "mechanism": "Inspection tools help improve advanced-packaging yields.",
+      "risk": "An equipment pause and a small customer base can magnify order volatility.",
+      "watch": "Packaging inspection demand, repeat orders and fresh interim cash data.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "ACLS": {
+      "scores": [
+        0,
+        1,
+        -2
+      ],
+      "mechanism": "Ion implantation has indirect exposure to semiconductor and power-electronics expansion.",
+      "risk": "A broad semiconductor recovery is more important than AI demand alone.",
+      "watch": "Power-device investment and actual AI-linked production orders.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "SNPS": {
+      "scores": [
+        2,
+        3,
+        1
+      ],
+      "mechanism": "EDA, IP and simulation serve competing custom-chip and system designs.",
+      "risk": "Acquisitions inflate reported growth; integration, debt and export limits can impair returns.",
+      "watch": "Organic EDA growth, Ansys integration and cash conversion after acquisition costs.",
+      "sources": [
+        "snps"
+      ],
+      "scenarioNotes": [
+        "More chip programmes and complex systems support EDA and simulation demand across suppliers. Separate organic growth from the Ansys acquisition.",
+        "Custom silicon proliferating across clouds and devices increases the number of designs. Selling design tools avoids choosing a single winning chip architecture.",
+        "Design R&D may prove stickier than factory equipment spending, but budgets and integration costs still matter. Relative resilience is only moderate."
+      ],
+      "evidenceLevel": "Linked issuer context"
+    },
+    "CDNS": {
+      "scores": [
+        2,
+        3,
+        1
+      ],
+      "mechanism": "Design and simulation tools benefit from more customised, complex AI systems.",
+      "risk": "Customer R&D budgets, competition and regulatory limits still affect licence demand.",
+      "watch": "Recurring design-tool revenue, bookings and current cash generation.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "ANET": {
+      "scores": [
+        3,
+        2,
+        -1
+      ],
+      "mechanism": "Ethernet fabrics and switching scale with accelerated-compute clusters.",
+      "risk": "Large cloud customers and alternative interconnect architectures concentrate risk.",
+      "watch": "AI Ethernet shipments, customer mix and sustainable margins.",
+      "sources": [],
+      "scenarioNotes": [
+        "Larger clusters need high-speed switching and fabrics. Winning the relevant Ethernet deployments matters more than total AI traffic alone.",
+        "Lower-cost, distributed inference can expand networking needs and favour interoperable infrastructure. Competition and customer bargaining determine how much value reaches margins.",
+        "Cloud customers can extend replacement cycles and defer cluster orders. Existing network traffic does not guarantee continued hardware purchases at peak growth rates."
+      ],
+      "evidenceLevel": "Business-model inference"
+    },
+    "CSCO": {
+      "scores": [
+        1,
+        2,
+        1
+      ],
+      "mechanism": "Enterprise networks, security and silicon benefit from distributed AI adoption.",
+      "risk": "Legacy equipment replacement and competition can dilute AI-linked growth.",
+      "watch": "AI-related bookings converted to revenue and recurring security profitability.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "DELL": {
+      "scores": [
+        2,
+        1,
+        -2
+      ],
+      "mechanism": "AI servers create volume and enterprise deployment opportunities.",
+      "risk": "High revenue pass-through does not guarantee strong margins or cash generation.",
+      "watch": "AI-server gross profit, working capital and services attachment.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "HPE": {
+      "scores": [
+        2,
+        2,
+        -1
+      ],
+      "mechanism": "Hybrid infrastructure and networking connect enterprise AI workloads.",
+      "risk": "Integration costs, thin hardware margins and large deals can delay cash returns.",
+      "watch": "Networking profitability, backlog quality and operating cash conversion.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "SMCI": {
+      "scores": [
+        2,
+        -2,
+        -3
+      ],
+      "mechanism": "GPU racks and liquid-cooled systems benefit from high deployment volume.",
+      "risk": "Thin margins, inventory funding and customer concentration can undermine equity returns.",
+      "watch": "Cash conversion, inventory ageing, margin stability and filing quality.",
+      "sources": [],
+      "scenarioNotes": [
+        "Fast deployment of AI servers can support volumes, but assembly competition and working capital limit how much of the capex boom becomes free cash flow.",
+        "More efficient workloads can need fewer high-end systems per unit of useful output. Buyers can bargain harder as hardware becomes more interchangeable.",
+        "Deferred orders and falling component prices expose inventory and working-capital risk. A server integrator can lose cash even if end-user AI consumption keeps rising."
+      ],
+      "evidenceLevel": "Business-model inference"
+    },
+    "MRVL": {
+      "scores": [
+        3,
+        3,
+        -2
+      ],
+      "mechanism": "Custom silicon and optical interconnects are essential to dense AI systems.",
+      "risk": "Design wins can take years to ramp and large customers can shift suppliers.",
+      "watch": "Production ramps, customer diversification and margins after development costs.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "COHR": {
+      "scores": [
+        3,
+        2,
+        -2
+      ],
+      "mechanism": "Photonics and transceivers support higher bandwidth between AI systems.",
+      "risk": "Capital spending, yield execution and pricing competition can constrain FCF.",
+      "watch": "Optical demand, production yields and positive cash conversion.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "LITE": {
+      "scores": [
+        3,
+        2,
+        -3
+      ],
+      "mechanism": "Optical components benefit from higher AI network bandwidth.",
+      "risk": "Capacity commitments and volatile accounting earnings add risk to an order downturn.",
+      "watch": "Cloud optical volumes, recurring operating profit and capacity cash returns.",
+      "sources": [],
+      "scenarioNotes": [
+        "More high-speed optical links create a direct demand channel. Product mix and cash conversion determine whether higher shipments overcome reported earnings weakness.",
+        "Network traffic still grows, but competition and architecture changes can limit pricing. Design wins matter more than extrapolating industry bandwidth growth.",
+        "Delayed optical deployments and customer concentration amplify a capex slowdown. Orders, inventory and financing need scrutiny alongside large reported net losses."
+      ],
+      "evidenceLevel": "Business-model inference"
+    },
+    "CIEN": {
+      "scores": [
+        2,
+        2,
+        -1
+      ],
+      "mechanism": "Data-centre interconnects benefit as AI workloads spread across locations.",
+      "risk": "Telecom spending and customer concentration can offset cloud demand.",
+      "watch": "Cloud interconnect orders, carrier demand and margins.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "FN": {
+      "scores": [
+        3,
+        2,
+        -1
+      ],
+      "mechanism": "Precision optical manufacturing benefits from transceiver demand across customers.",
+      "risk": "Customer concentration, capex and working capital can leave little FCF.",
+      "watch": "Optical production growth and cash conversion after new capacity investment.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "JBL": {
+      "scores": [
+        2,
+        2,
+        0
+      ],
+      "mechanism": "Manufacturing and engineering provide exposure to data-centre hardware buildout.",
+      "risk": "Customer concentration and thin margins limit revenue-to-profit conversion.",
+      "watch": "Data-centre mix, operating margin and cash after working capital.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "FLEX": {
+      "scores": [
+        2,
+        2,
+        0
+      ],
+      "mechanism": "Power and hardware manufacturing support broader AI infrastructure deployment.",
+      "risk": "Pricing pressure and other industrial markets can dilute AI-related earnings.",
+      "watch": "Data-centre power revenue, margin and return on incremental capital.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "CLS": {
+      "scores": [
+        3,
+        2,
+        -1
+      ],
+      "mechanism": "Hyperscaler hardware and networking manufacturing benefit from cluster expansion.",
+      "risk": "Concentrated customers and hardware margins leave sensitivity to order shifts.",
+      "watch": "Cloud hardware orders, customer diversification and cash conversion.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "2317.TW": {
+      "scores": [
+        2,
+        2,
+        -1
+      ],
+      "mechanism": "AI server assembly adds demand to a very large electronics manufacturing base.",
+      "risk": "Low margins, customer concentration and non-AI demand reduce pure AI sensitivity.",
+      "watch": "AI server profit contribution and current operating cash flow.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "2382.TW": {
+      "scores": [
+        3,
+        2,
+        -1
+      ],
+      "mechanism": "Cloud and AI server assembly offer direct buildout exposure.",
+      "risk": "Assembly revenue can grow faster than profit; primary cash-flow evidence is incomplete.",
+      "watch": "AI server margins and verified issuer cash-flow statements.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "VRT": {
+      "scores": [
+        3,
+        2,
+        -1
+      ],
+      "mechanism": "Power delivery and liquid cooling are required as rack density rises.",
+      "risk": "Deferred data centres, competition and working capital can interrupt backlog conversion.",
+      "watch": "Orders, liquid-cooling mix, shipment conversion and cash generation.",
+      "sources": [
+        "vrt"
+      ],
+      "scenarioNotes": [
+        "Rising rack density increases the need for power conditioning and heat removal. The strongest case is installed equipment and service cash, with backlog converting on schedule.",
+        "Inference expands into a wider footprint, supporting cooling and electrical upgrades. Efficiency reduces equipment spend per task, making mix and installed-base service more important.",
+        "New-site delays hit equipment deliveries and working capital. Maintenance of live facilities provides a cushion, but does not replace a large decline in new capacity orders."
+      ],
+      "evidenceLevel": "Linked issuer context"
+    },
+    "ETN": {
+      "scores": [
+        3,
+        2,
+        1
+      ],
+      "mechanism": "Switchgear, UPS and electrical distribution address physical deployment constraints.",
+      "risk": "Capacity additions and execution delays can eventually erode scarcity pricing.",
+      "watch": "Electrical backlog conversion, incremental margin and cash returns.",
+      "sources": [
+        "etn"
+      ],
+      "scenarioNotes": [
+        "Electrical distribution and protection sit on the critical path between a funded data centre and an operating one. Scarce qualified equipment can support pricing until capacity catches up.",
+        "Distributed workloads and electrification retain a need for electrical equipment. A wider customer base can offset less extreme AI spending, provided order margins hold.",
+        "Utility replacement and general electrification offer demand beyond AI. Project delays and weaker scarcity pricing still limit growth, so only a modest advantage is assigned."
+      ],
+      "evidenceLevel": "Linked issuer context"
+    },
+    "GEV": {
+      "scores": [
+        3,
+        2,
+        1
+      ],
+      "mechanism": "Generation and grid equipment help relieve power constraints.",
+      "risk": "Long project cycles, execution costs and warranty liabilities can weaken cash returns.",
+      "watch": "Electrification orders, turbine deliveries and service margins.",
+      "sources": [
+        "gev"
+      ],
+      "scenarioNotes": [
+        "Grid and generation equipment address the power constraint that prevents compute assets from earning revenue. Long lead times create opportunity but also execution and cost risk.",
+        "Moderating power intensity reduces the most aggressive demand forecasts. Grid upgrades and non-AI generation needs can still support orders and services.",
+        "Large projects face financing and scheduling pressure. Equipment services and grid replacement are cushions; new generation orders can reset well before installations peak."
+      ],
+      "evidenceLevel": "Linked issuer context"
+    },
+    "PWR": {
+      "scores": [
+        3,
+        2,
+        1
+      ],
+      "mechanism": "Transmission and grid construction connect growing compute loads.",
+      "risk": "Permitting, skilled-labour shortages and fixed-price execution can delay profit.",
+      "watch": "Contracted grid backlog, project conversion and cash collection.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "HUBB": {
+      "scores": [
+        2,
+        2,
+        2
+      ],
+      "mechanism": "Grid components benefit from upgrades also needed outside AI.",
+      "risk": "Utility budgets and component pricing may soften; NSI integration and acquisition financing add risk.",
+      "watch": "Utility orders, backlog conversion, NSI integration and debt reduction.",
+      "sources": [],
+      "scenarioNotes": [
+        "Grid hardware and electrical components connect new load to the network. Organic demand and acquisition integration both determine the cash benefit.",
+        "A broader footprint of inference still requires grid upgrades. Component demand also comes from non-AI replacement and electrification.",
+        "Maintenance and replacement spending can be more durable than speculative data-centre starts. Utility budgets and acquisition debt remain important limits to the defensive case."
+      ],
+      "evidenceLevel": "Business-model inference"
+    },
+    "NVT": {
+      "scores": [
+        3,
+        2,
+        1
+      ],
+      "mechanism": "Enclosures, connections and electrical infrastructure support dense data centres.",
+      "risk": "Acquisitions and working-capital needs can exaggerate apparent organic momentum.",
+      "watch": "Organic sales, data-centre mix and acquisition-adjusted cash conversion.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "APH": {
+      "scores": [
+        3,
+        3,
+        1
+      ],
+      "mechanism": "High-speed and power connectors gain content as systems become more complex.",
+      "risk": "Acquisitions and customer bargaining power complicate organic growth comparisons.",
+      "watch": "Organic IT-datacom growth, content per system and margins.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "SU.PA": {
+      "scores": [
+        3,
+        3,
+        2
+      ],
+      "mechanism": "Power management and automation support efficient data-centre operation.",
+      "risk": "Capacity execution and a broad industrial portfolio can dilute AI demand benefits.",
+      "watch": "Data-centre orders, software/service contribution and cash conversion.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "SIE.DE": {
+      "scores": [
+        2,
+        3,
+        2
+      ],
+      "mechanism": "Electrification, automation and industrial software connect AI to the physical economy.",
+      "risk": "Long industrial cycles and a diversified portfolio limit direct AI sensitivity.",
+      "watch": "Electrification orders, digital-software adoption and recurring cash.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "ABBN.SW": {
+      "scores": [
+        3,
+        3,
+        2
+      ],
+      "mechanism": "Electrical distribution and automation address power delivery and efficiency.",
+      "risk": "Competition and industrial cyclicality can offset data-centre growth.",
+      "watch": "Electrification orders, margin durability and operating cash returns.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "2308.TW": {
+      "scores": [
+        3,
+        3,
+        1
+      ],
+      "mechanism": "Power conversion and cooling gain importance as rack power density rises.",
+      "risk": "Customer concentration, pricing and production expansion affect cash conversion.",
+      "watch": "AI-related power/cooling mix, efficiency gains and factory investment.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "CEG": {
+      "scores": [
+        3,
+        1,
+        0
+      ],
+      "mechanism": "Existing firm generation can secure long-term contracts with data-centre customers.",
+      "risk": "Outages, regulation, integration and investment needs can absorb contract upside.",
+      "watch": "Signed contract economics, generation availability and FCF after growth capex.",
+      "sources": [
+        "ceg"
+      ],
+      "scenarioNotes": [
+        "Operating generation and signed power contracts offer near-term relevance. Restart and integration costs must be assessed against actual cash returns.",
+        "Efficiency moderates the most aggressive power-demand expectations. Firm power is useful, but this is a smaller relative beneficiary.",
+        "Existing contracts may protect some cash flows while weaker pricing and funding costs weigh on new projects. Earnings resilience is contract-specific."
+      ],
+      "evidenceLevel": "Linked issuer context"
+    },
+    "VST": {
+      "scores": [
+        3,
+        1,
+        0
+      ],
+      "mechanism": "Existing generation and long-term power agreements capture rising electricity demand.",
+      "risk": "Hedging, commodity prices and outages may offset gains; some uprates are beyond 2030.",
+      "watch": "Contract delivery, hedges, maintenance costs and realised cash accretion.",
+      "sources": [
+        "vst"
+      ],
+      "scenarioNotes": [
+        "Firm generation has value when power limits new compute capacity. Existing signed contracts support the thesis more than speculative nuclear projects.",
+        "Lower energy per task may restrain power scarcity rents. Demand still exists, but the business loses some relative advantage versus software and custom chips.",
+        "Lower expected load and commodity prices can reduce upside; contracts and hedging may cushion it. Do not assume every megawatt is repriced immediately."
+      ],
+      "evidenceLevel": "Linked issuer context"
+    },
+    "NEE": {
+      "scores": [
+        2,
+        2,
+        1
+      ],
+      "mechanism": "Utility and renewable capacity support new electricity loads.",
+      "risk": "Rate regulation, financing and interconnection delays can limit shareholder returns.",
+      "watch": "Approved rate base, contracted projects and funding needs.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "TLN": {
+      "scores": [
+        3,
+        0,
+        -2
+      ],
+      "mechanism": "Generation near large load centres can benefit from scarce power availability.",
+      "risk": "Concentrated assets, regulation and commodity exposure increase downside sensitivity.",
+      "watch": "Contract economics, outage exposure and recurring cash after maintenance.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "ETR": {
+      "scores": [
+        2,
+        1,
+        0
+      ],
+      "mechanism": "New industrial and data-centre load supports regulated grid investment.",
+      "risk": "Customer concentration and cost allocation can leave utilities with stranded investment.",
+      "watch": "Binding customer commitments, regulatory recovery and financing requirements.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "BE": {
+      "scores": [
+        3,
+        1,
+        -2
+      ],
+      "mechanism": "On-site generation can address long grid-connection delays.",
+      "risk": "Project financing, equipment economics and customer credit can overwhelm order growth.",
+      "watch": "Firm deliveries, service economics and sustained FCF without unusual advances.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "TT": {
+      "scores": [
+        2,
+        2,
+        2
+      ],
+      "mechanism": "Efficient cooling and a broad installed base support equipment and service demand.",
+      "risk": "Data-centre exposure is only part of the business; construction cycles remain relevant.",
+      "watch": "Cooling orders, service revenue and cash conversion.",
+      "sources": [],
+      "scenarioNotes": [
+        "More cooling demand expands the opportunity, but broader commercial HVAC limits its sensitivity to an AI-only supercycle.",
+        "Efficient cooling and a wider installed base support equipment and services. Value depends on energy savings that customers will actually pay for.",
+        "Service and replacement needs on operating buildings remain. New construction and large projects can weaken; resilience comes from the installed base, not immunity to recession."
+      ],
+      "evidenceLevel": "Business-model inference"
+    },
+    "CARR": {
+      "scores": [
+        2,
+        2,
+        1
+      ],
+      "mechanism": "Chillers and commercial cooling gain from higher data-centre heat loads.",
+      "risk": "Portfolio changes and broader HVAC demand can dominate reported growth.",
+      "watch": "Organic commercial cooling growth and updated free cash flow.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "JCI": {
+      "scores": [
+        2,
+        2,
+        1
+      ],
+      "mechanism": "Chillers, controls and building systems improve data-centre efficiency.",
+      "risk": "Execution and portfolio changes can complicate margins and cash comparisons.",
+      "watch": "Data-centre order conversion and comparable continuing-operation cash flow.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "MOD": {
+      "scores": [
+        3,
+        2,
+        -1
+      ],
+      "mechanism": "Specialised thermal systems offer concentrated exposure to higher heat density.",
+      "risk": "Project delays, customer concentration and capacity investment create cyclicality.",
+      "watch": "Data-centre sales, backlog quality and investment-adjusted cash returns.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "EME": {
+      "scores": [
+        3,
+        2,
+        1
+      ],
+      "mechanism": "Electrical and mechanical construction is needed before AI capacity can operate.",
+      "risk": "Labour constraints, cancellations and contract execution can erode margins.",
+      "watch": "Backlog quality, labour productivity and cash collection.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "FIX": {
+      "scores": [
+        3,
+        2,
+        -1
+      ],
+      "mechanism": "Mechanical and electrical contracting benefits from complex facility buildouts.",
+      "risk": "Construction timing, labour and concentrated projects can reverse strong cash conversion.",
+      "watch": "Booked work converting to profitable revenue and working-capital normalisation.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "ACM": {
+      "scores": [
+        1,
+        2,
+        1
+      ],
+      "mechanism": "Infrastructure engineering has indirect exposure to power and facility investment.",
+      "risk": "AI may be small relative to the group; revenue decline can reflect mix and disposals.",
+      "watch": "Organic net-service revenue, actual AI-linked backlog and margins.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "J": {
+      "scores": [
+        2,
+        2,
+        1
+      ],
+      "mechanism": "Engineering links data centres with power, water and complex facilities.",
+      "risk": "Gross revenue and acquisitions can overstate organic momentum; project execution matters.",
+      "watch": "Adjusted net revenue, contracted backlog and operating cash conversion.",
+      "sources": [
+        "j"
+      ],
+      "scenarioNotes": [
+        "Engineering is required before new data centres can operate; power and water complexity increases the value of project expertise.",
+        "Retrofitting and more distributed infrastructure can keep design work relevant even if the biggest new builds slow.",
+        "A broad infrastructure portfolio can help, but exposed projects can still be postponed. It is a moderate relative-resilience thesis."
+      ],
+      "evidenceLevel": "Linked issuer context"
+    },
+    "EQIX": {
+      "scores": [
+        2,
+        2,
+        0
+      ],
+      "mechanism": "Colocation and interconnection benefit from distributed enterprise AI workloads.",
+      "risk": "Power availability, financing and growth capex can absorb earnings; FFO differs from FCF.",
+      "watch": "Leasing, power delivery, development yields and AFFO alongside cash capex.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "DLR": {
+      "scores": [
+        3,
+        1,
+        -1
+      ],
+      "mechanism": "Large-scale data-centre capacity benefits when customers need powered space.",
+      "risk": "Unleased capacity, power delays and funding needs make a pause costly.",
+      "watch": "Preleasing, energised megawatts, development yields and funding terms.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "IRM": {
+      "scores": [
+        2,
+        1,
+        -1
+      ],
+      "mechanism": "Data-centre development supplements a recurring storage business.",
+      "risk": "New capacity consumes cash and debt capacity before it earns mature returns.",
+      "watch": "Data-centre leasing, development spending and cash from the legacy business.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "PLTR": {
+      "scores": [
+        2,
+        3,
+        -1
+      ],
+      "mechanism": "Enterprise deployment tools can turn AI experiments into operating workflows.",
+      "risk": "Strong demand can still disappoint expectations; stock compensation and valuation matter.",
+      "watch": "Recurring deployments, contract economics and dilution-adjusted cash per share.",
+      "sources": [],
+      "scenarioNotes": [
+        "Enterprise deployments benefit, though investment is concentrated upstream.",
+        "Helping organisations deploy AI can be a strong business position. Passing a relative-price screen does not make a widely followed stock cheap.",
+        "Procurement slows and customers scrutinise pricing. A resilient product can still carry high expectations that reset."
+      ],
+      "evidenceLevel": "Business-model inference"
+    },
+    "SNOW": {
+      "scores": [
+        1,
+        3,
+        -1
+      ],
+      "mechanism": "Enterprise data infrastructure supports more AI applications and inference.",
+      "risk": "Compute optimisation and competing data platforms can limit revenue capture.",
+      "watch": "Consumption growth, retention, operating profitability and dilution.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "DDOG": {
+      "scores": [
+        2,
+        3,
+        1
+      ],
+      "mechanism": "More distributed AI systems need monitoring and observability.",
+      "risk": "Customers may optimise usage or consolidate tools; spend can be cyclical.",
+      "watch": "Net retention, AI workload contribution and durable operating margins.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "NOW": {
+      "scores": [
+        1,
+        3,
+        1
+      ],
+      "mechanism": "Workflow ownership creates a route to monetise agents and enterprise automation.",
+      "risk": "Seat reduction and agent-platform competition may outweigh new paid workloads.",
+      "watch": "AI renewals, subscription growth, retention and incremental margin.",
+      "sources": [
+        "now"
+      ],
+      "scenarioNotes": [
+        "Workflow adoption benefits, but much incremental spending first flows to physical infrastructure. Hardware growth does not automatically translate to software pricing power.",
+        "Agent deployment inside existing enterprise workflows is a direct monetisation channel. The test is paid renewal and incremental profit, not demonstrations or user counts.",
+        "Customers may favour existing strategic platforms, but deferred expansions and fewer seats can offset savings-led adoption. Only a modest relative advantage is assigned."
+      ],
+      "evidenceLevel": "Linked issuer context"
+    },
+    "CRM": {
+      "scores": [
+        1,
+        3,
+        2
+      ],
+      "mechanism": "Customer data and distribution allow outcome-based AI sales into existing accounts.",
+      "risk": "Agents can reduce paid seats; activity measures need to translate into cash revenue.",
+      "watch": "Agentforce recurring revenue, retention and revenue per customer.",
+      "sources": [
+        "crm"
+      ],
+      "scenarioNotes": [
+        "Its AI opportunity grows with enterprise adoption, but this scenario disproportionately rewards capacity suppliers.",
+        "Agentforce and customer data can support outcome-based revenue. It qualifies only if new economics exceed the loss of traditional seats.",
+        "Existing customers, cash generation and measurable cost-saving use cases make a relative-resilience case. Revenue can still slow and the share price can still fall."
+      ],
+      "evidenceLevel": "Linked issuer context"
+    },
+    "ADBE": {
+      "scores": [
+        -1,
+        1,
+        1
+      ],
+      "mechanism": "Creative workflows and proprietary tools could monetise generative features.",
+      "risk": "Low-cost generation can substitute for incumbent subscriptions and pressure pricing.",
+      "watch": "Paid AI conversion, recurring revenue per user and creative subscription retention.",
+      "sources": [
+        "adbe"
+      ],
+      "scenarioNotes": [
+        "Infrastructure expansion is not a direct monetisation benefit; new models can pressure the creative-software franchise.",
+        "Cheaper generation creates both new products and substitution. Positive profit and a falling stock are insufficient without evidence of paid retention.",
+        "Cash generation may cushion slower demand, but product substitution can continue even during an investment reset. Not a clean defensive winner."
+      ],
+      "evidenceLevel": "Linked issuer context"
+    },
+    "PANW": {
+      "scores": [
+        2,
+        3,
+        2
+      ],
+      "mechanism": "AI adoption expands security requirements across data, networks and agents.",
+      "risk": "Platform consolidation and competition can change pricing; acquisitions affect comparability.",
+      "watch": "Security renewals, organic platform growth and dilution-adjusted FCF.",
+      "sources": [],
+      "scenarioNotes": [
+        "More infrastructure and connected workloads expand the security surface. Security monetisation depends on paid platform adoption rather than raw compute purchases.",
+        "Cheaper AI widens adoption and attack capability, supporting consolidated security platforms. Customer retention and profitable cross-selling are the key tests.",
+        "Security is harder to defer than speculative capacity when existing systems remain exposed. Vendor consolidation can help leading platforms, although budgets and multiples can contract."
+      ],
+      "evidenceLevel": "Business-model inference"
+    },
+    "CRWD": {
+      "scores": [
+        2,
+        3,
+        2
+      ],
+      "mechanism": "More devices, workloads and automated attacks support security demand.",
+      "risk": "Execution, competition and stock compensation can limit shareholder capture.",
+      "watch": "Customer retention, module adoption and recurring GAAP profitability.",
+      "sources": [],
+      "scenarioNotes": [
+        "Additional cloud workloads and endpoints support demand, although most capex first goes to infrastructure suppliers.",
+        "Agents add identities, workloads and security complexity. A broad security platform can capture recurring spend if execution and retention remain strong.",
+        "Protection of existing operations continues even when new AI projects stop. Stock compensation, competition and execution prevent treating business resilience as guaranteed equity upside."
+      ],
+      "evidenceLevel": "Business-model inference"
+    },
+    "NET": {
+      "scores": [
+        2,
+        3,
+        0
+      ],
+      "mechanism": "Edge infrastructure can distribute low-cost inference and protect AI traffic.",
+      "risk": "Large cloud platforms can commoditise workloads and pressure developer monetisation.",
+      "watch": "Paid inference usage, security revenue and cash after network investment.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "MDB": {
+      "scores": [
+        1,
+        3,
+        0
+      ],
+      "mechanism": "Operational data and application development benefit as AI moves into production.",
+      "risk": "Open-source databases and hyperscaler alternatives can reduce pricing power.",
+      "watch": "Atlas consumption, AI app retention and durable GAAP operating income.",
+      "sources": [],
+      "scenarioNotes": [
+        "AI applications need operational data, but the early spending wave can favour capacity providers before database consumption catches up.",
+        "More applications and retrieval workflows can increase paid database consumption. The advantage depends on retaining developers against hyperscaler and open-source alternatives.",
+        "Consumption can slow quickly when customers optimise workloads. Existing applications provide a base, but the scenario offers only a modest advantage."
+      ],
+      "evidenceLevel": "Business-model inference"
+    },
+    "WDC": {
+      "scores": [
+        2,
+        1,
+        -2
+      ],
+      "mechanism": "Data creation and retention increase demand for economical bulk storage.",
+      "risk": "Storage pricing and inventory cycles can dominate AI-related demand.",
+      "watch": "Cloud storage orders, price per capacity unit and through-cycle cash flow.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "SAP": {
+      "scores": [
+        1,
+        3,
+        2
+      ],
+      "mechanism": "Core enterprise records and workflows provide a distribution point for business AI.",
+      "risk": "Migration execution and seat-pricing pressure can offset new AI monetisation.",
+      "watch": "Cloud backlog, paid business-AI adoption and fresh cash-flow statements.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "NTAP": {
+      "scores": [
+        1,
+        2,
+        1
+      ],
+      "mechanism": "Enterprise storage and data management support private and hybrid AI workloads.",
+      "risk": "Cloud-native alternatives and optimisation can limit incremental storage spend.",
+      "watch": "AI-linked deployments, subscription growth and recurring cash conversion.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "SANM": {
+      "scores": [
+        2,
+        1,
+        -1
+      ],
+      "mechanism": "Hardware manufacturing participates in infrastructure equipment demand.",
+      "risk": "Acquisition effects, low margins and customer concentration can overwhelm growth.",
+      "watch": "Organic infrastructure revenue, working capital and operating margins.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "TEL": {
+      "scores": [
+        2,
+        2,
+        1
+      ],
+      "mechanism": "Power and data connectors gain content as racks and electrical systems become denser.",
+      "risk": "Transport and industrial cycles can dilute AI gains; stock lag may reflect those risks.",
+      "watch": "Data-centre orders, organic industrial growth and content per rack.",
+      "sources": [
+        "tel"
+      ],
+      "scenarioNotes": [
+        "More electrical and high-speed content per system creates a less obvious supplier channel. Its diversified exposure makes the thesis less explosive than a pure AI hardware bet.",
+        "Connectivity remains necessary even when the winning compute architecture changes. Efficiency can increase adoption, but lower spend per system limits the upside.",
+        "Diversification offers a cushion, not immunity. Industrial weakness and delayed orders can outweigh AI content gains."
+      ],
+      "evidenceLevel": "Linked issuer context"
+    },
+    "LFUS": {
+      "scores": [
+        1,
+        2,
+        1
+      ],
+      "mechanism": "Circuit protection and power control benefit from more electrical infrastructure.",
+      "risk": "Non-AI demand and impairments can offset the opportunity; positive H1 earnings coexist with a trailing-year loss.",
+      "watch": "Power-product design wins, organic growth and recurring profit beyond the H1 recovery.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "AEIS": {
+      "scores": [
+        3,
+        2,
+        -1
+      ],
+      "mechanism": "Precision power conversion supports semiconductor equipment and data centres.",
+      "risk": "Customer concentration and equipment cycles can make growth volatile.",
+      "watch": "Data-centre power mix, gross margin and cash after capacity expansion.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "WDAY": {
+      "scores": [
+        1,
+        2,
+        2
+      ],
+      "mechanism": "HR and finance workflows provide recurring distribution for enterprise agents.",
+      "risk": "Fewer employees or reduced seat pricing can offset AI monetisation.",
+      "watch": "Subscription retention, AI attach rates and revenue per customer.",
+      "sources": [
+        "wday"
+      ],
+      "scenarioNotes": [
+        "A gradual enterprise beneficiary; less direct exposure to the capacity wave than chips and power.",
+        "Trusted HR and finance data can support agents in high-value workflows. Lower seat counts are the counterweight.",
+        "Recurring core systems and cost-saving automation may be harder to cut than experimental AI projects. This does not eliminate hiring sensitivity."
+      ],
+      "evidenceLevel": "Linked issuer context"
+    },
+    "ZS": {
+      "scores": [
+        1,
+        3,
+        1
+      ],
+      "mechanism": "Zero-trust security can benefit from more AI-enabled users and workloads.",
+      "risk": "Persistent GAAP losses, competition and dilution complicate the cash-flow story.",
+      "watch": "Recurring GAAP earnings, security retention and share-count growth.",
+      "sources": [],
+      "scenarioNotes": [],
+      "evidenceLevel": "Business-model inference"
+    },
+    "PATH": {
+      "scores": [
+        0,
+        2,
+        -1
+      ],
+      "mechanism": "Automation and orchestration can connect agents to existing business systems.",
+      "risk": "General-purpose agents may replace parts of the legacy automation product.",
+      "watch": "Net new recurring revenue, agent usage paid conversion and renewal rates.",
+      "sources": [
+        "path"
+      ],
+      "scenarioNotes": [
+        "More compute does not itself create demand for a specific automation platform. Commercial adoption and renewal economics must catch up with the infrastructure wave.",
+        "Agents can use existing automation and orchestration to act inside enterprise systems. They can also replace older automation; paid retention is the decisive counterargument to the hidden-candidate screen.",
+        "Customers may cut experimental automation while keeping essential processes. Product substitution and slower new deals make the reset a modest headwind."
+      ],
+      "evidenceLevel": "Linked issuer context"
+    },
+    "AI": {
+      "scores": [
+        -2,
+        -1,
+        -2
+      ],
+      "mechanism": "Enterprise AI applications offer turnaround optionality if deployments become repeatable.",
+      "risk": "Revenue contraction, losses and a competitive platform market make execution decisive.",
+      "watch": "Sustained revenue recovery and multiple quarters of positive cash generation.",
+      "sources": [
+        "ai"
+      ],
+      "scenarioNotes": [
+        "The spending boom can bypass application vendors that have not achieved repeatable profitable deployment. An operational turnaround matters more than industry demand headlines.",
+        "Broader adoption creates opportunity, but customers can choose established platforms or build with cheaper models. Recent cash improvement must become recurring revenue and profit.",
+        "Long sales cycles and tighter discretionary budgets make a turnaround harder. Losses reduce room to fund growth while customers demand faster payback."
+      ],
+      "evidenceLevel": "Linked issuer context"
+    },
+    "INFY": {
+      "scores": [
+        -2,
+        -2,
+        0
+      ],
+      "mechanism": "Enterprise implementation work can grow as AI spreads across clients.",
+      "risk": "Automation can reduce billable hours faster than new AI projects replace them.",
+      "watch": "AI deal revenue, pricing per outcome and margins as employee effort falls.",
+      "sources": [],
+      "scenarioNotes": [
+        "Clients directing budgets into infrastructure may restrain services spend while automation reduces labour demand.",
+        "AI implementation opportunities compete with fewer billable hours. The outcome depends on capturing productivity gains through pricing.",
+        "Established client relationships and efficiency services may cushion a slowdown, but this is neutral rather than a confident growth winner."
+      ],
+      "evidenceLevel": "Business-model inference"
+    }
+  },
+  "sources": {
+    "iea": {
+      "title": "IEA • Key Questions on Energy and AI (2026)",
+      "url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+      "note": "2026 report: data-centre electricity consumption is projected to rise from 485 TWh in 2025 to about 950 TWh in 2030. Efficiency, demand, power constraints and financing all affect the outcome. This is an external projection, not an observed 2030 result."
+    },
+    "msft": {
+      "title": "Microsoft • FY2026 Q4 results",
+      "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q4/press-release-webcast",
+      "note": "Azure growth and paid Copilot adoption establish existing monetisation; future returns on infrastructure remain uncertain."
+    },
+    "avgo": {
+      "title": "Broadcom • FY2026 Q3 results",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial",
+      "note": "The issuer reports growing custom-accelerator and networking sales. Customer concentration and future margins still matter."
+    },
+    "snps": {
+      "title": "Synopsys • FY2026 Q3 results",
+      "url": "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026",
+      "note": "EDA and simulation provide AI exposure across competing chip architectures. Acquired Ansys revenue affects reported growth."
+    },
+    "j": {
+      "title": "Jacobs • FY2026 Q3 results",
+      "url": "https://invest.jacobs.com/financials/quarterly-results/default.aspx",
+      "note": "Data centres, semiconductors, energy and power contributed to growth. Gross revenue growth exceeded adjusted net revenue growth, an important comparability issue."
+    },
+    "tel": {
+      "title": "TE Connectivity • FY2026 Q3 results",
+      "url": "https://investors.te.com/news-releases/press-release-details/2026/TE-Connectivity-delivers-results-above-guidance-with-14-sales-growth-and-19-EPS-growth-in-third-quarter-of-fiscal-2026/",
+      "note": "The company describes AI momentum in data-centre and energy-infrastructure orders. Its wider portfolio also has non-AI exposure."
+    },
+    "now": {
+      "title": "ServiceNow • Q2 2026 results",
+      "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-Reports-Second-Quarter-2026-Financial-Results/default.aspx",
+      "note": "Subscription growth, current remaining obligations and AI workflow products support the adoption thesis; usage must become durable paid business."
+    },
+    "crm": {
+      "title": "Salesforce • FY2027 Q2 results",
+      "url": "https://www.salesforce.com/news/press-releases/2026/08/26/fy27-q2-earnings/",
+      "note": "Agentforce and Data 360 provide a route to AI monetisation. Work-unit activity is not the same as incremental revenue or profit."
+    },
+    "vst": {
+      "title": "Vistra • Meta nuclear agreements, January 2026",
+      "url": "https://investor.vistracorp.com/2026-01-09-Vistra-and-Meta-Announce-Agreements-to-Support-Nuclear-Plants-in-PJM-and-Add-New-Nuclear-Generation-to-the-Grid",
+      "note": "Long-term power agreements support the existing-generation thesis. Some planned uprates extend beyond 2030; they are not assumed to contribute fully within this horizon."
+    },
+    "ceg": {
+      "title": "Constellation • Q2 2026 results",
+      "url": "https://www.constellationenergy.com/news/2026/08/constellation-reports-second-quarter-2026-results.html",
+      "note": "Additional long-term nuclear power contracts demonstrate demand for firm electricity. Contract economics, integration and generation availability remain critical."
+    },
+    "vrt": {
+      "title": "Vertiv • Q2 2026 results",
+      "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026050323/q22026exhibit991vrt07292026.htm",
+      "note": "Power and cooling equipment benefit from data-centre construction. The scenario assessment also considers installation delays and order normalisation."
+    },
+    "etn": {
+      "title": "Eaton • Q2 2026 results",
+      "url": "https://www.eaton.com/de/en-gb/company/news-insights/news-releases/2026/eaton-reports-record-second-quarter-2026-results.html",
+      "note": "Electrical orders and backlog provide evidence of demand; conversion to delivered equipment and cash is the key follow-through."
+    },
+    "nvda": {
+      "title": "NVIDIA • FY2027 Q2 results",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027/",
+      "note": "Reported accelerator demand supports the buildout thesis. The scenario scores separately consider custom chips, export restrictions and spending cyclicality."
+    },
+    "nvda-risk": {
+      "title": "NVIDIA • FY2027 Q2 10-Q",
+      "url": "https://investor.nvidia.com/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf",
+      "note": "The filing identifies power, land, capital, supply commitments and AI-cloud arrangements as relevant risks. A dominant supplier can still be exposed to a capex reversal."
+    },
+    "crwv": {
+      "title": "CoreWeave • Q2 2026 results",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000362/coreweave2q26earningspress.htm",
+      "note": "Backlog indicates contracted demand, but financing costs, deployment timing and cash spending remain material. Backlog is not current cash profit."
+    },
+    "nbis": {
+      "title": "Nebius • Q2 2026 results",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926094568/tm2622968d1_ex99-1.htm",
+      "note": "The release shows rapid growth alongside significant infrastructure cash investment, and describes financing and power-access risks."
+    },
+    "wday": {
+      "title": "Workday • FY2027 Q2 results",
+      "url": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-Announces-Fiscal-2027-Second-Quarter-Financial-Results/default.aspx",
+      "note": "AI-related customer expansion provides a possible growth channel. Incumbent distribution does not remove seat-pricing and execution risks."
+    },
+    "adbe": {
+      "title": "Adobe • FY2026 Q3 results",
+      "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbeex991q326.htm",
+      "note": "AI-first recurring revenue is growing. The open question is whether new AI revenue outweighs pressure on incumbent creative subscriptions."
+    },
+    "path": {
+      "title": "UiPath • FY2027 Q2 results",
+      "url": "https://ir.uipath.com/news/detail/461/uipath-reports-second-quarter-fiscal-2027-financial-results",
+      "note": "Automation provides an AI adoption channel, while new agent platforms also create substitution risk."
+    },
+    "ai": {
+      "title": "C3.ai • FY2027 Q1 results",
+      "url": "https://ir.c3.ai/news-releases/news-release-details/c3-ai-announces-fiscal-first-quarter-2027-results",
+      "note": "A turnaround is underway. Latest-quarter cash generation improved, while the trailing-period data still show losses and negative FCF."
+    },
+    "tsm": {
+      "title": "TSMC • Q2 2026 presentation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000451/a2q26presentatione.htm",
+      "note": "Advanced manufacturing supports multiple AI chip designers. High-performance computing revenue includes more than AI alone."
+    },
+    "gev": {
+      "title": "GE Vernova • Q2 2026 results",
+      "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gev2q2026form8-k.pdf",
+      "note": "Electrification orders and generation equipment provide exposure to the power bottleneck. Order conversion and project costs can diverge from demand."
+    }
+  },
+  "ratingLabels": {
+    "-3": "Severe headwind",
+    "-2": "Headwind",
+    "-1": "Modest headwind",
+    "0": "Balanced / uncertain",
+    "1": "Modest advantage",
+    "2": "Advantage",
+    "3": "Strong advantage"
+  }
+}

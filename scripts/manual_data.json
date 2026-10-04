@@ -1,0 +1,1365 @@
+{
+  "005930.KS": {
+    "currency": "KRW",
+    "basis": "Quarter",
+    "start": "2026-04-01",
+    "end": "2026-06-30",
+    "metrics": {
+      "revenue": {
+        "value": 171500000000000.0,
+        "currency": "KRW",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "net": {
+        "value": 71620000000000.0,
+        "currency": "KRW",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "ocf": {
+        "value": 105080000000000.0,
+        "currency": "KRW",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "capex": {
+        "value": 14110000000000.0,
+        "currency": "KRW",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "operating": {
+        "value": 89500000000000.0,
+        "currency": "KRW",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "fcf": {
+        "value": 90970000000000.0,
+        "currency": "KRW",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "OCF \u2212 cash purchases of PP&E",
+        "components": []
+      }
+    },
+    "revenueGrowth": 130,
+    "growthPrior": null,
+    "history": [],
+    "latestQuarter": null,
+    "fcfReported": false,
+    "sources": [
+      {
+        "label": "Samsung Q2 2026 results, appendices 1 and 4",
+        "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2026_2Q_conference_eng.pdf"
+      }
+    ],
+    "dataNote": "Company release; reported period is shown explicitly. Amounts may be rounded.",
+    "fcfDefinition": "Operating cash flow less cash purchases of property, plant and equipment. Missing components are left unavailable."
+  },
+  "000660.KS": {
+    "currency": "KRW",
+    "basis": "Quarter",
+    "start": "2026-04-01",
+    "end": "2026-06-30",
+    "metrics": {
+      "revenue": {
+        "value": 79318700000000.0,
+        "currency": "KRW",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "net": {
+        "value": 93922600000000.0,
+        "currency": "KRW",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "operating": {
+        "value": 60542600000000.0,
+        "currency": "KRW",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      }
+    },
+    "revenueGrowth": 257,
+    "growthPrior": null,
+    "history": [],
+    "latestQuarter": null,
+    "fcfReported": false,
+    "sources": [
+      {
+        "label": "SK hynix Q2 2026 financial results",
+        "url": "https://news.skhynix.com/en/q2-2026-business-results/"
+      }
+    ],
+    "dataNote": "Net profit exceeds revenue; non-operating items can dominate reported earnings. Cash-flow components were not verified in the cited release, so no free-cash-flow classification is assigned.",
+    "fcfDefinition": "Operating cash flow less cash purchases of property, plant and equipment. Missing components are left unavailable."
+  },
+  "SU.PA": {
+    "currency": "EUR",
+    "basis": "Half-year",
+    "start": "2026-01-01",
+    "end": "2026-06-30",
+    "metrics": {
+      "revenue": {
+        "value": 21200000000.0,
+        "currency": "EUR",
+        "start": "2026-01-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "net": {
+        "value": 2500000000.0,
+        "currency": "EUR",
+        "start": "2026-01-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "fcf": {
+        "value": 1600000000.0,
+        "currency": "EUR",
+        "start": "2026-01-01",
+        "end": "2026-06-30",
+        "method": "Company-reported FCF",
+        "components": []
+      }
+    },
+    "revenueGrowth": null,
+    "growthPrior": null,
+    "history": [],
+    "latestQuarter": null,
+    "fcfReported": true,
+    "sources": [
+      {
+        "label": "Schneider Electric H1 2026 results",
+        "url": "https://www.se.com/ww/en/about-us/investor-relations/financial-results/"
+      }
+    ],
+    "dataNote": "Rounded H1 figures from company results. Published organic revenue growth is not substituted for reported-currency revenue growth in the hidden-champion screen.",
+    "fcfDefinition": "Company-reported free cash flow; see the source reconciliation for issuer-specific adjustments."
+  },
+  "SIE.DE": {
+    "currency": "EUR",
+    "basis": "Quarter",
+    "start": "2026-04-01",
+    "end": "2026-06-30",
+    "metrics": {
+      "revenue": {
+        "value": 20800000000.0,
+        "currency": "EUR",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "net": {
+        "value": 2600000000.0,
+        "currency": "EUR",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "fcf": {
+        "value": 4100000000.0,
+        "currency": "EUR",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company-reported FCF",
+        "components": []
+      }
+    },
+    "revenueGrowth": 7,
+    "growthPrior": null,
+    "history": [],
+    "latestQuarter": null,
+    "fcfReported": true,
+    "sources": [
+      {
+        "label": "Siemens Q3 FY2026 earnings release",
+        "url": "https://press.siemens.com/global/en/pressrelease/earnings-release-and-financial-results-q3-fy-2026"
+      }
+    ],
+    "dataNote": "Company release; reported period is shown explicitly. Amounts may be rounded.",
+    "fcfDefinition": "Company-reported free cash flow; see the source reconciliation for issuer-specific adjustments."
+  },
+  "ABBN.SW": {
+    "currency": "USD",
+    "basis": "Quarter",
+    "start": "2026-04-01",
+    "end": "2026-06-30",
+    "metrics": {
+      "revenue": {
+        "value": 9475000000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "net": {
+        "value": 1231000000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "ocf": {
+        "value": 1150000000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "fcf": {
+        "value": 881000000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company-reported FCF",
+        "components": []
+      },
+      "operating": {
+        "value": 1585000000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      }
+    },
+    "revenueGrowth": 14,
+    "growthPrior": null,
+    "history": [],
+    "latestQuarter": null,
+    "fcfReported": true,
+    "sources": [
+      {
+        "label": "ABB Q2 2026 results",
+        "url": "https://new.abb.com/news/detail/137496/q2-2026-results"
+      }
+    ],
+    "dataNote": "Company-reported FCF includes issuer-specific continuing/discontinued-operation adjustments; it is not inferred by subtracting capex from the displayed total OCF.",
+    "fcfDefinition": "Company-reported free cash flow; see the source reconciliation for issuer-specific adjustments."
+  },
+  "2317.TW": {
+    "currency": "TWD",
+    "basis": "Quarter",
+    "start": "2026-04-01",
+    "end": "2026-06-30",
+    "metrics": {
+      "revenue": {
+        "value": 2530000000000.0,
+        "currency": "TWD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "net": {
+        "value": 60000000000.0,
+        "currency": "TWD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "operating": {
+        "value": 94800000000.0,
+        "currency": "TWD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      }
+    },
+    "revenueGrowth": 41,
+    "growthPrior": null,
+    "history": [],
+    "latestQuarter": null,
+    "fcfReported": false,
+    "sources": [
+      {
+        "label": "Foxconn Q2 2026 results",
+        "url": "https://www.foxconn.com/en-us/press-center/press-releases/latest-news/2095"
+      }
+    ],
+    "dataNote": "Rounded reported quarterly figures. Free-cash-flow inputs were not verified in the cited release.",
+    "fcfDefinition": "Operating cash flow less cash purchases of property, plant and equipment. Missing components are left unavailable."
+  },
+  "2382.TW": {
+    "currency": "TWD",
+    "basis": "Quarter",
+    "start": "2026-04-01",
+    "end": "2026-06-30",
+    "metrics": {
+      "revenue": {
+        "value": 1040000000000.0,
+        "currency": "TWD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "net": {
+        "value": 28700000000.0,
+        "currency": "TWD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      }
+    },
+    "revenueGrowth": 106,
+    "growthPrior": null,
+    "history": [],
+    "latestQuarter": null,
+    "fcfReported": false,
+    "sources": [
+      {
+        "label": "Quanta Q2 2026 results \u2014 Simply Wall St summary",
+        "url": "https://simplywall.st/stocks/tw/tech/twse-2382/quanta-computer-shares/past"
+      },
+      {
+        "label": "Quanta Computer investor presentations",
+        "url": "https://www.quantatw.com/quanta/english/investment/financials_icp.aspx"
+      }
+    ],
+    "dataNote": "Rounded secondary-source figures. The issuer presentation download could not be retrieved; cash metrics remain unavailable pending primary-source verification.",
+    "fcfDefinition": "Operating cash flow less cash purchases of property, plant and equipment. Missing components are left unavailable."
+  },
+  "2308.TW": {
+    "currency": "TWD",
+    "basis": "Half-year",
+    "start": "2026-01-01",
+    "end": "2026-06-30",
+    "metrics": {
+      "revenue": {
+        "value": 342600000000.0,
+        "currency": "TWD",
+        "start": "2026-01-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "net": {
+        "value": 45691000000.0,
+        "currency": "TWD",
+        "start": "2026-01-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "ocf": {
+        "value": 63100603000,
+        "currency": "TWD",
+        "start": "2026-01-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "capex": {
+        "value": 27252368000,
+        "currency": "TWD",
+        "start": "2026-01-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "operating": {
+        "value": 59000000000.0,
+        "currency": "TWD",
+        "start": "2026-01-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "fcf": {
+        "value": 35848235000,
+        "currency": "TWD",
+        "start": "2026-01-01",
+        "end": "2026-06-30",
+        "method": "OCF \u2212 cash purchases of PP&E",
+        "components": []
+      }
+    },
+    "revenueGrowth": 41,
+    "growthPrior": null,
+    "history": [],
+    "latestQuarter": null,
+    "fcfReported": false,
+    "sources": [
+      {
+        "label": "Delta Electronics H1 2026 consolidated financial report",
+        "url": "https://filecenter.deltaww.com/ir/download/financial_report/Q22026_eng_Consolidated%20Financial%20Report.pdf"
+      },
+      {
+        "label": "Delta H1 2026 financial presentation",
+        "url": "https://filecenter.deltaww.com/ir/download/calendar/2Q26_Analyst%20Meeting.pdf"
+      }
+    ],
+    "dataNote": "Company release; reported period is shown explicitly. Amounts may be rounded.",
+    "fcfDefinition": "Operating cash flow less cash purchases of property, plant and equipment. Missing components are left unavailable."
+  },
+  "TSM": {
+    "currency": "TWD",
+    "basis": "Quarter",
+    "start": "2026-04-01",
+    "end": "2026-06-30",
+    "metrics": {
+      "revenue": {
+        "value": 1270380000000.0,
+        "currency": "TWD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "net": {
+        "value": 706560000000.0,
+        "currency": "TWD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "ocf": {
+        "value": 783360000000.0,
+        "currency": "TWD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "capex": {
+        "value": 496000000000.0,
+        "currency": "TWD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "fcf": {
+        "value": 287360000000.0,
+        "currency": "TWD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "OCF \u2212 cash purchases of PP&E",
+        "components": []
+      }
+    },
+    "revenueGrowth": 36,
+    "growthPrior": null,
+    "history": [],
+    "latestQuarter": null,
+    "fcfReported": false,
+    "sources": [
+      {
+        "label": "TSMC Q2 2026 earnings presentation, SEC exhibit",
+        "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000451/a2q26presentatione.htm"
+      }
+    ],
+    "dataNote": "Company release; reported period is shown explicitly. Amounts may be rounded.",
+    "fcfDefinition": "Operating cash flow less cash purchases of property, plant and equipment. Missing components are left unavailable."
+  },
+  "UMC": {
+    "currency": "TWD",
+    "basis": "Quarter",
+    "start": "2026-04-01",
+    "end": "2026-06-30",
+    "metrics": {
+      "revenue": {
+        "value": 68730000000.0,
+        "currency": "TWD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "net": {
+        "value": 42260000000.0,
+        "currency": "TWD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      }
+    },
+    "revenueGrowth": 17,
+    "growthPrior": null,
+    "history": [],
+    "latestQuarter": null,
+    "fcfReported": false,
+    "sources": [
+      {
+        "label": "UMC Q2 2026 earnings release, SEC exhibit 99.6",
+        "url": "https://www.sec.gov/Archives/edgar/data/1033767/000119312526322027/umc-ex99.htm"
+      }
+    ],
+    "dataNote": "Net income includes non-operating effects. Capex guidance is not actual cash capital spending and is not used to calculate FCF.",
+    "fcfDefinition": "Operating cash flow less cash purchases of property, plant and equipment. Missing components are left unavailable."
+  },
+  "INFY": {
+    "currency": "USD",
+    "basis": "Quarter",
+    "start": "2026-04-01",
+    "end": "2026-06-30",
+    "metrics": {
+      "revenue": {
+        "value": 5082000000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "net": {
+        "value": 820000000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "operating": {
+        "value": 1072000000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "fcf": {
+        "value": 955000000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company-reported FCF",
+        "components": []
+      }
+    },
+    "revenueGrowth": 2.8,
+    "growthPrior": null,
+    "history": [],
+    "latestQuarter": null,
+    "fcfReported": true,
+    "sources": [
+      {
+        "label": "Infosys Q1 FY2027 financial information",
+        "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2026-2027/q1/documents/q1-2027.pdf"
+      },
+      {
+        "label": "Infosys July 2026 results and FCF release",
+        "url": "https://www.infosys.com/investors/documents/exchange-filings/2026/outcome-board-meeting-23jul2026.pdf"
+      },
+      {
+        "label": "Infosys Q1 FY2027 SEC results exhibit \u2014 FCF reconciliation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067491/000106749126000038/exv99w01.htm"
+      }
+    ],
+    "dataNote": "Company release; reported period is shown explicitly. Amounts may be rounded.",
+    "fcfDefinition": "Company-reported free cash flow; see the source reconciliation for issuer-specific adjustments."
+  },
+  "NBIS": {
+    "currency": "USD",
+    "basis": "Quarter",
+    "start": "2026-04-01",
+    "end": "2026-06-30",
+    "metrics": {
+      "revenue": {
+        "value": 582300000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "net": {
+        "value": -190400000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "ocf": {
+        "value": 2246100000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "capex": {
+        "value": 5657400000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "operating": {
+        "value": -175900000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "fcf": {
+        "value": -3411300000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "OCF \u2212 PP&E and intangible purchases",
+        "components": []
+      }
+    },
+    "revenueGrowth": 454,
+    "growthPrior": null,
+    "history": [],
+    "latestQuarter": null,
+    "fcfReported": false,
+    "sources": [
+      {
+        "label": "Nebius Q2 2026 financial results",
+        "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926094568/tm2622968d1_ex99-1.htm"
+      }
+    ],
+    "dataNote": "Continuing operations. Cash capital expenditure includes intangible assets. Advance customer receipts and working-capital movements can make OCF unusually large relative to revenue.",
+    "fcfDefinition": "Operating cash flow less cash purchases of property, equipment and intangible assets. No adjustment for government grants or customer advances."
+  },
+  "GFS": {
+    "currency": "USD",
+    "basis": "Quarter",
+    "start": "2026-04-01",
+    "end": "2026-06-30",
+    "metrics": {
+      "revenue": {
+        "value": 1786000000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "net": {
+        "value": 167000000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "ocf": {
+        "value": 405000000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "capex": {
+        "value": 411000000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "operating": {
+        "value": 174000000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "fcf": {
+        "value": -6000000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "OCF \u2212 PP&E and intangible purchases",
+        "components": []
+      }
+    },
+    "revenueGrowth": 5.805687203791465,
+    "growthPrior": null,
+    "history": [],
+    "latestQuarter": null,
+    "fcfReported": false,
+    "sources": [
+      {
+        "label": "GlobalFoundries Q2 2026 results",
+        "url": "https://investors.gf.com/node/11081/pdf"
+      }
+    ],
+    "dataNote": "Capex includes intangible assets. Calculated FCF is \u2212$6m before government grants; the company\u2019s adjusted FCF adds $3m in grants and is \u2212$3m.",
+    "fcfDefinition": "Operating cash flow less cash purchases of property, equipment and intangible assets. No adjustment for government grants or customer advances."
+  },
+  "BABA": {
+    "currency": "CNY",
+    "basis": "Quarter",
+    "start": "2026-04-01",
+    "end": "2026-06-30",
+    "metrics": {
+      "revenue": {
+        "value": 268953000000.0,
+        "currency": "CNY",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "net": {
+        "value": 10444000000.0,
+        "currency": "CNY",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "ocf": {
+        "value": 22945000000.0,
+        "currency": "CNY",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "fcf": {
+        "value": -44670000000.0,
+        "currency": "CNY",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company-reported FCF",
+        "components": []
+      },
+      "operating": {
+        "value": 15161000000.0,
+        "currency": "CNY",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      }
+    },
+    "revenueGrowth": 9,
+    "growthPrior": null,
+    "history": [],
+    "latestQuarter": null,
+    "fcfReported": true,
+    "sources": [
+      {
+        "label": "Alibaba June quarter 2026 financial results",
+        "url": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926099220/tm2623667d1_ex99-1.htm"
+      }
+    ],
+    "dataNote": "Company-reported FCF excludes certain land/office-campus expenditure and adjusts buyer protection fund deposits. Revenue growth is rounded as reported.",
+    "fcfDefinition": "Company-reported free cash flow; see the source reconciliation for issuer-specific adjustments."
+  },
+  "BIDU": {
+    "currency": "CNY",
+    "basis": "Quarter",
+    "start": "2026-04-01",
+    "end": "2026-06-30",
+    "metrics": {
+      "revenue": {
+        "value": 31300000000.0,
+        "currency": "CNY",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "net": {
+        "value": 2208000000.0,
+        "currency": "CNY",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "ocf": {
+        "value": 3436000000.0,
+        "currency": "CNY",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "capex": {
+        "value": 11390000000.0,
+        "currency": "CNY",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "operating": {
+        "value": 3024000000.0,
+        "currency": "CNY",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "fcf": {
+        "value": -7954000000.0,
+        "currency": "CNY",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "OCF \u2212 cash purchases of PP&E",
+        "components": []
+      }
+    },
+    "revenueGrowth": -4,
+    "growthPrior": null,
+    "history": [],
+    "latestQuarter": null,
+    "fcfReported": false,
+    "sources": [
+      {
+        "label": "Baidu Q2 2026 financial results",
+        "url": "https://ir.baidu.com/news-releases/news-release-details/baidu-announces-second-quarter-2026-results"
+      }
+    ],
+    "dataNote": "Revenue rounded to RMB31.3bn; net income is consolidated income before attribution to minority interests.",
+    "fcfDefinition": "Operating cash flow less cash purchases of property, plant and equipment. Missing components are left unavailable."
+  },
+  "ASML": {
+    "currency": "EUR",
+    "basis": "Quarter",
+    "start": "2026-03-30",
+    "end": "2026-06-28",
+    "metrics": {
+      "revenue": {
+        "value": 9326500000.0,
+        "currency": "EUR",
+        "start": "2026-03-30",
+        "end": "2026-06-28",
+        "method": "Company release",
+        "components": []
+      },
+      "net": {
+        "value": 2917600000.0,
+        "currency": "EUR",
+        "start": "2026-03-30",
+        "end": "2026-06-28",
+        "method": "Company release",
+        "components": []
+      },
+      "ocf": {
+        "value": 1703000000.0,
+        "currency": "EUR",
+        "start": "2026-03-30",
+        "end": "2026-06-28",
+        "method": "Company release",
+        "components": []
+      },
+      "capex": {
+        "value": 299400000.0,
+        "currency": "EUR",
+        "start": "2026-03-30",
+        "end": "2026-06-28",
+        "method": "Company release",
+        "components": []
+      },
+      "operating": {
+        "value": 3456100000.0,
+        "currency": "EUR",
+        "start": "2026-03-30",
+        "end": "2026-06-28",
+        "method": "Company release",
+        "components": []
+      },
+      "fcf": {
+        "value": 1403600000.0,
+        "currency": "EUR",
+        "start": "2026-03-30",
+        "end": "2026-06-28",
+        "method": "OCF \u2212 cash purchases of PP&E",
+        "components": []
+      }
+    },
+    "revenueGrowth": 21.2540790722467,
+    "growthPrior": null,
+    "history": [],
+    "latestQuarter": null,
+    "fcfReported": false,
+    "sources": [
+      {
+        "label": "ASML Q2 2026 US GAAP financial statements",
+        "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026048235/financialstatementsusgaa.htm"
+      }
+    ],
+    "dataNote": "FCF here subtracts PP&E purchases only. Subtracting the additional \u20ac86.6m of intangible purchases would reduce FCF by that amount. Quarterly cash flow is affected by customer deposits and shipment timing.",
+    "fcfDefinition": "Operating cash flow less cash purchases of property, plant and equipment. Missing components are left unavailable."
+  },
+  "CDNS": {
+    "currency": "USD",
+    "basis": "Half-year",
+    "start": "2026-01-01",
+    "end": "2026-06-30",
+    "metrics": {
+      "revenue": {
+        "value": 3058671000.0,
+        "currency": "USD",
+        "start": "2026-01-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "net": {
+        "value": 702736000.0,
+        "currency": "USD",
+        "start": "2026-01-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "operating": {
+        "value": 881644000.0,
+        "currency": "USD",
+        "start": "2026-01-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "ocf": {
+        "value": 990711000.0,
+        "currency": "USD",
+        "start": "2026-01-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "capex": {
+        "value": 101448000.0,
+        "currency": "USD",
+        "start": "2026-01-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "fcf": {
+        "value": 889263000.0,
+        "currency": "USD",
+        "start": "2026-01-01",
+        "end": "2026-06-30",
+        "method": "OCF \u2212 cash purchases of PP&E",
+        "components": []
+      }
+    },
+    "revenueGrowth": 21.481551207062346,
+    "growthPrior": null,
+    "history": [],
+    "latestQuarter": null,
+    "fcfReported": false,
+    "sources": [
+      {
+        "label": "Cadence H1 2026 statements in Q2 earnings release",
+        "url": "https://investor.cadence.com/news/news-details/2026/Cadence-Reports-Second-Quarter-2026-Financial-Results/default.aspx"
+      }
+    ],
+    "dataNote": "FCF subtracts PP&E only; it excludes $6.975m of intangible purchases and acquisition cash spending. Acquisition effects can contribute to reported revenue growth.",
+    "fcfDefinition": "Operating cash flow less cash purchases of property, plant and equipment. Missing components are left unavailable."
+  },
+  "HUBB": {
+    "currency": "USD",
+    "basis": "Quarter",
+    "start": "2026-04-01",
+    "end": "2026-06-30",
+    "metrics": {
+      "revenue": {
+        "value": 1711800000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "net": {
+        "value": 242200000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "operating": {
+        "value": 348600000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "ocf": {
+        "value": 249800000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "capex": {
+        "value": 37000000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "fcf": {
+        "value": 212800000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "OCF \u2212 cash purchases of PP&E",
+        "components": []
+      }
+    },
+    "revenueGrowth": 15.327090210873816,
+    "growthPrior": null,
+    "history": [],
+    "latestQuarter": null,
+    "fcfReported": false,
+    "sources": [
+      {
+        "label": "Hubbell Q2 2026 financial statements",
+        "url": "https://hubbell.gcs-web.com/news-releases/news-release-details/hubbell-reports-second-quarter-2026-results"
+      }
+    ],
+    "dataNote": "Reported sales growth includes acquisitions; organic growth was 10.2%. The NSI acquisition adds integration and financing risk.",
+    "fcfDefinition": "Operating cash flow less cash purchases of property, plant and equipment. Missing components are left unavailable."
+  },
+  "CARR": {
+    "currency": "USD",
+    "basis": "Quarter",
+    "start": "2026-04-01",
+    "end": "2026-06-30",
+    "metrics": {
+      "revenue": {
+        "value": 6351000000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "net": {
+        "value": 541000000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "ocf": {
+        "value": 888000000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "capex": {
+        "value": 117000000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "fcf": {
+        "value": 771000000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "OCF \u2212 cash purchases of PP&E",
+        "components": []
+      }
+    },
+    "revenueGrowth": 3.893342057909366,
+    "growthPrior": null,
+    "history": [],
+    "latestQuarter": null,
+    "fcfReported": false,
+    "sources": [
+      {
+        "label": "Carrier Q2 2026 results",
+        "url": "https://ir.carrier.com/news/news-details/2026/Carrier-Reports-Second-Quarter-2026-Results/default.aspx"
+      }
+    ],
+    "dataNote": "Operating cash flow is continuing operations; total OCF of $927m includes $39m from discontinued operations. FCF here is continuing OCF less PP&E purchases.",
+    "fcfDefinition": "Operating cash flow less cash purchases of property, plant and equipment. Missing components are left unavailable."
+  },
+  "JCI": {
+    "currency": "USD",
+    "basis": "Quarter",
+    "start": "2026-04-01",
+    "end": "2026-06-30",
+    "metrics": {
+      "revenue": {
+        "value": 6614000000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "net": {
+        "value": 752000000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "ocf": {
+        "value": 1289000000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "capex": {
+        "value": 95000000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "fcf": {
+        "value": 1194000000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "OCF \u2212 cash purchases of PP&E",
+        "components": []
+      }
+    },
+    "revenueGrowth": 9,
+    "growthPrior": null,
+    "history": [],
+    "latestQuarter": null,
+    "fcfReported": false,
+    "sources": [
+      {
+        "label": "Johnson Controls Q3 FY2026 results",
+        "url": "https://www.sec.gov/Archives/edgar/data/833444/000083344426000083/q3ex991xq3fy26earningsrele.htm"
+      }
+    ],
+    "dataNote": "Net income is consolidated before noncontrolling interests. Cash flow is continuing operations. FCF of $1.194bn is before the additional adjustments in adjusted FCF. Reported revenue growth is rounded.",
+    "fcfDefinition": "Operating cash flow less cash purchases of property, plant and equipment. Missing components are left unavailable."
+  },
+  "BE": {
+    "currency": "USD",
+    "basis": "Quarter",
+    "start": "2026-04-01",
+    "end": "2026-06-30",
+    "metrics": {
+      "revenue": {
+        "value": 1065365000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "net": {
+        "value": 198856000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "ocf": {
+        "value": 226432000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "capex": {
+        "value": 51641000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "Company release",
+        "components": []
+      },
+      "fcf": {
+        "value": 174791000.0,
+        "currency": "USD",
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "method": "OCF \u2212 cash purchases of PP&E",
+        "components": []
+      }
+    },
+    "revenueGrowth": 165.5168202730522,
+    "growthPrior": null,
+    "history": [],
+    "latestQuarter": null,
+    "fcfReported": false,
+    "sources": [
+      {
+        "label": "Bloom Energy Q2 2026 financial statements",
+        "url": "https://investor.bloomenergy.com/press-releases/press-release-details/2026/Bloom-Energy-Reports-Record-Second-Quarter-2026-Financial-Results-and-Raises-Full-Year-2026-Guidance/default.aspx"
+      }
+    ],
+    "dataNote": "Customer deposits contributed $211.693m to operating cash flow. Advance receipts can vary significantly and should not be assumed to recur.",
+    "fcfDefinition": "Operating cash flow less cash purchases of property, plant and equipment. Missing components are left unavailable."
+  },
+  "LFUS": {
+    "currency": "USD",
+    "basis": "Half-year",
+    "start": "2025-12-28",
+    "end": "2026-06-27",
+    "metrics": {
+      "revenue": {
+        "value": 1395750000.0,
+        "currency": "USD",
+        "start": "2025-12-28",
+        "end": "2026-06-27",
+        "method": "Company release",
+        "components": []
+      },
+      "net": {
+        "value": 164552000.0,
+        "currency": "USD",
+        "start": "2025-12-28",
+        "end": "2026-06-27",
+        "method": "Company release",
+        "components": []
+      },
+      "ocf": {
+        "value": 226474000.0,
+        "currency": "USD",
+        "start": "2025-12-28",
+        "end": "2026-06-27",
+        "method": "Company release",
+        "components": []
+      },
+      "capex": {
+        "value": 33021000.0,
+        "currency": "USD",
+        "start": "2025-12-28",
+        "end": "2026-06-27",
+        "method": "Company release",
+        "components": []
+      },
+      "fcf": {
+        "value": 193453000.0,
+        "currency": "USD",
+        "start": "2025-12-28",
+        "end": "2026-06-27",
+        "method": "OCF \u2212 cash purchases of PP&E",
+        "components": []
+      }
+    },
+    "revenueGrowth": 19.52779775973692,
+    "growthPrior": null,
+    "history": [],
+    "latestQuarter": null,
+    "fcfReported": false,
+    "sources": [
+      {
+        "label": "Littelfuse H1 2026 statements in Q2 results",
+        "url": "https://www.sec.gov/Archives/edgar/data/889331/000162828026050382/q22026earningsreleaseex991.htm"
+      }
+    ],
+    "dataNote": "H1 is profitable, but the issuer reports a trailing-twelve-month net loss of $8.2m, including impairment charges. Reported sales growth includes acquisitions; H1 organic growth was approximately 12%.",
+    "fcfDefinition": "Operating cash flow less cash purchases of property, plant and equipment. Missing components are left unavailable."
+  },
+  "STM": {
+    "currency": "USD",
+    "basis": "Quarter",
+    "start": "2026-03-29",
+    "end": "2026-06-27",
+    "metrics": {
+      "revenue": {
+        "value": 3490000000.0,
+        "currency": "USD",
+        "start": "2026-03-29",
+        "end": "2026-06-27",
+        "method": "Company release",
+        "components": []
+      },
+      "net": {
+        "value": 222000000.0,
+        "currency": "USD",
+        "start": "2026-03-29",
+        "end": "2026-06-27",
+        "method": "Company release",
+        "components": []
+      },
+      "operating": {
+        "value": 187000000.0,
+        "currency": "USD",
+        "start": "2026-03-29",
+        "end": "2026-06-27",
+        "method": "Company release",
+        "components": []
+      },
+      "ocf": {
+        "value": 502000000.0,
+        "currency": "USD",
+        "start": "2026-03-29",
+        "end": "2026-06-27",
+        "method": "Company release",
+        "components": []
+      },
+      "fcf": {
+        "value": 75000000.0,
+        "currency": "USD",
+        "start": "2026-03-29",
+        "end": "2026-06-27",
+        "method": "Company-reported FCF",
+        "components": []
+      }
+    },
+    "revenueGrowth": null,
+    "growthPrior": null,
+    "history": [],
+    "latestQuarter": null,
+    "fcfReported": true,
+    "sources": [
+      {
+        "label": "STMicroelectronics Q2 2026 CEO earnings remarks",
+        "url": "https://investors.st.com/static-files/ae0e3f49-924c-4f9d-8462-4a9739e282d6"
+      }
+    ],
+    "dataNote": "Rounded company figures. Reported FCF includes cash-flow adjustments beyond net capex; guidance is not substituted for actual cash expenditure. Comparable reported revenue growth has not been entered.",
+    "fcfDefinition": "Company-reported free cash flow; see the source reconciliation for issuer-specific adjustments."
+  }
+}

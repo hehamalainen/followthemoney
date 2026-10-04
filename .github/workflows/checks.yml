@@ -1,0 +1,35 @@
+name: App and research checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  offline-checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate application, research and PDF generation
+        run: python scripts/check.py
+      - name: Check deterministic research outputs
+        run: |
+          python scripts/build_circulation.py
+          python scripts/build_scenarios.py
+          python scripts/normalize_valuation.py
+          git diff --exit-code -- dist/circulation.json dist/scenarios.json dist/valuation.json
+      - name: Install media inspection tools
+        run: sudo apt-get update && sudo apt-get install --yes ffmpeg
+      - name: Verify distributable films
+        run: python scripts/film/verify.py
