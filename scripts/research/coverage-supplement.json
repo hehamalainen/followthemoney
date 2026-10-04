@@ -1,0 +1,185 @@
+{
+  "asOf": "2026-10-03",
+  "reviewedAt": "2026-10-04",
+  "entities": [
+    {
+      "id": "HUAWEI",
+      "name": "Huawei",
+      "ticker": null,
+      "aliases": [
+        "Huawei Cloud",
+        "Ascend",
+        "Kunpeng",
+        "HiSilicon",
+        "Pangu",
+        "CloudMatrix"
+      ],
+      "role": "AI accelerators, cloud infrastructure and AI model/platform services",
+      "region": "China",
+      "tier": 1,
+      "sourceIds": [
+        "huawei_facts",
+        "huawei_ai"
+      ],
+      "note": "Privately held; no separately quoted Huawei equity. Subsidiary and product brands are not separate public stocks.",
+      "listingStatus": "unlisted-context",
+      "priority": 1
+    },
+    {
+      "id": "285A.T",
+      "name": "Kioxia Holdings",
+      "ticker": "285A.T",
+      "aliases": [
+        "Kioxia",
+        "Toshiba Memory",
+        "KIOXIA"
+      ],
+      "role": "NAND flash memory and enterprise SSDs serving AI infrastructure",
+      "region": "Japan",
+      "tier": 2,
+      "sourceIds": [
+        "kioxia_ai",
+        "kioxia_listing"
+      ],
+      "note": "Do not count its former Toshiba Memory name as a separate company.",
+      "listingStatus": "public",
+      "priority": 1
+    },
+    {
+      "id": "0981.HK",
+      "name": "SMIC",
+      "ticker": "0981.HK",
+      "aliases": [
+        "Semiconductor Manufacturing International",
+        "00981",
+        "688981.SS",
+        "688981.SH"
+      ],
+      "role": "Semiconductor foundry and wafer manufacturing",
+      "region": "China / Hong Kong and Shanghai listings",
+      "tier": 2,
+      "sourceIds": [
+        "smic_results"
+      ],
+      "note": "Hong Kong and Shanghai shares represent the same issuer. No direct customer-payment edge is inferred from general foundry exposure.",
+      "listingStatus": "public",
+      "priority": 1
+    },
+    {
+      "id": "688256.SS",
+      "name": "Cambricon",
+      "ticker": "688256.SS",
+      "aliases": [
+        "Cambricon Technologies",
+        "688256.SH",
+        "寒武纪",
+        "MLU"
+      ],
+      "role": "AI processor design for cloud, edge and inference/training workloads",
+      "region": "China",
+      "tier": 2,
+      "sourceIds": [
+        "cambricon_listing",
+        "cambricon_role"
+      ],
+      "note": "",
+      "listingStatus": "public",
+      "priority": 1
+    },
+    {
+      "id": "ACN",
+      "name": "Accenture",
+      "ticker": "ACN",
+      "aliases": [
+        "Accenture plc"
+      ],
+      "role": "Enterprise AI implementation, consulting and managed services",
+      "region": "Global / Ireland domicile",
+      "tier": 1,
+      "sourceIds": [
+        "acn_facts",
+        "acn_filing"
+      ],
+      "note": "Company-wide services extend beyond AI. No stock-return or scenario rating is inferred from this coverage record.",
+      "listingStatus": "public",
+      "priority": 1
+    },
+    {
+      "id": "TCS.NS",
+      "name": "Tata Consultancy Services",
+      "ticker": "TCS.NS",
+      "aliases": [
+        "TCS",
+        "532540",
+        "HyperVault"
+      ],
+      "role": "Enterprise AI implementation, cloud services and AI infrastructure development",
+      "region": "India",
+      "tier": 1,
+      "sourceIds": [
+        "tcs_results"
+      ],
+      "note": "HyperVault is an associated infrastructure platform, not a separately listed ticker in this directory.",
+      "listingStatus": "public",
+      "priority": 1
+    }
+  ],
+  "sources": {
+    "huawei_facts": {
+      "title": "Huawei corporate fact sheet, updated April 2026",
+      "url": "https://www.huawei.com/en/media-center/company-facts/",
+      "date": "2026-04",
+      "dateKind": "month of issuer update"
+    },
+    "huawei_ai": {
+      "title": "Huawei 2025 annual report: Ascend, Kunpeng and AI cloud",
+      "url": "https://www.huawei.com/en/annual-report/2025",
+      "date": "2025",
+      "dateKind": "reporting year"
+    },
+    "kioxia_ai": {
+      "title": "Kioxia growth strategy for the AI inference era",
+      "url": "https://www.kioxia-holdings.com/en-jp/news/2026/20260602-1.html",
+      "date": "2026-06-02"
+    },
+    "kioxia_listing": {
+      "title": "Kioxia TOKYO 285A: Nikkei 225 inclusion announcement",
+      "url": "https://www.kioxia-holdings.com/en-jp/news/2026/20260305-1.html",
+      "date": "2026-03-05"
+    },
+    "smic_results": {
+      "title": "SMIC second-quarter 2026 results and listing identifiers",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0813/2026081300353.pdf",
+      "date": "2026-08-13"
+    },
+    "cambricon_listing": {
+      "title": "Shanghai Stock Exchange: Cambricon issuer profile, code 688256",
+      "url": "https://www.sse.com.cn/star/en/marketdata/snapshot/c/5485110.shtml",
+      "date": "2020-07-20",
+      "dateKind": "listing date; issuer profile reviewed October 2026"
+    },
+    "cambricon_role": {
+      "title": "Cambricon company overview: cloud, edge and terminal AI processors",
+      "url": "https://cambricon.com/index.php?a=lists&c=index&catid=7&m=content",
+      "date": null,
+      "dateKind": "undated issuer page; reviewed 2026-10-04"
+    },
+    "acn_facts": {
+      "title": "Accenture fiscal 2026 fourth-quarter fact sheet",
+      "url": "https://newsroom.accenture.com/fact-sheet",
+      "date": "2026",
+      "dateKind": "fiscal edition; reviewed 2026-10-04"
+    },
+    "acn_filing": {
+      "title": "Accenture May 31, 2026 Form 10-Q",
+      "url": "https://investor.accenture.com/~/media/Files/A/accenture-v4/investors/earnings-reports/2026/acn-5-31-2026-10-q.pdf",
+      "date": "2026-05-31",
+      "dateKind": "period end"
+    },
+    "tcs_results": {
+      "title": "TCS FY2026 results: AI services and exchange identifiers",
+      "url": "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-financial-results-q4-fy-2026",
+      "date": "2026-04-09"
+    }
+  }
+}

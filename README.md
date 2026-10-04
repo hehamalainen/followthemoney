@@ -2,7 +2,7 @@
 
 Explore where AI spending goes, who earns it, and which companies could benefit under three alternative futures through 2030.
 
-An interactive research app covering **100 public companies** across the global AI supply chain, from platforms and chips to power, cooling and construction. Created by **Heikki Hämäläinen with Astra Ultra**.
+An interactive research app with a **162-entity directory**, including **132 public issuers** and **100 saved financial profiles**, across the global AI supply chain, from platforms and chips to power, cooling and construction. **32 public issuers still await financial profiles.** Created by **Heikki Hämäläinen with Astra Ultra**.
 
 [![AI Money Map — watch the 30-second film](dist/media/film-wide.jpg)](https://github.com/hehamalainen/followthemoney/raw/refs/heads/main/dist/media/ai-money-map-30s-wide.mp4)
 
@@ -25,7 +25,8 @@ Open **http://127.0.0.1:4173/**. Serve the folder over HTTP; opening `index.html
 | View | What it shows |
 | --- | --- |
 | **Universe** | An animated spatial money-flow map with orbit, zoom, company search and a guided journey. |
-| **Money circulation** | 43 counterparties, 59 sourced relationships and 11 cases across model/cloud partnerships, compute suppliers and physical infrastructure. |
+| **Company directory** | 162 entities, including 132 public issuers, with aliases, parent identities, listing status and explicit research gaps. |
+| **Money circulation** | 57 counterparties, 84 sourced relationships and 17 cases across model/cloud partnerships, compute suppliers and physical infrastructure. |
 | **Supply chain** | 100 selected public companies across nine sectors, including suppliers beyond the largest technology names. |
 | **Profit & cash** | Reported company net income and free cash flow, with reporting periods, currencies and source links. |
 | **Hidden champions** | A transparent screen combining business position, financial results and relative stock performance. |
@@ -38,11 +39,13 @@ The Universe's fourth dimension is **illustrative scenario time**. Financial fig
 
 ## A dated, inspectable research snapshot
 
-**Research date: 3 October 2026. Market closes: 2 October 2026.** There is no automatic refresh. This is a selected universe, not a list of the 100 largest companies.
+**Research date: 3 October 2026. Market closes: 2 October 2026.** There is no automatic refresh. This is a selected universe, not a list of the 100 largest companies. The coverage audit reviewed on 4 October uses that same evidence cutoff; it expands identities and relationships without refreshing the 100-company financial, stock, valuation or scenario snapshot.
 
 Financials describe the whole company, not AI-only earnings. Missing values are not zero. Scenarios and rankings are authored judgments, not forecasts, probabilities or projected stock returns. “Hidden champion” means a company passes the documented screen; it does not establish fair value or investor awareness.
 
-Circulation distinguishes investments, commitments, recognized revenue, guarantees, facilities, supplier relationships and non-cash incentives. It does not add them into a circular-dollar total or claim to trace the same cash through multiple companies. Private model labs appear as counterparties outside the 100-public-company universe.
+Circulation distinguishes investments, commitments, recognized revenue, guarantees, facilities, supplier relationships and non-cash incentives. It does not add them into a circular-dollar total or claim to trace the same cash through multiple companies. Private model labs, subsidiaries, projects and financing groups appear alongside public issuers in the directory; directory membership does not imply a financial profile or a separate stock. Aliases resolve products and former names to their issuer, while parent links keep subsidiaries distinct from listed parents.
+
+The committed films remain the original dated **43-counterparty / 59-relationship** edition; the coverage expansion does not alter their media. See **[Coverage audit and the 32 financial gaps](docs/COVERAGE_AUDIT.md)** for additions and identity corrections.
 
 Read **[Data and methodology](docs/DATA.md)** for selection rules, valuation coverage, source provenance and updating. This project is a research tool, not investment advice.
 
@@ -53,6 +56,7 @@ dist/                     Complete static app; deploy this folder
   data.json               Company financials and stock comparisons
   scenarios.json          Authored assumptions and company assessments
   circulation.json        Sourced counterparties, relationships and cases
+  coverage.json           Entity directory, aliases, identities and coverage gaps
   valuation.json          Normalized valuation and debt snapshot
   media/                  Films, posters and English captions
   vendor/                 Local PDF library and its license
@@ -72,7 +76,7 @@ Use Python **3.12+** and Node.js **22+** for development checks:
 python3 scripts/check.py
 ```
 
-This validates data and valuation invariants, exercises the hidden-candidate screen and Universe logic, checks JavaScript syntax and generates all five PDF report types in a temporary directory. PDF layout changes also need visual review.
+This validates data, valuation and directory invariants, exercises the hidden-candidate screen and Universe logic, checks JavaScript syntax and generates all five PDF report types in a temporary directory. PDF layout changes also need visual review.
 
 To verify both committed films, install FFmpeg (including `ffprobe`), then run:
 
@@ -80,11 +84,20 @@ To verify both committed films, install FFmpeg (including `ffprobe`), then run:
 python3 scripts/film/verify.py
 ```
 
-GitHub Actions runs these checks and verifies that the saved circulation, scenarios and normalized valuation rebuild without changes. It does not fetch live financial data.
+GitHub Actions runs these checks and verifies that the saved circulation, directory, scenarios and normalized valuation rebuild without changes. It does not fetch live financial data.
 
 ## Rebuild data or films
 
 The committed datasets are enough to run the app. Rebuilding the financial snapshot requires additional cached SEC inputs; incomplete inputs stop the builders before they replace the saved output. See **[Data and methodology](docs/DATA.md)**.
+
+Rebuild the relationship map before the directory that incorporates it:
+
+```sh
+python3 scripts/build_circulation.py
+python3 scripts/build_coverage.py
+```
+
+These two builders use committed research inputs and make no network requests. They do not add financial profiles or scenario ratings for the 32 public coverage gaps.
 
 The optional film tools require **NumPy, Pillow, FFmpeg and fonts**:
 

@@ -4,12 +4,16 @@ const root=path.resolve(__dirname,'..');
 const read=name=>fs.readFileSync(path.join(root,'dist',name),'utf8');
 const companies=JSON.parse(read('data.json')).companies;
 const fixture=JSON.parse(read('scenarios.json'));
+const registry=JSON.parse(read('coverage.json'));
 const ctx=vm.createContext({window:{},fixture,companies,circulationData:JSON.parse(read('circulation.json')),val:(c,k)=>c.metrics[k]?.value??null});
+vm.runInContext(read('coverage.js'),ctx);
+ctx.window.MoneyCoverage.setData(registry);
 vm.runInContext(read('scenarios.js')+'\nscenariosData=fixture;',ctx);
 // Test-only access to the closure; production exports do not expose mutable state.
 const source=read('universe.js').replace('return{init,setActive,',`return{__test:{
   setup(){root={querySelector:()=>({})};sync=()=>{};focusPanel=()=>{};announce=()=>{};buildNodes()},
-  mode(mode){state.mode=mode},target(){return state.targetCenter},
+  mode(mode){if(mode)state.mode=mode;return state.mode},target(){return state.targetCenter},
+  nodeIds(){return currentNodes().map(n=>n.id)},node(id){return nodes.find(n=>n.id===id)},
   position(id){return worldPoint(currentNodes().find(n=>n.id===id))}
  },init,setActive,`);
 vm.runInContext(source,ctx);
@@ -42,6 +46,24 @@ for(let index=0;index<8;index++)for(const t of [0,.25,.5,.75,1]){
 }
 assert.equal(JSON.stringify([a,b]),original);
 u.__test.setup();
+assert.equal(u.__test.nodeIds().length,registry.entities.length);
+assert.equal(new Set(u.__test.nodeIds()).size,registry.entities.length);
+for(const entry of registry.entities)assert.ok(u.__test.nodeIds().includes(entry.id),entry.id);
+for(const ticker of ['META','AAPL','INTC']){
+  const entry=registry.entities.find(e=>e.financialTicker===ticker);
+  u.selectNode(entry.id);
+  assert.equal(u.__test.mode(),'evidence','Financial companies stay in the money network');
+}
+assert.equal(u.__test.node('SPCX').company,undefined,'Pending public research cannot inherit financials');
+assert.equal(u.__test.node('MUFG').listingStatus,'subsidiary');
+assert.equal(u.__test.node('MUFG').ticker,null);
+const connected=new Set(ctx.circulationData.edges.flatMap(e=>[e.from,e.to]));
+for(const entry of registry.entities)assert.equal(u.__test.node(entry.id).linked,connected.has(entry.id));
+u.__test.mode('future');
+assert.equal(u.__test.nodeIds().length,companies.length);
+assert.ok(!u.__test.nodeIds().includes('SPCX'),'No unsupported future rating for newly covered companies');
+u.selectNode('SPCX');
+assert.equal(u.__test.mode(),'evidence','Selecting a pending company restores the evidence map');
 for(const mode of ['evidence','future']){
   u.__test.mode(mode);
   for(const id of ['MSFT','NVDA']){
@@ -49,4 +71,4 @@ for(const mode of ['evidence','future']){
     for(const k of ['x','y','z'])near(target[k],position[k]);
   }
 }
-console.log('Spatial checks passed: scenario paths, strict screens, projection, curves and camera targeting in both layouts.');
+console.log('Spatial checks passed: full registry coverage, honest mode transitions, scenario paths, strict screens, projection, curves and camera targeting.');

@@ -26,9 +26,10 @@ jobs:
       - name: Check deterministic research outputs
         run: |
           python scripts/build_circulation.py
+          python scripts/build_coverage.py
           python scripts/build_scenarios.py
           python scripts/normalize_valuation.py
-          git diff --exit-code -- dist/circulation.json dist/scenarios.json dist/valuation.json
+          git diff --exit-code -- dist/circulation.json dist/scenarios.json dist/valuation.json dist/coverage.json
       - name: Install media inspection tools
         run: sudo apt-get update && sudo apt-get install --yes ffmpeg
       - name: Verify distributable films

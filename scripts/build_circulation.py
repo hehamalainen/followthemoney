@@ -1,8 +1,10 @@
 """Normalize sourced research; preserve commitments separately from cash and revenue."""
 import json
+import re
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
 a=json.loads((root/'scripts/research/circulation-core.json').read_text());b=json.loads((root/'scripts/research/circulation-downstream.json').read_text())
+coverage=json.loads((root/'scripts/research/circulation-coverage.json').read_text())
 source={**a['sources'],**b['sources']};nodes={}
 node_alias={'CRWV_LENDERS':'LENDERS_CRWV'}
 for n in b['nodes']+a['nodes']:
@@ -35,11 +37,52 @@ for c in a['cases']+b['cases']:
  if c['id']=='downstream_third_party_power_finance':c['kind']='Project financing chain'
  if c['id']=='downstream_real_economy':c['kind']='Supply-chain spending into local work'
  cases.append(c)
+base_edge_ids=set(edges)
+base_case_ids={c['id'] for c in cases}
+# Coverage research already uses the public schema and supported economic types.
+# Do not alter the original relationship or case records while extending the map.
+assert coverage['asOf']=='2026-10-03'
+for source_id, item in coverage['sources'].items():
+ assert source_id.startswith('coverage_') and source_id not in source, source_id
+ source[source_id]=item
+for n in coverage['nodes']:
+ assert n['id'] not in nodes, n['id']
+ nodes[n['id']]=dict(n)
+for node_id, metadata in coverage['nodeMetadata'].items():
+ assert node_id in nodes, node_id
+ nodes[node_id].update(metadata)
+for e in coverage['edges']:
+ assert e['id'].startswith('coverage_') and e['id'] not in edges, e['id']
+ edges[e['id']]=dict(e)
+for c in coverage['cases']:
+ assert c['id'].startswith('coverage_') and c['id'] not in base_case_ids, c['id']
+ cases.append(dict(c))
 method=['Tier 1: model labs and major cloud providers. Tier 2: compute operators, hardware and direct suppliers. Tier 3: manufacturing enablers, power, sites, contractors and project financing. Cases include upstream links when needed for context.','Relationships are based on named counterparties in primary sources. Some describe an established supplier route without a disclosed invoice or payment.','Paid investments, outstanding borrowing, signed commitments, frameworks, conditional guarantees and recognized revenue retain separate labels. No aggregate capital-flow total is calculated.','The same dollar is not traced through the system. Interdependence can amplify a spending shock, but is not proof of fictitious revenue.']
 result={'asOf':'2026-10-03','nodes':list(nodes.values()),'edges':list(edges.values()),'cases':cases,'sources':source,'methodology':method}
+supported_types={'investment','commercial','finance','guarantee','noncash','supplier'}
+supported_statuses={'public','unlisted','subsidiary','group-or-fund','project','consortium','undisclosed'}
+for n in nodes.values():
+ assert n['tier'] in (1,2,3),n['id']
+ assert n['listingStatus'] in supported_statuses,n['id']
+ assert n['tickerRole'] in {'listed_issuer','listed_parent','not_listed','not_applicable'},n['id']
+ assert n['listingStatus']!='public' or n.get('ticker'),n['id']
+ assert n['tickerRole'] not in {'listed_issuer','listed_parent'} or n.get('ticker'),n['id']
+ assert all(s in source for s in n.get('sourceIds',[])),n['id']
 for e in edges.values():
  assert e['from'] in nodes and e['to'] in nodes,e['id']
+ assert e['flowType'] in supported_types,e['id']
+ assert e['tier'] in (1,2,3),e['id']
+ assert e['status'].strip() and e['detail'].strip(),e['id']
+ dates=re.findall(r'\d{4}-\d{2}(?:-\d{2})?',e['date'])
+ assert dates and max(dates)<=result['asOf'],e['id']
+ assert e['sourceIds'],e['id']
  assert all(s in source for s in e['sourceIds']),e['id']
-for c in cases:assert all(e in edges for e in c['edgeIds']),c['id']
+assert len({c['id'] for c in cases})==len(cases)
+for c in cases:
+ assert c['tier'] in (1,2,3) and c['edgeIds'],c['id']
+ assert all(e in edges for e in c['edgeIds']),c['id']
+ assert c['limitation'].strip(),c['id']
+assert base_edge_ids.issubset(edges)
+assert base_case_ids.issubset({c['id'] for c in cases})
 (root/'dist/circulation.json').write_text(json.dumps(result,ensure_ascii=False,indent=2))
 print(len(nodes),'counterparties',len(edges),'relationships',len(cases),'cases')

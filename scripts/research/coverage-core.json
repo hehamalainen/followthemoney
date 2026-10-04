@@ -1,0 +1,797 @@
+{
+  "snapshot": "2026-10-03",
+  "researchedAt": "2026-10-04",
+  "summary": "Prioritize missing public parent/listed labs and repair aliases/ownership before broadening every startup. META/AAPL/INTC already in public roster; their visual discoverability and circulation edges are a separate fix.",
+  "entities": [
+    {
+      "id": "SPCX",
+      "name": "SpaceX / SpaceXAI",
+      "ticker": "SPCX",
+      "priority": 0,
+      "listingStatus": "public",
+      "type": "public-parent",
+      "aliases": [
+        "SpaceX",
+        "Space Exploration Technologies",
+        "SpaceXAI",
+        "xAI",
+        "X.AI",
+        "Grok",
+        "Colossus",
+        "Starlink",
+        "X"
+      ],
+      "sourceIds": [
+        "spcxQ2",
+        "spcxIPO",
+        "xaiMerger"
+      ],
+      "note": "Public parent includes xAI following February 2 acquisition. Use parent for financials and stock returns; identify SpaceXAI as AI operation, not a separate stock."
+    },
+    {
+      "id": "CURSOR",
+      "name": "Cursor / Anysphere",
+      "priority": 1,
+      "listingStatus": "subsidiary",
+      "parentId": "SPCX",
+      "aliases": [
+        "Cursor",
+        "Anysphere"
+      ],
+      "sourceIds": [
+        "cursorClose"
+      ],
+      "note": "Acquisition completed August 14; mark as SpaceX subsidiary. $60B is implied equity value with share consideration, not cash paid."
+    },
+    {
+      "id": "CBRS",
+      "name": "Cerebras Systems",
+      "ticker": "CBRS",
+      "priority": 0,
+      "listingStatus": "public",
+      "type": "public-company",
+      "aliases": [
+        "Cerebras",
+        "Wafer-Scale Engine"
+      ],
+      "sourceIds": [
+        "cbrsIPO",
+        "cbrsQ1"
+      ],
+      "note": "IPO closed May 15, 2026. Add both investable-company coverage and inference/financing relationships."
+    },
+    {
+      "id": "TSLA",
+      "name": "Tesla",
+      "ticker": "TSLA",
+      "priority": 1,
+      "listingStatus": "public",
+      "type": "public-company",
+      "aliases": [
+        "Tesla",
+        "Megapack"
+      ],
+      "sourceIds": [
+        "teslaAgreement",
+        "spcxQ2"
+      ],
+      "note": "Distinct public company; related-party investment and Megapack sales connect it to SpaceX/xAI. Do not consolidate with SpaceX."
+    },
+    {
+      "id": "MINIMAX",
+      "name": "MiniMax",
+      "ticker": "0100.HK",
+      "priority": 1,
+      "listingStatus": "public",
+      "aliases": [
+        "MiniMax",
+        "Hailuo",
+        "Talkie"
+      ],
+      "sourceIds": [
+        "minimaxListed",
+        "minimaxIPO"
+      ],
+      "note": "Already listed in Hong Kong; ticker 0100. MINIMAX-W superseded MINIMAX-WP March 18, 2026. New-listing history cannot support full 1Y/3Y stock returns."
+    },
+    {
+      "id": "ZAI",
+      "name": "Z.ai / Zhipu",
+      "ticker": "2513.HK",
+      "priority": 1,
+      "listingStatus": "public",
+      "aliases": [
+        "Z.ai",
+        "ZAI",
+        "Zhipu",
+        "GLM",
+        "Knowledge Atlas Technology"
+      ],
+      "sourceIds": [
+        "zaiListed",
+        "zaiAnnual"
+      ],
+      "note": "HKEX issuer confirms January 8, 2026 listing. Treat international/model names as aliases of one issuer."
+    },
+    {
+      "id": "MISTRAL",
+      "name": "Mistral AI",
+      "priority": 1,
+      "listingStatus": "unlisted-context",
+      "aliases": [
+        "Mistral",
+        "Le Chat"
+      ],
+      "sourceIds": [
+        "asmlMistral",
+        "samsungMistral",
+        "mistralD"
+      ],
+      "note": "Critical Europe lab plus unusual equity/customer links to semiconductor manufacturers; do not infer its market valuation is a quoted market cap."
+    },
+    {
+      "id": "SCALE",
+      "name": "Scale AI",
+      "priority": 1,
+      "listingStatus": "unlisted-context",
+      "aliases": [
+        "Scale",
+        "Scale AI"
+      ],
+      "sourceIds": [
+        "scaleInvestment",
+        "scaleIndependent"
+      ],
+      "note": "Retain independent counterparty despite Meta investment and founder move; not a wholly owned Meta subsidiary."
+    },
+    {
+      "id": "DATABRICKS",
+      "name": "Databricks",
+      "priority": 1,
+      "listingStatus": "unlisted-context",
+      "aliases": [
+        "Databricks",
+        "Mosaic AI",
+        "MosaicML"
+      ],
+      "sourceIds": [
+        "databricksRound",
+        "databricksOpenAI"
+      ],
+      "note": "Enterprise distribution/data layer; funding and adjusted FCF disclosures are not equivalent to public GAAP accounts. No independent ticker verified."
+    },
+    {
+      "id": "COHERE",
+      "name": "Cohere",
+      "priority": 2,
+      "listingStatus": "unlisted-context",
+      "aliases": [
+        "Cohere",
+        "Command",
+        "North"
+      ],
+      "sourceIds": [
+        "cohereRound",
+        "cohereAleph"
+      ],
+      "note": "Add proposed Aleph Alpha combination as pending, not completed. No independent ticker verified."
+    },
+    {
+      "id": "ALEPH_ALPHA",
+      "name": "Aleph Alpha",
+      "priority": 2,
+      "listingStatus": "unlisted-context",
+      "aliases": [
+        "Aleph Alpha"
+      ],
+      "sourceIds": [
+        "cohereAleph",
+        "cohereAlephDated"
+      ],
+      "note": "Definitive agreement September 16 remains subject to final regulatory approvals; keep separate legal node until completion."
+    },
+    {
+      "id": "PERPLEXITY",
+      "name": "Perplexity",
+      "priority": 2,
+      "listingStatus": "unlisted-context",
+      "aliases": [
+        "Perplexity",
+        "Sonar",
+        "Comet"
+      ],
+      "sourceIds": [
+        "samsungPerplexity"
+      ],
+      "note": "Visible consumer/enterprise distribution competitor. Samsung integration verified; fees and equity investment amount not established by this release."
+    },
+    {
+      "id": "DEEPSEEK",
+      "name": "DeepSeek",
+      "priority": 1,
+      "listingStatus": "unlisted-context",
+      "aliases": [
+        "DeepSeek",
+        "DeepSeek-V3",
+        "DeepSeek-R1"
+      ],
+      "sourceIds": [
+        "deepseekV3"
+      ],
+      "note": "Major competitive/model node. Official paper verifies H800 use; it does not identify direct NVIDIA purchase payments or a total company development budget. Ownership/financing not fully verified in primary sources in this pass."
+    },
+    {
+      "id": "BYTEDANCE",
+      "name": "ByteDance / Seed",
+      "priority": 1,
+      "listingStatus": "unlisted-context",
+      "aliases": [
+        "ByteDance",
+        "Seed",
+        "Doubao",
+        "Seedance",
+        "Seedream",
+        "TRAE"
+      ],
+      "sourceIds": [
+        "byteDanceSeed",
+        "byteDanceModels"
+      ],
+      "note": "Major model/platform player omitted from global ecosystem; keep Seed/Doubao as brands under ByteDance. No direct supplier-payment amount established here."
+    },
+    {
+      "id": "GROQ",
+      "name": "Groq",
+      "priority": 1,
+      "listingStatus": "unlisted-context",
+      "aliases": [
+        "Groq",
+        "GroqCloud",
+        "LPU"
+      ],
+      "sourceIds": [
+        "groqLicense"
+      ],
+      "note": "Independent company after NVIDIA licensing/talent deal. Groq is different from Grok (SpaceXAI model); do not merge search aliases."
+    },
+    {
+      "id": "G42",
+      "name": "G42",
+      "priority": 1,
+      "listingStatus": "unlisted-context",
+      "aliases": [
+        "G42",
+        "Group 42"
+      ],
+      "sourceIds": [
+        "msftG42",
+        "cbrsProspectus"
+      ],
+      "note": "Major sovereign AI/customer/financing hub. Do not automatically consolidate MBZUAI into G42 or make its listed portfolio companies aliases."
+    },
+    {
+      "id": "FLUIDSTACK",
+      "name": "Fluidstack",
+      "priority": 1,
+      "listingStatus": "unlisted-context",
+      "aliases": [
+        "Fluidstack"
+      ],
+      "sourceIds": [
+        "anthropicFluidstack"
+      ],
+      "note": "Major Anthropic infrastructure partner. $50B is Anthropic's program scope, not a demonstrated payment to Fluidstack."
+    },
+    {
+      "id": "OPENAI",
+      "name": "OpenAI",
+      "priority": 0,
+      "listingStatus": "unlisted-context",
+      "existing": true,
+      "aliases": [
+        "OpenAI",
+        "OAI",
+        "ChatGPT",
+        "Codex",
+        "OpenAI Group PBC"
+      ],
+      "sourceIds": [
+        "openaiStructure",
+        "openaiRound"
+      ],
+      "note": "Already in circulation. Public benefit corporation describes legal form, not stock listing. No completed exchange listing established by reviewed primary evidence by cutoff."
+    },
+    {
+      "id": "ANTHROPIC",
+      "name": "Anthropic",
+      "priority": 0,
+      "listingStatus": "unlisted-context",
+      "existing": true,
+      "aliases": [
+        "Anthropic",
+        "Claude",
+        "Claude Code"
+      ],
+      "sourceIds": [
+        "anthropicRound",
+        "anthropicSpaceX"
+      ],
+      "note": "Already in circulation. Filing/IPO plans are not completed listing; no ticker verified. 'Ant' is ambiguous with Ant Group—do not make automatic alias without user confirmation."
+    }
+  ],
+  "edges": [
+    {
+      "id": "anthropic-spcx-colossus",
+      "from": "ANTHROPIC",
+      "to": "SPCX",
+      "tier": 1,
+      "flowType": "compute commitment",
+      "status": "signed agreement",
+      "title": "Claude uses SpaceX Colossus capacity",
+      "amountLabel": ">300MW; dollars undisclosed",
+      "date": "2026-05-06",
+      "sourceIds": [
+        "anthropicSpaceX"
+      ],
+      "detail": "Agreement for all Colossus 1 capacity (>220,000 NVIDIA GPUs), expected accessible within that month. Orbital capacity was expressed interest only, not funded construction."
+    },
+    {
+      "id": "spcx-tesla-megapacks",
+      "from": "SPCX",
+      "to": "TSLA",
+      "tier": 3,
+      "flowType": "equipment purchases",
+      "status": "purchases recorded",
+      "title": "SpaceX buys Tesla Megapacks",
+      "amountLabel": "$329M in H1 2026",
+      "date": "2026-06-30",
+      "dateKind": "period end",
+      "sourceIds": [
+        "spcxQ2"
+      ],
+      "detail": "Recorded in property, plant and equipment. Includes $295M in Q2; do not add Q2 to H1. This disclosure is purchase value, not a separately evidenced cash-settlement schedule."
+    },
+    {
+      "id": "tesla-xai-equity-agreement",
+      "from": "TSLA",
+      "to": "SPCX",
+      "historicalTarget": "xAI",
+      "tier": 1,
+      "flowType": "equity investment",
+      "status": "agreement announced; later settlement not established here",
+      "title": "Tesla's agreement to invest in xAI",
+      "amountLabel": "Approximately $2B",
+      "date": "2026-01-16",
+      "sourceIds": [
+        "teslaAgreement",
+        "xaiMerger"
+      ],
+      "detail": "Pre-merger xAI Series E agreement. For time-aware map target historical xAI; current parent is SpaceX. Do not claim fresh $2B cash into SpaceX after IPO."
+    },
+    {
+      "id": "spcx-cursor-acquisition",
+      "from": "SPCX",
+      "to": "CURSOR",
+      "tier": 1,
+      "flowType": "ownership / non-cash acquisition",
+      "status": "completed",
+      "title": "SpaceX acquires Cursor",
+      "amountLabel": "$60B implied equity value",
+      "date": "2026-08-14",
+      "sourceIds": [
+        "cursorClose"
+      ],
+      "detail": "Primarily SpaceX share consideration, plus equity award conversions; not a $60B operating spend/cash-payment link. Prefer ownership overlay over money-flow geometry."
+    },
+    {
+      "id": "openai-cbrs-capacity",
+      "from": "OPENAI",
+      "to": "CBRS",
+      "tier": 2,
+      "flowType": "compute commitment",
+      "status": "multiyear agreement",
+      "title": "OpenAI contracts Cerebras inference",
+      "amountLabel": ">$20B; 750MW over several years",
+      "date": "2026-06-23",
+      "sourceIds": [
+        "cbrsQ1"
+      ],
+      "detail": "Issuer June release confirms agreement size and capacity. Do not treat lifetime contract value as recognized or paid revenue."
+    },
+    {
+      "id": "openai-cbrs-loan",
+      "from": "OPENAI",
+      "to": "CBRS",
+      "tier": 2,
+      "flowType": "customer financing / debt",
+      "status": "loan raised in January",
+      "title": "OpenAI finances Cerebras working capital",
+      "amountLabel": "$1B loan",
+      "date": "2026-01",
+      "sourceIds": [
+        "cbrsQ1"
+      ],
+      "detail": "Separate loan category; not equity, not additional sales revenue. Avoid presenting loan+contract as incremental demand."
+    },
+    {
+      "id": "asml-mistral-equity",
+      "from": "ASML",
+      "to": "MISTRAL",
+      "tier": 1,
+      "flowType": "equity investment",
+      "status": "announced strategic investment",
+      "title": "ASML backs Mistral",
+      "amountLabel": "€1.3B in Series C",
+      "date": "2025-09-09",
+      "sourceIds": [
+        "asmlMistral"
+      ],
+      "detail": "Part of €1.7B round, not additive to it. ASML also enters commercial/technical collaboration; fees undisclosed."
+    },
+    {
+      "id": "samsung-mistral-equity",
+      "from": "SAMSUNG",
+      "to": "MISTRAL",
+      "tier": 1,
+      "flowType": "equity investment",
+      "status": "lead investment announced",
+      "title": "Samsung takes Mistral stake",
+      "amountLabel": "Individual investment undisclosed",
+      "date": "2026-09-09",
+      "sourceIds": [
+        "samsungMistral"
+      ],
+      "detail": "Samsung leads Series D and secures strategic equity stake; the full funding round must not be attributed to Samsung alone."
+    },
+    {
+      "id": "samsung-mistral-services",
+      "from": "SAMSUNG",
+      "to": "MISTRAL",
+      "tier": 1,
+      "flowType": "commercial services / partnership",
+      "status": "signed partnership",
+      "title": "Mistral models for Samsung fabs",
+      "amountLabel": "Commercial amount undisclosed",
+      "date": "2026-09-09",
+      "sourceIds": [
+        "samsungMistral"
+      ],
+      "detail": "On-premises models across semiconductor engineering/manufacturing. Shows investor also becoming user; no tracked-dollar loop."
+    },
+    {
+      "id": "meta-scale-investment",
+      "from": "META",
+      "to": "SCALE",
+      "tier": 1,
+      "flowType": "equity investment",
+      "status": "strategic investment announced",
+      "title": "Meta invests in Scale",
+      "amountLabel": "Amount not quoted in this primary release",
+      "date": "2025-06-12",
+      "sourceIds": [
+        "scaleInvestment",
+        "scaleIndependent"
+      ],
+      "detail": "Release gives >$29B Scale valuation, not investment size. Some proceeds distributed to existing equity holders; don't classify entire transaction as operating cash available to Scale."
+    },
+    {
+      "id": "meta-scale-services",
+      "from": "META",
+      "to": "SCALE",
+      "tier": 1,
+      "flowType": "commercial services / partnership",
+      "status": "expanded commercial relationship",
+      "title": "Meta expands data-services relationship",
+      "amountLabel": "Undisclosed",
+      "date": "2025-06-12",
+      "sourceIds": [
+        "scaleInvestment"
+      ],
+      "detail": "Separate from equity investment; no supplier revenue amount supplied."
+    },
+    {
+      "id": "msft-g42-investment",
+      "from": "MSFT",
+      "to": "G42",
+      "tier": 1,
+      "flowType": "equity investment",
+      "status": "announced strategic investment",
+      "title": "Microsoft invests in G42",
+      "amountLabel": "$1.5B",
+      "date": "2024-04-16",
+      "sourceIds": [
+        "msftG42"
+      ],
+      "detail": "Announcement does not establish settlement schedule. Distinct from jointly supported developer fund."
+    },
+    {
+      "id": "g42-msft-cloud",
+      "from": "G42",
+      "to": "MSFT",
+      "tier": 1,
+      "flowType": "cloud services / partnership",
+      "status": "announced Azure use",
+      "title": "G42 applications on Azure",
+      "amountLabel": "Cloud spend undisclosed",
+      "date": "2024-04-16",
+      "sourceIds": [
+        "msftG42"
+      ],
+      "detail": "Investor/customer relationship; no amount or claim that investment funds purchase exact Azure services."
+    },
+    {
+      "id": "nvda-groq-license",
+      "from": "NVDA",
+      "to": "GROQ",
+      "tier": 2,
+      "flowType": "technology license",
+      "status": "non-exclusive agreement",
+      "title": "NVIDIA licenses Groq inference technology",
+      "amountLabel": "Undisclosed in this issuer announcement",
+      "date": "2025-12-24",
+      "sourceIds": [
+        "groqLicense"
+      ],
+      "detail": "Selected leaders join NVIDIA; Groq and GroqCloud remain independent. No inference of full acquisition or $20B cash payment."
+    },
+    {
+      "id": "databricks-openai-models",
+      "from": "DATABRICKS",
+      "to": "OPENAI",
+      "tier": 1,
+      "flowType": "model distribution partnership",
+      "status": "integration announced",
+      "title": "OpenAI models on Databricks",
+      "amountLabel": "Undisclosed in reviewed issuer source",
+      "date": "2025-09-25",
+      "sourceIds": [
+        "databricksOpenAI"
+      ],
+      "detail": "Commercial distribution availability, not proof of minimum cash commitment."
+    },
+    {
+      "id": "samsung-perplexity",
+      "from": "SAMSUNG",
+      "to": "PERPLEXITY",
+      "tier": 1,
+      "flowType": "product distribution partnership",
+      "status": "integration announced",
+      "title": "Perplexity in Samsung Browser",
+      "amountLabel": "Fees undisclosed",
+      "date": "2026-03-26",
+      "sourceIds": [
+        "samsungPerplexity"
+      ],
+      "detail": "Partnership supports browser assistant. Monetary direction not independently specified: use relationship styling, not cash-flow animation."
+    },
+    {
+      "id": "cohere-aleph-combination",
+      "from": "COHERE",
+      "to": "ALEPH_ALPHA",
+      "tier": 1,
+      "flowType": "pending ownership",
+      "status": "definitive agreement; regulatory approval pending",
+      "title": "Cohere / Aleph Alpha proposed combination",
+      "amountLabel": "Consideration not established here",
+      "date": "2026-09-16",
+      "sourceIds": [
+        "cohereAleph",
+        "cohereAlephDated"
+      ],
+      "detail": "Treat as pending; do not merge company financials or count a payment."
+    },
+    {
+      "id": "anthropic-fluidstack",
+      "from": "ANTHROPIC",
+      "to": "FLUIDSTACK",
+      "tier": 2,
+      "flowType": "infrastructure partnership",
+      "status": "buildout plan announced",
+      "title": "Anthropic buildout with Fluidstack",
+      "amountLabel": "Part of $50B US infrastructure plan",
+      "date": "2025-11-12",
+      "sourceIds": [
+        "anthropicFluidstack"
+      ],
+      "detail": "Plan spans US infrastructure; not a $50B payment exclusively to Fluidstack. Use unquantified partnership edge."
+    }
+  ],
+  "sources": {
+    "spcxQ2": {
+      "title": "SpaceX Form 10-Q, quarter ended June 30, 2026",
+      "date": "2026-06-30",
+      "dateKind": "period end",
+      "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026052535/spcx-20260630.htm"
+    },
+    "spcxIPO": {
+      "title": "SpaceX prices IPO",
+      "date": "2026-06-11",
+      "url": "https://ir.spacex.com/updates/releases-details/2026/Space-Exploration-Technologies-Corp--Announces-Pricing-of-Initial-Public-Offering/default.aspx"
+    },
+    "xaiMerger": {
+      "title": "xAI joins SpaceX",
+      "date": "2026-02-02",
+      "url": "https://x.ai/news/xai-joins-spacex"
+    },
+    "cursorClose": {
+      "title": "SpaceX Form 8-K: Cursor merger completed",
+      "date": "2026-08-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026056945/spcx-20260814.htm"
+    },
+    "teslaAgreement": {
+      "title": "Tesla 2025 10-K, subsequent xAI investment agreement",
+      "date": "2026-01-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm"
+    },
+    "anthropicSpaceX": {
+      "title": "Higher usage limits for Claude and compute deal with SpaceX",
+      "date": "2026-05-06",
+      "url": "https://www.anthropic.com/news/higher-limits-spacex"
+    },
+    "cbrsIPO": {
+      "title": "Cerebras announces closing of IPO",
+      "date": "2026-05-15",
+      "url": "https://investors.cerebras.ai/news-releases/news-release-details/cerebras-systems-announces-closing-initial-public-offering"
+    },
+    "cbrsQ1": {
+      "title": "Cerebras first-quarter 2026 results",
+      "date": "2026-06-23",
+      "url": "https://investors.cerebras.ai/news-releases/news-release-details/cerebras-systems-announces-strong-first-quarter-2026-results"
+    },
+    "cbrsProspectus": {
+      "title": "Cerebras final IPO prospectus",
+      "date": "2026-05-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026035214/cerebras-424b4.htm"
+    },
+    "minimaxListed": {
+      "title": "MiniMax HKEX issuer announcement: stock short-name change",
+      "date": "2026-03-13",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0313/2026031301613.pdf"
+    },
+    "minimaxIPO": {
+      "title": "MiniMax full exercise of overallotment option",
+      "date": "2026-01-11",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0111/2026011100015.pdf"
+    },
+    "zaiListed": {
+      "title": "Zhipu / Knowledge Atlas HKEX share award announcement",
+      "date": "2026-03-31",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033101991.pdf"
+    },
+    "zaiAnnual": {
+      "title": "Zhipu 2025 annual report: listing date and stock code",
+      "date": "2026-04-19",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0419/2026041900085.pdf"
+    },
+    "asmlMistral": {
+      "title": "ASML and Mistral strategic partnership",
+      "date": "2025-09-09",
+      "url": "https://investor.asml.com/news-releases/news-release-details/asml-mistral-ai-enter-strategic-partnership"
+    },
+    "samsungMistral": {
+      "title": "Samsung and Mistral strategic partnership and equity investment",
+      "date": "2026-09-09",
+      "url": "https://news.samsung.com/global/samsung-and-mistral-ai-announce-strategic-partnership-for-intelligence-driven-semiconductor-infrastructure"
+    },
+    "mistralD": {
+      "title": "Mistral Series D funding",
+      "date": "2026-09-08",
+      "dateNote": "Date corroborated by Samsung September 9 announcement and contemporary reports; issuer page body omits date",
+      "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"
+    },
+    "scaleInvestment": {
+      "title": "Scale announces investment from Meta",
+      "date": "2025-06-12",
+      "url": "https://scale.com/blog/scale-ai-announces-next-phase-of-company-evolution"
+    },
+    "scaleIndependent": {
+      "title": "Scale remains independent after Meta investment",
+      "date": "2025-06-18",
+      "url": "https://scale.com/blog/customer-trust-scale-meta-deal"
+    },
+    "databricksRound": {
+      "title": "Databricks closes $5B strategic funding",
+      "date": "2026-08-13",
+      "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-grows-80-yoy-surpasses-7b-revenue-run-rate-scales"
+    },
+    "databricksOpenAI": {
+      "title": "Databricks employee announcement: native OpenAI model integration",
+      "date": "2025-09-25",
+      "url": "https://community.databricks.com/t5/announcements/run-openai-models-directly-on-databricks/td-p/133031"
+    },
+    "cohereRound": {
+      "title": "Cohere August funding round",
+      "date": "2025-08-14",
+      "url": "https://cohere.com/blog/august-2025-funding-round"
+    },
+    "cohereAleph": {
+      "title": "Cohere and Aleph Alpha definitive business combination agreement",
+      "date": "2026-09-16",
+      "url": "https://cohere.com/blog/cohere-and-aleph-alpha-sign-agreement"
+    },
+    "cohereAlephDated": {
+      "title": "Cohere/Aleph Alpha issuer-distributed announcement",
+      "date": "2026-09-16",
+      "url": "https://www.prnewswire.com/news-releases/cohere-and-aleph-alpha-sign-agreement-to-become-the-first-transatlantic-sovereign-ai-solution-302880758.html"
+    },
+    "samsungPerplexity": {
+      "title": "Samsung browser launches AI assistant with Perplexity",
+      "date": "2026-03-26",
+      "url": "https://samsungmobilepress.com/articles/samsung-browser-windows-agentic-ai"
+    },
+    "deepseekV3": {
+      "title": "DeepSeek official V3 repository and technical paper",
+      "date": "2024-12-26",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3"
+    },
+    "byteDanceSeed": {
+      "title": "ByteDance launches Seed Edge research program",
+      "date": "2025-01-23",
+      "url": "https://seed.bytedance.com/en/blog/embarking-on-the-unknown-frontiers-of-ai-bytedance-launches-seed-edge-research-program"
+    },
+    "byteDanceModels": {
+      "title": "ByteDance Seed model portfolio",
+      "date": "2026-06-23",
+      "dateKind": "latest included model date at cutoff",
+      "url": "https://seed.bytedance.com/en/seed_model_portfolio"
+    },
+    "groqLicense": {
+      "title": "Groq and NVIDIA non-exclusive technology licensing agreement",
+      "date": "2025-12-24",
+      "url": "https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale"
+    },
+    "msftG42": {
+      "title": "Microsoft strategic investment in G42 and Azure partnership",
+      "date": "2024-04-16",
+      "url": "https://news.microsoft.com/source/2024/04/16/microsoft-invests-1-5-billion-in-abu-dhabis-g42-to-accelerate-ai-development-and-global-expansion/"
+    },
+    "openaiRound": {
+      "title": "OpenAI latest funding round: committed capital",
+      "date": "2026-03-31",
+      "url": "https://openai.com/index/accelerating-the-next-phase-ai/"
+    },
+    "openaiStructure": {
+      "title": "OpenAI structure",
+      "date": "2025-10-28",
+      "url": "https://openai.com/our-structure/"
+    },
+    "anthropicRound": {
+      "title": "Anthropic Series H",
+      "date": "2026-05-28",
+      "url": "https://www.anthropic.com/news/series-h"
+    },
+    "anthropicFluidstack": {
+      "title": "Anthropic US infrastructure plan with Fluidstack",
+      "date": "2025-11-12",
+      "url": "https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure"
+    }
+  },
+  "rules": [
+    "An ecosystem entity need not have a money-flow edge. DeepSeek/ByteDance may be included as competitive/model nodes without fabricated procurement.",
+    "Public financials and stock returns attach to issuer, not every product/subsidiary. Do not double-count SpaceX + SpaceXAI/xAI + Cursor.",
+    "New listings require insufficient-history states; no annualized inferred 1Y/3Y return.",
+    "Public benefit corporation is not synonymous with exchange-listed company.",
+    "Nonlisted context means no verified exchange listing in reviewed primary evidence; no quoted market cap, stock return or audited-profit assumption.",
+    "Do not use 'Ant' automatically for Anthropic; Ant Group is another legal entity.",
+    "Separate funding, loan, acquisition share consideration, contract value, hardware purchases and recognized revenue. No sum across categories.",
+    "Edges identified as partnership/distribution/ownership require different visual styling from cash payment edges."
+  ],
+  "recommendedOrder": [
+    "SPCX",
+    "CBRS",
+    "TSLA",
+    "MINIMAX",
+    "ZAI",
+    "MISTRAL",
+    "SCALE",
+    "G42",
+    "GROQ",
+    "FLUIDSTACK",
+    "DATABRICKS",
+    "DEEPSEEK",
+    "BYTEDANCE",
+    "COHERE",
+    "PERPLEXITY",
+    "ALEPH_ALPHA"
+  ]
+}

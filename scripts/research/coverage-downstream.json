@@ -1,0 +1,860 @@
+{
+  "asOf": "2026-10-03",
+  "scope": "Primary-source coverage audit against 100-company public roster; no financial metrics invented",
+  "alreadyPresent": [
+    {
+      "ticker": "META",
+      "name": "Meta",
+      "aliases": [
+        "Facebook",
+        "Instagram",
+        "WhatsApp",
+        "Llama"
+      ],
+      "status": "already in roster"
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "aliases": [
+        "Apple Intelligence",
+        "Siri",
+        "Private Cloud Compute"
+      ],
+      "status": "already in roster"
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "aliases": [
+        "Intel Foundry",
+        "Xeon",
+        "Gaudi"
+      ],
+      "status": "already in roster"
+    },
+    {
+      "ticker": "005930.KS",
+      "name": "Samsung Electronics",
+      "aliases": [
+        "Samsung",
+        "Samsung Foundry",
+        "Samsung HBM"
+      ],
+      "status": "already in roster"
+    },
+    {
+      "ticker": "000660.KS",
+      "name": "SK hynix",
+      "aliases": [
+        "Hynix",
+        "SK Hynix",
+        "SKHynix"
+      ],
+      "status": "already in roster"
+    }
+  ],
+  "recommendedPublicAdditions": [
+    {
+      "ticker": "QCOM",
+      "name": "Qualcomm",
+      "aliases": [
+        "Qualcomm Incorporated",
+        "Snapdragon",
+        "Hexagon"
+      ],
+      "exchange": "Nasdaq",
+      "region": "United States",
+      "role": "Edge AI processors, custom silicon and data-center inference accelerators",
+      "whyEssential": "Without Qualcomm the screen misses a major mobile/PC AI route and a competing inference architecture.",
+      "sourceIds": [
+        "qualcomm_ai",
+        "qualcomm_listing"
+      ],
+      "listingStatus": "public",
+      "priority": 1,
+      "notes": "Roadmap products are not equivalent to realized data-center revenue.",
+      "financialMetricsAdded": false
+    },
+    {
+      "ticker": "0700.HK",
+      "name": "Tencent",
+      "aliases": [
+        "Tencent Holdings",
+        "00700",
+        "700",
+        "HunYuan",
+        "Hunyuan",
+        "WeChat",
+        "Weixin"
+      ],
+      "exchange": "HKEX",
+      "region": "China / Hong Kong listing",
+      "role": "AI models, cloud services and AI monetization in advertising and games",
+      "whyEssential": "Major Chinese AI platform absent while Alibaba and Baidu are included.",
+      "sourceIds": [
+        "tencent"
+      ],
+      "listingStatus": "public",
+      "priority": 1,
+      "notes": "Primary HKD counter 00700; RMB counter 80700 is the same issuer, not another company.",
+      "financialMetricsAdded": false
+    },
+    {
+      "ticker": "9984.T",
+      "name": "SoftBank Group",
+      "aliases": [
+        "SoftBank",
+        "SBG",
+        "Vision Fund",
+        "SoftBank Vision Fund 2"
+      ],
+      "exchange": "Tokyo Prime",
+      "region": "Japan",
+      "role": "AI capital allocator, OpenAI investor and semiconductor/infrastructure owner",
+      "whyEssential": "Central source of capital in the requested circulation map, not merely another software vendor.",
+      "sourceIds": [
+        "softbank_listing",
+        "softbank_openai"
+      ],
+      "listingStatus": "public",
+      "priority": 1,
+      "notes": "Do not confuse with separately listed SoftBank Corp. 9434. Group and Arm financial exposure overlaps; avoid adding consolidated totals together.",
+      "financialMetricsAdded": false
+    },
+    {
+      "ticker": "8035.T",
+      "name": "Tokyo Electron",
+      "aliases": [
+        "TEL",
+        "Tokyo Electron Limited",
+        "TELWY"
+      ],
+      "exchange": "Tokyo Prime",
+      "region": "Japan",
+      "role": "Semiconductor deposition, etch, cleaning, coater/developer and advanced-packaging tools",
+      "whyEssential": "Broad wafer-fab equipment coverage is incomplete without this major Japanese supplier.",
+      "sourceIds": [
+        "tel_listing",
+        "tel_role"
+      ],
+      "listingStatus": "public",
+      "priority": 1,
+      "notes": "TEL is an alias, but US ticker TEL belongs to TE Connectivity already in the roster. Tokyo Electron recorded a five-for-one split effective October 1, 2026: adjust any subsequent price history consistently.",
+      "financialMetricsAdded": false
+    },
+    {
+      "ticker": "6857.T",
+      "name": "Advantest",
+      "aliases": [
+        "Advantest Corporation",
+        "ATE"
+      ],
+      "exchange": "Tokyo Prime",
+      "region": "Japan",
+      "role": "Automated semiconductor and high-performance AI memory test equipment",
+      "whyEssential": "Complements Teradyne and captures test intensity in AI processors and high-bandwidth memory.",
+      "sourceIds": [
+        "advantest"
+      ],
+      "listingStatus": "public",
+      "priority": 1,
+      "notes": "",
+      "financialMetricsAdded": false
+    },
+    {
+      "ticker": "ASM.AS",
+      "name": "ASM International",
+      "aliases": [
+        "ASM",
+        "ASMI",
+        "ASM International N.V."
+      ],
+      "exchange": "Euronext Amsterdam",
+      "region": "Netherlands",
+      "role": "Atomic layer deposition and epitaxy equipment",
+      "whyEssential": "Leading-edge logic and memory materials processing is a distinct upstream AI capex exposure.",
+      "sourceIds": [
+        "asm"
+      ],
+      "listingStatus": "public",
+      "priority": 1,
+      "notes": "Do not confuse with ASMPT, a separately listed company.",
+      "financialMetricsAdded": false
+    },
+    {
+      "ticker": "ASX",
+      "name": "ASE Technology Holding",
+      "aliases": [
+        "ASE",
+        "ASEH",
+        "Advanced Semiconductor Engineering",
+        "3711.TW",
+        "SPIL"
+      ],
+      "exchange": "NYSE ADR / TWSE 3711",
+      "region": "Taiwan",
+      "role": "Outsourced semiconductor assembly/test and advanced packaging",
+      "whyEssential": "Packaging capacity is a critical AI supply-chain step absent as a standalone major issuer.",
+      "sourceIds": [
+        "ase"
+      ],
+      "listingStatus": "public",
+      "priority": 1,
+      "notes": "ASX ADR and 3711 Taiwan shares represent the same group; count once.",
+      "financialMetricsAdded": false
+    },
+    {
+      "ticker": "AMKR",
+      "name": "Amkor Technology",
+      "aliases": [
+        "Amkor",
+        "OSAT"
+      ],
+      "exchange": "Nasdaq",
+      "region": "United States",
+      "role": "Advanced semiconductor packaging and test",
+      "whyEssential": "Adds another major packaging path and a documented Apple capacity-support relationship.",
+      "sourceIds": [
+        "amkor"
+      ],
+      "listingStatus": "public",
+      "priority": 1,
+      "notes": "Company revenue is not all AI revenue.",
+      "financialMetricsAdded": false
+    },
+    {
+      "ticker": "2454.TW",
+      "name": "MediaTek",
+      "aliases": [
+        "MediaTek Incorporated",
+        "MTK",
+        "Dimensity",
+        "NeuroPilot"
+      ],
+      "exchange": "TWSE",
+      "region": "Taiwan",
+      "role": "Edge AI systems-on-chip and custom compute design",
+      "whyEssential": "NVIDIA GB10 co-design supplies an explicit edge-to-data-center link outside the usual GPU names.",
+      "sourceIds": [
+        "mediatek"
+      ],
+      "listingStatus": "public",
+      "priority": 1,
+      "notes": "",
+      "financialMetricsAdded": false
+    },
+    {
+      "ticker": "0992.HK",
+      "name": "Lenovo Group",
+      "aliases": [
+        "Lenovo",
+        "992",
+        "LNVGY",
+        "ThinkSystem",
+        "Neptune"
+      ],
+      "exchange": "HKEX",
+      "region": "China / Hong Kong listing",
+      "role": "AI servers, storage, liquid cooling and AI PCs",
+      "whyEssential": "Major global server/PC supplier missing despite Dell, HPE and Supermicro coverage.",
+      "sourceIds": [
+        "lenovo",
+        "lenovo_ai"
+      ],
+      "listingStatus": "public",
+      "priority": 1,
+      "notes": "LNVGY ADR and HKEX 992 are the same issuer.",
+      "financialMetricsAdded": false
+    },
+    {
+      "ticker": "6669.TW",
+      "name": "Wiwynn",
+      "aliases": [
+        "Wiwynn Corporation",
+        "緯穎"
+      ],
+      "exchange": "TWSE",
+      "region": "Taiwan",
+      "role": "Hyperscale compute/storage racks and direct liquid cooling",
+      "whyEssential": "Captures rack-scale integration and cooling beyond Foxconn and Quanta.",
+      "sourceIds": [
+        "wiwynn_listing",
+        "wiwynn_ai"
+      ],
+      "listingStatus": "public",
+      "priority": 1,
+      "notes": "Wistron group relationship creates potential consolidated financial overlap if both are included.",
+      "financialMetricsAdded": false
+    },
+    {
+      "ticker": "STX",
+      "name": "Seagate Technology",
+      "aliases": [
+        "Seagate",
+        "Seagate Technology Holdings"
+      ],
+      "exchange": "Nasdaq",
+      "region": "United States operations / Ireland domicile",
+      "role": "Mass-capacity hard drives and data-center storage",
+      "whyEssential": "Storage comparison is incomplete with Western Digital but no Seagate.",
+      "sourceIds": [
+        "seagate"
+      ],
+      "listingStatus": "public",
+      "priority": 1,
+      "notes": "AI is a demand driver, not the entirety of company revenue.",
+      "financialMetricsAdded": false
+    },
+    {
+      "ticker": "SNDK",
+      "name": "Sandisk",
+      "aliases": [
+        "SanDisk",
+        "Sandisk Corporation",
+        "Western Digital flash spin-off"
+      ],
+      "exchange": "Nasdaq",
+      "region": "United States",
+      "role": "NAND flash and enterprise storage",
+      "whyEssential": "Western Digital no longer represents both HDD and flash after the 2025 separation.",
+      "sourceIds": [
+        "sandisk"
+      ],
+      "listingStatus": "public",
+      "priority": 1,
+      "notes": "Independent Nasdaq trading began February 24, 2025; do not count historical WDC flash revenue again.",
+      "financialMetricsAdded": false
+    },
+    {
+      "ticker": "P",
+      "name": "Everpure",
+      "aliases": [
+        "Pure Storage",
+        "PSTG",
+        "Everpure Inc.",
+        "FlashBlade",
+        "DirectFlash",
+        "Portworx"
+      ],
+      "exchange": "NYSE",
+      "region": "United States",
+      "role": "Flash storage and data management for AI and hyperscalers",
+      "whyEssential": "A named Meta design win makes this an observable second-tier participant.",
+      "sourceIds": [
+        "everpure_ticker",
+        "everpure_confirm",
+        "everpure_role"
+      ],
+      "listingStatus": "public",
+      "priority": 1,
+      "notes": "Corporate rename February 23, 2026; ticker changed to P in April 2026. PSTG is a historical search alias, not the October 2026 trading symbol.",
+      "financialMetricsAdded": false
+    },
+    {
+      "ticker": "GLW",
+      "name": "Corning",
+      "aliases": [
+        "Corning Incorporated",
+        "optical fiber",
+        "fiber optic cable"
+      ],
+      "exchange": "NYSE",
+      "region": "United States",
+      "role": "Data-center optical fiber, cable and connectivity",
+      "whyEssential": "A directly disclosed Meta agreement makes this a clear omission in physical AI infrastructure.",
+      "sourceIds": [
+        "meta_corning"
+      ],
+      "listingStatus": "public",
+      "priority": 1,
+      "notes": "The up-to-$6B multiyear agreement is a commitment ceiling, not cash already paid.",
+      "financialMetricsAdded": false
+    }
+  ],
+  "nextAddition": [
+    {
+      "ticker": "3231.TW",
+      "name": "Wistron",
+      "aliases": [
+        "Wistron Corporation",
+        "緯創"
+      ],
+      "exchange": "TWSE",
+      "region": "Taiwan",
+      "role": "AI server manufacturing and enterprise computing",
+      "whyEssential": "Useful next addition after the first 15; broadens Taiwan ODM coverage.",
+      "sourceIds": [
+        "wistron_listing",
+        "wistron_role"
+      ],
+      "listingStatus": "public",
+      "priority": 2,
+      "notes": "Keep Wistron and Wiwynn as distinct listed issuers while flagging group/consolidation overlap.",
+      "financialMetricsAdded": false
+    }
+  ],
+  "suggestedEdges": [
+    {
+      "id": "coverage_nvda_intel",
+      "from": "NVDA",
+      "to": "INTC",
+      "tier": 1,
+      "title": "Completed Intel equity purchase",
+      "flowType": "equity",
+      "status": "completed cash investment",
+      "amountLabel": "$5B",
+      "amount": 5000000000,
+      "detail": "Intel reports the sale of approximately 215 million shares to NVIDIA closed on December 26, 2025.",
+      "sourceIds": [
+        "intel_nvda"
+      ],
+      "date": "2025-12-26",
+      "caveat": "An equity financing inflow, not Intel product revenue. This does not prove NVIDIA will manufacture GPUs at Intel.",
+      "directionEvidence": "documented economic direction"
+    },
+    {
+      "id": "coverage_softbank_intel",
+      "from": "9984.T",
+      "to": "INTC",
+      "tier": 1,
+      "title": "Completed Intel equity purchase",
+      "flowType": "equity",
+      "status": "completed cash investment",
+      "amountLabel": "$2B",
+      "amount": 2000000000,
+      "detail": "Intel completed the sale of 86,956,522 shares to SoftBank for cash.",
+      "sourceIds": [
+        "intel_softbank"
+      ],
+      "date": "2025-09-26",
+      "caveat": "An equity financing inflow, not semiconductor revenue.",
+      "directionEvidence": "documented economic direction"
+    },
+    {
+      "id": "coverage_aws_intel",
+      "from": "AMZN",
+      "to": "INTC",
+      "tier": 1,
+      "title": "Custom AI fabric and Xeon chip framework",
+      "flowType": "commercial",
+      "status": "announced multiyear framework",
+      "amountLabel": "Multibillion-dollar framework",
+      "amount": null,
+      "detail": "Intel and AWS announced co-investment in custom designs, products and wafers, including an AI fabric chip on Intel 18A and custom Xeon 6 on Intel 3.",
+      "sourceIds": [
+        "intel_aws"
+      ],
+      "date": "2024-09-16",
+      "caveat": "Framework value is not recognized revenue or verified cash paid. Allocation between co-investment and purchases is not disclosed; production completion is not established by this source.",
+      "directionEvidence": "documented economic direction"
+    },
+    {
+      "id": "coverage_meta_nvda",
+      "from": "META",
+      "to": "NVDA",
+      "tier": 1,
+      "title": "NVIDIA compute and networking deployments",
+      "flowType": "commercial",
+      "status": "announced multiyear partnership",
+      "amountLabel": "Dollar value undisclosed",
+      "amount": null,
+      "detail": "A February 2026 partnership covers large-scale CPU deployment, millions of Blackwell/Rubin GPUs and Spectrum-X networking.",
+      "sourceIds": [
+        "meta_nvda"
+      ],
+      "date": "2026-02-17",
+      "caveat": "Hardware deployment roadmap is not a disclosed cash total; do not multiply device counts by invented prices.",
+      "directionEvidence": "documented economic direction"
+    },
+    {
+      "id": "coverage_meta_amd",
+      "from": "META",
+      "to": "AMD",
+      "tier": 1,
+      "title": "AMD GPU purchases",
+      "flowType": "commercial",
+      "status": "initial 1 GW binding; up to 6 GW framework",
+      "amountLabel": "1 GW initial / up to 6 GW",
+      "amount": null,
+      "detail": "The AMD filing establishes an initial binding purchase commitment equivalent to 1 GW, directly or via authorized purchasers, within the broader 6 GW partnership.",
+      "sourceIds": [
+        "meta_amd"
+      ],
+      "date": "2026-02-24",
+      "caveat": "Do not label all 6 GW as an unconditional paid order, or attach an unsourced dollar value.",
+      "directionEvidence": "documented economic direction"
+    },
+    {
+      "id": "coverage_amd_meta_warrant",
+      "from": "AMD",
+      "to": "META",
+      "tier": 1,
+      "title": "Purchase-linked equity incentive",
+      "flowType": "warrant",
+      "status": "conditional noncash right",
+      "amountLabel": "Up to 160M AMD shares",
+      "amount": null,
+      "detail": "AMD issued Meta a performance-based warrant. Vesting depends on GPU purchases and other contractual milestones.",
+      "sourceIds": [
+        "meta_amd",
+        "meta_amd_update"
+      ],
+      "date": "2026-02-24",
+      "caveat": "Direction denotes delivery of a contingent financial right, not cash. As of June 27, 2026 no shares had vested or become exercisable; full exercise is not a completed investment.",
+      "directionEvidence": "noncash right from issuer to customer"
+    },
+    {
+      "id": "coverage_meta_crwv",
+      "from": "META",
+      "to": "CRWV",
+      "tier": 1,
+      "title": "Expanded AI cloud agreement",
+      "flowType": "commercial",
+      "status": "contract commitment",
+      "amountLabel": "Approximately $21B through 2032",
+      "amount": 21000000000,
+      "detail": "CoreWeave announced expanded cloud capacity for Meta through December 2032. The filing says the amount includes new capacity and exercise of an existing capacity option.",
+      "sourceIds": [
+        "meta_crwv",
+        "meta_crwv_filing"
+      ],
+      "date": "2026-04-09",
+      "caveat": "Not cash paid or annual revenue. Do not mechanically add earlier headline contract/option values, because option overlap is explicit.",
+      "directionEvidence": "documented economic direction"
+    },
+    {
+      "id": "coverage_meta_corning",
+      "from": "META",
+      "to": "GLW",
+      "tier": 1,
+      "title": "Optical fiber and connectivity agreement",
+      "flowType": "supplier",
+      "status": "multiyear commitment ceiling",
+      "amountLabel": "Up to $6B",
+      "amount": 6000000000,
+      "detail": "Corning will supply optical fiber, cable and connectivity for Meta data-center expansion and expand North Carolina capacity.",
+      "sourceIds": [
+        "meta_corning"
+      ],
+      "date": "2026-01-27",
+      "caveat": "Commitment ceiling, not completed cash payments or current-year revenue.",
+      "directionEvidence": "documented economic direction"
+    },
+    {
+      "id": "coverage_meta_everpure",
+      "from": "META",
+      "to": "P",
+      "tier": 1,
+      "title": "Hyperscaler DirectFlash storage design win",
+      "flowType": "supplier",
+      "status": "documented customer design win",
+      "amountLabel": "Dollar value undisclosed",
+      "amount": null,
+      "detail": "Pure Storage named Meta as a DirectFlash design-win customer in its 2025 proxy; the subsequent FY2026 report says shipments for its hyperscaler design win began.",
+      "sourceIds": [
+        "meta_pure",
+        "pure_update"
+      ],
+      "date": "2025-04-28",
+      "caveat": "The later shipment report does not name the customer in that passage, so linking shipments to Meta is an inference across disclosures. Do not assign a cash amount, or assume all storage supports AI.",
+      "directionEvidence": "documented economic direction"
+    },
+    {
+      "id": "coverage_apple_tsmc",
+      "from": "AAPL",
+      "to": "TSM",
+      "tier": 1,
+      "title": "Arizona advanced silicon purchasing",
+      "flowType": "supplier",
+      "status": "multiyear commitment; production underway",
+      "amountLabel": "Multibillion-dollar commitment",
+      "amount": null,
+      "detail": "Apple disclosed a multibillion-dollar commitment to TSMC Fab 21 and said production of its chips had begun.",
+      "sourceIds": [
+        "apple_tsmc",
+        "apple_update"
+      ],
+      "date": "2025-02-24",
+      "caveat": "Broader Apple silicon procurement: no AI-only dollar allocation. Neither the entire US spending pledge nor all Apple chip purchases equal AI server capex.",
+      "directionEvidence": "documented economic direction"
+    },
+    {
+      "id": "coverage_apple_amkor",
+      "from": "AAPL",
+      "to": "AMKR",
+      "tier": 1,
+      "title": "Advanced packaging capacity support",
+      "flowType": "supplier",
+      "status": "investment and future customer relationship",
+      "amountLabel": "Apple amount undisclosed",
+      "amount": null,
+      "detail": "Apple is investing in the Amkor Arizona packaging facility and says it will be the first and largest customer. It will package TSMC-made Apple silicon.",
+      "sourceIds": [
+        "apple_supply",
+        "apple_update"
+      ],
+      "date": "2025-08-06",
+      "caveat": "Amkor factory cost is not Apple’s investment amount; no AI-only spending allocation. Source specifically also mentions iPhone chips.",
+      "directionEvidence": "documented economic direction"
+    },
+    {
+      "id": "coverage_apple_google",
+      "from": "AAPL",
+      "to": "GOOGL",
+      "tier": 1,
+      "title": "Gemini models and cloud technology collaboration",
+      "flowType": "technology",
+      "status": "multiyear collaboration; economics undisclosed",
+      "amountLabel": "No disclosed financial terms",
+      "amount": null,
+      "detail": "The joint statement says future Apple Foundation Models will use Google Gemini models and cloud technology; Apple Intelligence continues on-device and Private Cloud Compute.",
+      "sourceIds": [
+        "apple_google"
+      ],
+      "date": "2026-01-12",
+      "caveat": "This is a technology/dependency edge. The statement does not establish a payment amount, payment direction, or hosting all Apple Intelligence on Google Cloud.",
+      "directionEvidence": "collaboration only; no documented money transfer"
+    }
+  ],
+  "sources": {
+    "qualcomm_ai": {
+      "title": "Qualcomm AI200 and AI250 data-center inference announcement",
+      "url": "https://www.qualcomm.com/news/releases/2025/10/qualcomm-unveils-ai200-and-ai250-redefining-rack-scale-data-cent",
+      "date": "2025-10-28",
+      "publisherType": "primary"
+    },
+    "qualcomm_listing": {
+      "title": "Qualcomm fiscal Q2 2026 results",
+      "url": "https://www.qualcomm.com/news/releases/2026/04/qualcomm-announces-second-quarter-fiscal-2026-results",
+      "date": "2026-04-29",
+      "publisherType": "primary"
+    },
+    "tencent": {
+      "title": "Tencent Q3 2025 results: listing, AI and HunYuan",
+      "url": "https://static.www.tencent.com/uploads/2025/11/13/a33b6f19738615834787623f17d20ba3.pdf",
+      "date": "2025-11-13",
+      "publisherType": "primary"
+    },
+    "softbank_listing": {
+      "title": "SoftBank Group general stock information",
+      "url": "https://group.softbank/en/ir/stock/info",
+      "date": null,
+      "publisherType": "primary"
+    },
+    "softbank_openai": {
+      "title": "Execution of follow-on investment third tranche in OpenAI",
+      "url": "https://group.softbank/en/news/press/20261001",
+      "date": "2026-10-01",
+      "publisherType": "primary"
+    },
+    "tel_listing": {
+      "title": "Tokyo Electron stock information",
+      "url": "https://www.tel.com/ir/stocks/info/",
+      "date": null,
+      "publisherType": "primary"
+    },
+    "tel_role": {
+      "title": "Tokyo Electron corporate summary and semiconductor production equipment",
+      "url": "https://www.tel.com/corporatesummary/index.html",
+      "date": null,
+      "publisherType": "primary"
+    },
+    "advantest": {
+      "title": "Advantest M5241 AI memory handler; TSE 6857",
+      "url": "https://www.advantest.com/en/news/2025/20251210.html",
+      "date": "2025-12-10",
+      "publisherType": "primary"
+    },
+    "asm": {
+      "title": "ASM Investor Day and 2030 targets; Euronext ASM",
+      "url": "https://www.asm.com/press-releases/3154400",
+      "date": "2025-09-23",
+      "publisherType": "primary"
+    },
+    "ase": {
+      "title": "ASE panel-level packaging for AI; NYSE ASX and TAIEX 3711",
+      "url": "https://www.aseglobal.com/press-room/310x310",
+      "date": "2026-05-26",
+      "publisherType": "primary"
+    },
+    "amkor": {
+      "title": "Amkor Q2 2025 results and AI/HPC packaging role; Nasdaq AMKR",
+      "url": "https://ir.amkor.com/news-releases/news-release-details/amkor-technology-reports-financial-results-second-quarter-2025",
+      "date": "2025-07-28",
+      "publisherType": "primary"
+    },
+    "mediatek": {
+      "title": "MediaTek co-design of NVIDIA GB10; TWSE 2454",
+      "url": "https://www.mediatek.com/press-room/mediatek-collaborates-with-nvidia-on-the-new-nvidia-gb10-grace-blackwell-superchip-powering-the-nvidia-project-digits-personal-ai-supercomputer",
+      "date": "2025-01-06",
+      "publisherType": "primary"
+    },
+    "lenovo": {
+      "title": "Lenovo Q1 FY2025/26 results; HKSE 992 and AI infrastructure",
+      "url": "https://news.lenovo.com/pressroom/press-releases/q1-fy-2025-26/",
+      "date": "2025-08-14",
+      "publisherType": "primary"
+    },
+    "lenovo_ai": {
+      "title": "Lenovo AI inference infrastructure",
+      "url": "https://lenovopress.lenovo.com/lp2240-mlperf-inference-50-benchmark-result-best-ai-performance",
+      "date": "2025-06-23",
+      "publisherType": "primary"
+    },
+    "wiwynn_listing": {
+      "title": "Wiwynn shareholder services; TWSE 6669",
+      "url": "https://www.wiwynn.com/investors/shareholders-services",
+      "date": null,
+      "publisherType": "primary"
+    },
+    "wiwynn_ai": {
+      "title": "Wiwynn AI rack architecture and liquid cooling at OCP 2025",
+      "url": "https://www.wiwynn.com/news/wiwynn-debuts-double-wide-rack-architecture-for-next-generation-ai-at-ocp-global-summit-2025",
+      "date": "2025-12-24",
+      "publisherType": "primary"
+    },
+    "seagate": {
+      "title": "Seagate 2025 Investor Day: mass-capacity storage and AI; Nasdaq STX",
+      "url": "https://investors.seagate.com/news/news-details/2025/Seagate-Highlights-Strategy-to-Build-Long-Term-Value-in-Todays-Data-driven-World-at-2025-Investor-and-Analyst-Event/default.aspx",
+      "date": "2025-05-22",
+      "publisherType": "primary"
+    },
+    "sandisk": {
+      "title": "Sandisk separation and Nasdaq SNDK listing",
+      "url": "https://shop.sandisk.com/en-se/company/newsroom/press-releases/2025/sandisk-celebrates-nasdaq-listing-after-completing-separation",
+      "date": "2025-02-24",
+      "publisherType": "primary"
+    },
+    "everpure_ticker": {
+      "title": "Everpure changes ticker to P, expected April 17, 2026",
+      "url": "https://www.everpuredata.com/uk/company/newsroom/press-releases/everpure-to-change-ticker-symbol.html",
+      "date": "2026-04-07",
+      "publisherType": "primary"
+    },
+    "everpure_confirm": {
+      "title": "Everpure May 2026 8-K confirms NYSE P listing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000046/pstg-20260527.htm",
+      "date": "2026-05-27",
+      "publisherType": "primary"
+    },
+    "everpure_role": {
+      "title": "Everpure Q1 FY2027 10-Q: AI storage/data management and April ticker change",
+      "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000061/pstg-20260503.htm",
+      "date": "2026-06",
+      "publisherType": "primary"
+    },
+    "meta_corning": {
+      "title": "Corning and Meta up-to-$6B optical connectivity agreement; NYSE GLW",
+      "url": "https://www.corning.com/worldwide/en/about-us/news-events/news-releases/2026/01/corning-and-meta-announce-multiyear-up-to-6-billion-agreement-to-accelerate-us-data-center-buildout.html",
+      "date": "2026-01-27",
+      "publisherType": "primary"
+    },
+    "wistron_listing": {
+      "title": "Wistron stock quotes; TWSE 3231",
+      "url": "https://www.wistron.com/Investors/ShareholdersServices/StockQuotes",
+      "date": null,
+      "publisherType": "primary"
+    },
+    "wistron_role": {
+      "title": "Wistron 2025 annual report: AI and cloud server production",
+      "url": "https://www.wistron.com/file/9ecdf53a-9c8a-4df8-aeed-7568724eb956/2025_WistronAnnualReport_EN.pdf",
+      "date": "2026",
+      "publisherType": "primary"
+    },
+    "apple_tsmc": {
+      "title": "Apple US manufacturing announcement and TSMC multibillion-dollar commitment",
+      "url": "https://www.apple.com/newsroom/2025/02/apple-will-spend-more-than-500-billion-usd-in-the-us-over-the-next-four-years/",
+      "date": "2025-02-24",
+      "publisherType": "primary"
+    },
+    "apple_supply": {
+      "title": "Apple American Manufacturing Program, Amkor and TSMC",
+      "url": "https://www.apple.com/newsroom/2025/08/apple-increases-us-commitment-to-600-billion-usd-announces-ambitious-program/",
+      "date": "2025-08-06",
+      "publisherType": "primary"
+    },
+    "apple_update": {
+      "title": "Apple AI-server manufacturing and Arizona supply-chain update",
+      "url": "https://www.apple.com/newsroom/2026/02/apple-accelerates-us-manufacturing-with-mac-mini-production/",
+      "date": "2026-02-24",
+      "publisherType": "primary"
+    },
+    "apple_google": {
+      "title": "Joint statement from Google and Apple: Gemini collaboration",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/joint-statement-google-apple/",
+      "date": "2026-01-12",
+      "publisherType": "primary"
+    },
+    "intel_nvda": {
+      "title": "Intel 2025 annual report: NVIDIA share sale completed December 26, 2025",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/xbrl_doc_only/4132",
+      "date": "2026-01-23",
+      "publisherType": "primary"
+    },
+    "intel_softbank": {
+      "title": "Intel 8-K: completed $2B SoftBank cash equity purchase",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-25-000159/intc-20250926.htm",
+      "date": "2025-09-29",
+      "publisherType": "primary"
+    },
+    "intel_aws": {
+      "title": "Intel and AWS multiyear chip design, product and wafer framework",
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/intel-strategic-collaboration.html",
+      "date": "2024-09-16",
+      "publisherType": "primary"
+    },
+    "meta_nvda": {
+      "title": "Meta builds AI infrastructure with NVIDIA",
+      "url": "https://nvidianews.nvidia.com/news/meta-builds-ai-infrastructure-with-nvidia",
+      "date": "2026-02-17",
+      "publisherType": "primary"
+    },
+    "meta_amd": {
+      "title": "AMD 8-K: initial binding 1 GW purchase; warrant up to 160 million shares",
+      "url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000045/amd-20260223.htm",
+      "date": "2026-02-24",
+      "publisherType": "primary"
+    },
+    "meta_amd_update": {
+      "title": "AMD Q2 2026 10-Q: no Meta warrant shares vested as of June 27",
+      "url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000123/amd-20260627.htm",
+      "date": "2026-08-05",
+      "publisherType": "primary"
+    },
+    "meta_crwv": {
+      "title": "CoreWeave and Meta expanded approximately $21B agreement",
+      "url": "https://www.coreweave.com/news/coreweave-and-meta-announce-21-billion-expanded-ai-infrastructure-agreement",
+      "date": "2026-04-09",
+      "publisherType": "primary"
+    },
+    "meta_crwv_filing": {
+      "title": "CoreWeave Q1 2026 filing explains $21B includes exercised prior option",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000222/crwv-20260331.htm",
+      "date": "2026-05",
+      "publisherType": "primary"
+    },
+    "meta_pure": {
+      "title": "Pure Storage 2025 proxy: Meta DirectFlash design win",
+      "url": "https://www.sec.gov/Archives/edgar/data/1474432/000162828025021843/pstg-20250428.htm",
+      "date": "2025-04-28",
+      "publisherType": "primary"
+    },
+    "pure_update": {
+      "title": "Everpure FY2026 annual report: hyperscaler shipments began",
+      "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000043/a10kfy2026.htm",
+      "date": "2026-04",
+      "publisherType": "primary"
+    }
+  },
+  "notes": [
+    "This is a curated coverage recommendation, not an exhaustive worldwide ranking by market capitalization.",
+    "A public-company financial universe and a commercial relationship graph should have separate inclusion rules. Private labs or subsidiaries can be graph nodes without invented stock prices.",
+    "For missing metrics show not yet researched; never map absence to loss-making, no debt, no valuation or hidden-champion status.",
+    "Aliases improve discovery; brand, model, subsidiary, ADR and parent identities must not become duplicated public companies.",
+    "Public listings and dated documents were checked through the requested October 3, 2026 snapshot. Undated IR pages are identified with null dates; access occurred during this audit.",
+    "Tesla, SpaceX/xAI and additional frontier labs are handled by the parallel circulation_core researcher, not omitted from the overall team audit.",
+    "Existing roster presence does not guarantee visibility in every graph, sorted page or filtered view.",
+    "Relationship direction can represent equity, contingent rights, purchasing or technical dependency; not every edge is money paid."
+  ]
+}

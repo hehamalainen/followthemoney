@@ -5,290 +5,673 @@
       "id": "NVDA",
       "name": "NVIDIA",
       "ticker": "NVDA",
-      "type": "chips"
+      "type": "chips",
+      "tier": 2,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "chips"
     },
     {
       "id": "CRWV",
       "name": "CoreWeave",
       "ticker": "CRWV",
-      "type": "AI cloud"
+      "type": "AI cloud",
+      "tier": 2,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "AI cloud"
     },
     {
       "id": "DELL",
       "name": "Dell Technologies",
       "public": true,
       "ticker": "DELL",
-      "type": "public"
+      "type": "public",
+      "tier": 2,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "public"
     },
     {
       "id": "VRT",
       "name": "Vertiv",
       "public": true,
       "ticker": "VRT",
-      "type": "public"
+      "type": "public",
+      "tier": 3,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "public"
     },
     {
       "id": "SOLIDIGM",
       "name": "Solidigm",
       "public": false,
       "ticker": null,
-      "type": "private_or_project"
+      "type": "subsidiary",
+      "tier": 2,
+      "listingStatus": "subsidiary",
+      "tickerRole": "not_listed",
+      "role": "Enterprise SSD and data-center storage supplier",
+      "parentId": "SKHYNIX",
+      "parentTicker": "000660.KS",
+      "note": "Solidigm is an SK hynix subsidiary, not a separately listed stock."
     },
     {
       "id": "CORZ",
       "name": "Core Scientific",
       "public": true,
       "ticker": "CORZ",
-      "type": "public"
+      "type": "public",
+      "tier": 3,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "public"
     },
     {
       "id": "GLXY",
       "name": "Galaxy Digital",
       "public": true,
       "ticker": "GLXY",
-      "type": "public"
+      "type": "public",
+      "tier": 3,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "public"
     },
     {
       "id": "DB",
       "name": "Deutsche Bank",
       "public": true,
       "ticker": "DB",
-      "type": "public"
+      "type": "public",
+      "tier": 2,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "public"
     },
     {
       "id": "LENDERS_CRWV",
       "name": "CoreWeave financing consortium",
       "ticker": null,
-      "type": "lenders"
+      "type": "lenders",
+      "tier": 2,
+      "listingStatus": "consortium",
+      "tickerRole": "not_applicable",
+      "role": "lenders"
     },
     {
       "id": "TSM",
       "name": "TSMC",
       "public": true,
       "ticker": "TSM",
-      "type": "public"
+      "type": "public",
+      "tier": 2,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "public"
     },
     {
       "id": "MU",
       "name": "Micron",
       "public": true,
       "ticker": "MU",
-      "type": "public"
+      "type": "public",
+      "tier": 2,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "public"
     },
     {
       "id": "SKHYNIX",
       "name": "SK hynix",
       "public": true,
       "ticker": "000660.KS",
-      "type": "public"
+      "type": "public",
+      "tier": 2,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "public"
     },
     {
       "id": "FN",
       "name": "Fabrinet",
       "public": true,
       "ticker": "FN",
-      "type": "public"
+      "type": "public",
+      "tier": 2,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "public"
     },
     {
       "id": "ASML",
       "name": "ASML",
       "public": true,
       "ticker": "ASML",
-      "type": "public"
+      "type": "public",
+      "tier": 3,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "public"
     },
     {
       "id": "AMAT",
       "name": "Applied Materials",
       "public": true,
       "ticker": "AMAT",
-      "type": "public"
+      "type": "public",
+      "tier": 3,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "public"
     },
     {
       "id": "LRCX",
       "name": "Lam Research",
       "public": true,
       "ticker": "LRCX",
-      "type": "public"
+      "type": "public",
+      "tier": 3,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "public"
     },
     {
       "id": "KLAC",
       "name": "KLA",
       "public": true,
       "ticker": "KLAC",
-      "type": "public"
+      "type": "public",
+      "tier": 3,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "public"
     },
     {
       "id": "ONTO",
       "name": "Onto Innovation",
       "public": true,
       "ticker": "ONTO",
-      "type": "public"
+      "type": "public",
+      "tier": 3,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "public"
     },
     {
       "id": "MARKETECH",
       "name": "Marketech International",
       "public": true,
       "ticker": "6196.TW",
-      "type": "public"
+      "type": "public",
+      "tier": 3,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "public"
     },
     {
       "id": "META",
       "name": "Meta Platforms",
       "public": true,
       "ticker": "META",
-      "type": "public"
+      "type": "public",
+      "tier": 1,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "Models, consumer platforms and AI infrastructure buyer"
     },
     {
       "id": "ETR",
       "name": "Entergy",
       "public": true,
       "ticker": "ETR",
-      "type": "public"
+      "type": "public",
+      "tier": 3,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "public"
     },
     {
       "id": "CHAIN_ELECTRIC",
       "name": "Chain Electric",
       "public": false,
       "ticker": null,
-      "type": "private_or_project"
+      "type": "private_or_project",
+      "tier": 3,
+      "listingStatus": "unlisted",
+      "tickerRole": "not_listed",
+      "role": "private_or_project"
     },
     {
       "id": "HGA",
       "name": "Hunt, Guillot and Associates",
       "public": false,
       "ticker": null,
-      "type": "private_or_project"
+      "type": "private_or_project",
+      "tier": 3,
+      "listingStatus": "unlisted",
+      "tickerRole": "not_listed",
+      "role": "private_or_project"
     },
     {
       "id": "RC_BORING",
       "name": "RC Boring",
       "public": false,
       "ticker": null,
-      "type": "private_or_project"
+      "type": "private_or_project",
+      "tier": 3,
+      "listingStatus": "unlisted",
+      "tickerRole": "not_listed",
+      "role": "private_or_project"
     },
     {
       "id": "ORCL",
       "name": "Oracle",
       "ticker": "ORCL",
-      "type": "cloud"
+      "type": "cloud",
+      "tier": 1,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "cloud"
     },
     {
       "id": "BE",
       "name": "Bloom Energy",
       "public": true,
       "ticker": "BE",
-      "type": "public"
+      "type": "public",
+      "tier": 3,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "public"
     },
     {
       "id": "BROOKFIELD",
       "name": "Brookfield group / managed funds",
       "public": false,
       "ticker": null,
-      "type": "private_or_project"
+      "type": "private_or_project",
+      "tier": 3,
+      "listingStatus": "group-or-fund",
+      "tickerRole": "not_applicable",
+      "role": "private_or_project"
     },
     {
       "id": "BLOOM_PROJECTS",
       "name": "Brookfield–Bloom power projects",
       "public": false,
       "ticker": null,
-      "type": "private_or_project"
+      "type": "private_or_project",
+      "tier": 3,
+      "listingStatus": "project",
+      "tickerRole": "not_applicable",
+      "role": "private_or_project"
     },
     {
       "id": "NBIS",
       "name": "Nebius",
       "ticker": "NBIS",
-      "type": "AI cloud"
+      "type": "AI cloud",
+      "tier": 2,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "AI cloud"
     },
     {
       "id": "IDF",
       "name": "Industrial Development Funding",
       "public": false,
       "ticker": null,
-      "type": "private_or_project"
+      "type": "private_or_project",
+      "tier": 3,
+      "listingStatus": "unlisted",
+      "tickerRole": "not_listed",
+      "role": "private_or_project"
     },
     {
       "id": "OAKTREE",
       "name": "Oaktree-managed capital",
       "public": false,
       "ticker": null,
-      "type": "private_or_project"
+      "type": "private_or_project",
+      "tier": 3,
+      "listingStatus": "group-or-fund",
+      "tickerRole": "not_applicable",
+      "role": "private_or_project"
     },
     {
       "id": "MS",
       "name": "Morgan Stanley",
       "public": true,
       "ticker": "MS",
-      "type": "public"
+      "type": "public",
+      "tier": 3,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "public"
     },
     {
       "id": "MUFG",
       "name": "MUFG Bank",
-      "public": true,
-      "ticker": "MUFG",
-      "type": "public"
+      "public": false,
+      "ticker": null,
+      "type": "subsidiary",
+      "tier": 3,
+      "listingStatus": "subsidiary",
+      "tickerRole": "not_listed",
+      "role": "Bank lender and project financier",
+      "note": "MUFG Bank is the operating counterparty, not the listed issuer. Its listed parent Mitsubishi UFJ Financial Group has ticker MUFG.",
+      "parentId": "MUFG_GROUP",
+      "parentTicker": "MUFG"
     },
     {
       "id": "NEBIUS_POWER_PROJECT",
       "name": "IDF-led Nebius power project",
       "public": false,
       "ticker": null,
-      "type": "private_or_project"
+      "type": "private_or_project",
+      "tier": 3,
+      "listingStatus": "project",
+      "tickerRole": "not_applicable",
+      "role": "private_or_project"
     },
     {
       "id": "SNPS",
       "name": "Synopsys",
       "public": true,
       "ticker": "SNPS",
-      "type": "public"
+      "type": "public",
+      "tier": 2,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "public"
     },
     {
       "id": "CRWV_VENDOR_FINANCE",
       "name": "OEM / software financing providers (undisclosed)",
       "public": false,
       "ticker": null,
-      "type": "undisclosed"
+      "type": "undisclosed",
+      "tier": 2,
+      "listingStatus": "undisclosed",
+      "tickerRole": "not_applicable",
+      "role": "undisclosed"
     },
     {
       "id": "MSFT",
       "name": "Microsoft",
       "ticker": "MSFT",
-      "type": "cloud"
+      "type": "cloud",
+      "tier": 1,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "cloud"
     },
     {
       "id": "OPENAI",
       "name": "OpenAI",
       "ticker": null,
-      "type": "private model lab"
+      "type": "private model lab",
+      "tier": 1,
+      "listingStatus": "unlisted",
+      "tickerRole": "not_listed",
+      "role": "Unlisted foundation-model lab"
     },
     {
       "id": "ANTHROPIC",
       "name": "Anthropic",
       "ticker": null,
-      "type": "private model lab"
+      "type": "private model lab",
+      "tier": 1,
+      "listingStatus": "unlisted",
+      "tickerRole": "not_listed",
+      "role": "Unlisted foundation-model lab"
     },
     {
       "id": "AMZN",
       "name": "Amazon / AWS",
       "ticker": "AMZN",
-      "type": "cloud"
+      "type": "cloud",
+      "tier": 1,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "cloud"
     },
     {
       "id": "GOOGL",
       "name": "Alphabet / Google Cloud",
       "ticker": "GOOGL",
-      "type": "cloud"
+      "type": "cloud",
+      "tier": 1,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "cloud"
     },
     {
       "id": "SBENERGY",
       "name": "SB Energy",
       "ticker": null,
-      "type": "private infrastructure"
+      "type": "private infrastructure",
+      "tier": 3,
+      "listingStatus": "unlisted",
+      "tickerRole": "not_listed",
+      "role": "private infrastructure"
     },
     {
       "id": "LENDERS_NBIS",
       "name": "Nebius secured lenders",
       "ticker": null,
-      "type": "lenders"
+      "type": "lenders",
+      "tier": 2,
+      "listingStatus": "consortium",
+      "tickerRole": "not_applicable",
+      "role": "lenders"
+    },
+    {
+      "id": "AAPL",
+      "name": "Apple",
+      "ticker": "AAPL",
+      "tier": 1,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "AI devices and Private Cloud Compute",
+      "type": "AI devices and Private Cloud Compute",
+      "public": true,
+      "aliases": [
+        "Apple Intelligence",
+        "Siri",
+        "Private Cloud Compute"
+      ],
+      "sourceIds": [
+        "coverage_apple_google",
+        "coverage_apple_update"
+      ],
+      "note": "Apple and Google announced a Gemini-model/cloud-technology collaboration January 12, 2026. Financial direction and terms were not disclosed, so it is a node note rather than a money-transfer edge. Apple Intelligence also runs on-device and Private Cloud Compute."
+    },
+    {
+      "id": "INTC",
+      "name": "Intel",
+      "ticker": "INTC",
+      "tier": 2,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "CPUs, custom silicon and foundry services",
+      "type": "CPUs, custom silicon and foundry services",
+      "public": true,
+      "aliases": [
+        "Intel Foundry",
+        "Xeon",
+        "Gaudi"
+      ]
+    },
+    {
+      "id": "AMD",
+      "name": "AMD",
+      "ticker": "AMD",
+      "tier": 2,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "AI accelerators and CPUs",
+      "type": "AI accelerators and CPUs",
+      "public": true
+    },
+    {
+      "id": "GLW",
+      "name": "Corning",
+      "ticker": "GLW",
+      "tier": 2,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "Optical fiber, cable and connectivity",
+      "type": "Optical fiber, cable and connectivity",
+      "public": true
+    },
+    {
+      "id": "AMKR",
+      "name": "Amkor Technology",
+      "ticker": "AMKR",
+      "tier": 3,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "Semiconductor packaging and test",
+      "type": "Semiconductor packaging and test",
+      "public": true
+    },
+    {
+      "id": "9984.T",
+      "name": "SoftBank Group",
+      "ticker": "9984.T",
+      "tier": 1,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "AI investment and capital allocation",
+      "type": "AI investment and capital allocation",
+      "public": true,
+      "aliases": [
+        "SoftBank Group",
+        "SoftBank",
+        "SBG",
+        "Vision Fund 2"
+      ],
+      "sourceIds": [
+        "coverage_softbank_listing"
+      ],
+      "note": "SoftBank Group 9984 is distinct from SoftBank Corp. 9434. Group investment exposure can overlap with investees; no consolidated total is summed."
+    },
+    {
+      "id": "SPCX",
+      "name": "SpaceX / SpaceXAI",
+      "ticker": "SPCX",
+      "tier": 1,
+      "listingStatus": "public",
+      "tickerRole": "listed_parent",
+      "role": "Public parent of xAI and Cursor; AI cloud and models",
+      "type": "Public parent of xAI and Cursor; AI cloud and models",
+      "public": true,
+      "aliases": [
+        "SpaceX",
+        "SpaceXAI",
+        "xAI",
+        "X.AI",
+        "Grok",
+        "Colossus",
+        "Cursor",
+        "Anysphere"
+      ],
+      "sourceIds": [
+        "coverage_spcxIPO",
+        "coverage_spcxQ2",
+        "coverage_xaiMerger",
+        "coverage_cursorClose"
+      ],
+      "note": "SPCX is the listed parent. xAI was acquired February 2 and Cursor August 14, 2026; those names are searchable operating businesses, not additional stocks."
+    },
+    {
+      "id": "TSLA",
+      "name": "Tesla",
+      "ticker": "TSLA",
+      "tier": 3,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "Megapack power storage supplier; related-party counterparty",
+      "type": "Megapack power storage supplier; related-party counterparty",
+      "public": true
+    },
+    {
+      "id": "CBRS",
+      "name": "Cerebras Systems",
+      "ticker": "CBRS",
+      "tier": 2,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "Wafer-scale AI compute and inference",
+      "type": "Wafer-scale AI compute and inference",
+      "public": true,
+      "sourceIds": [
+        "coverage_cbrsIPO",
+        "coverage_cbrsQ1"
+      ]
+    },
+    {
+      "id": "005930.KS",
+      "name": "Samsung Electronics",
+      "ticker": "005930.KS",
+      "tier": 2,
+      "listingStatus": "public",
+      "tickerRole": "listed_issuer",
+      "role": "Memory, foundry and manufacturing AI customer",
+      "type": "Memory, foundry and manufacturing AI customer",
+      "public": true
+    },
+    {
+      "id": "MISTRAL",
+      "name": "Mistral AI",
+      "ticker": null,
+      "tier": 1,
+      "listingStatus": "unlisted",
+      "tickerRole": "not_listed",
+      "role": "Foundation models and industrial AI services",
+      "type": "Foundation models and industrial AI services",
+      "public": false
+    },
+    {
+      "id": "SCALE",
+      "name": "Scale AI",
+      "ticker": null,
+      "tier": 1,
+      "listingStatus": "unlisted",
+      "tickerRole": "not_listed",
+      "role": "Model data and evaluation services",
+      "type": "Model data and evaluation services",
+      "public": false,
+      "note": "Scale says it remains independent after the Meta investment; the founder moving to Meta does not make Scale wholly owned.",
+      "sourceIds": [
+        "coverage_scaleIndependent"
+      ]
+    },
+    {
+      "id": "G42",
+      "name": "G42",
+      "ticker": null,
+      "tier": 1,
+      "listingStatus": "unlisted",
+      "tickerRole": "not_listed",
+      "role": "AI investment, cloud and sovereign infrastructure",
+      "type": "AI investment, cloud and sovereign infrastructure",
+      "public": false,
+      "note": "G42 and MBZUAI are separate counterparties. Portfolio companies are not automatically consolidated into this node."
+    },
+    {
+      "id": "SBG_NOTE_INVESTORS",
+      "name": "SoftBank senior-note investors",
+      "ticker": null,
+      "tier": 1,
+      "listingStatus": "consortium",
+      "tickerRole": "not_applicable",
+      "role": "Debt capital providers; individual purchasers not identified",
+      "type": "Debt capital providers; individual purchasers not identified",
+      "public": false
     }
   ],
   "edges": [
@@ -1533,6 +1916,394 @@
       "routeEvidence": "documented_aggregate_unnamed_counterparties",
       "detail": "CoreWeave reports OEM and software-license financing of $4.220B recourse and $0.882B non-recourse. A stock of outstanding debt, not new cash raised in this period. Providers are unnamed; do not assign this financing to Dell, NVIDIA or a named vendor.",
       "originalFlowType": "vendor_finance"
+    },
+    {
+      "id": "coverage_nvda_intel",
+      "from": "NVDA",
+      "to": "INTC",
+      "tier": 2,
+      "flowType": "investment",
+      "status": "completed cash investment",
+      "title": "Completed Intel equity purchase",
+      "amountLabel": "$5B",
+      "detail": "Intel reports the sale of approximately 215 million shares to NVIDIA closed on December 26, 2025. An equity financing inflow, not Intel product revenue. This does not prove NVIDIA will manufacture GPUs at Intel.",
+      "date": "2025-12-26",
+      "sourceIds": [
+        "coverage_intel_nvda"
+      ],
+      "amountUSD": 5000000000
+    },
+    {
+      "id": "coverage_softbank_intel",
+      "from": "9984.T",
+      "to": "INTC",
+      "tier": 2,
+      "flowType": "investment",
+      "status": "completed cash investment",
+      "title": "Completed Intel equity purchase",
+      "amountLabel": "$2B",
+      "detail": "Intel completed the sale of 86,956,522 shares to SoftBank for cash. An equity financing inflow, not semiconductor revenue.",
+      "date": "2025-09-26",
+      "sourceIds": [
+        "coverage_intel_softbank"
+      ],
+      "amountUSD": 2000000000
+    },
+    {
+      "id": "coverage_aws_intel",
+      "from": "AMZN",
+      "to": "INTC",
+      "tier": 2,
+      "flowType": "commercial",
+      "status": "announced multiyear framework",
+      "title": "Custom AI fabric and Xeon chip framework",
+      "amountLabel": "Multibillion-dollar framework",
+      "detail": "Intel and AWS announced co-investment in custom designs, products and wafers, including an AI fabric chip on Intel 18A and custom Xeon 6 on Intel 3. Framework value is not recognized revenue or verified cash paid. Allocation between co-investment and purchases is not disclosed; production completion is not established by this source.",
+      "date": "2024-09-16",
+      "sourceIds": [
+        "coverage_intel_aws"
+      ]
+    },
+    {
+      "id": "coverage_meta_nvda",
+      "from": "META",
+      "to": "NVDA",
+      "tier": 2,
+      "flowType": "supplier",
+      "status": "announced multiyear partnership",
+      "title": "NVIDIA compute and networking deployments",
+      "amountLabel": "Dollar value undisclosed",
+      "detail": "A February 2026 partnership covers large-scale CPU deployment, millions of Blackwell/Rubin GPUs and Spectrum-X networking. Hardware deployment roadmap is not a disclosed cash total; do not multiply device counts by invented prices.",
+      "date": "2026-02-17",
+      "sourceIds": [
+        "coverage_meta_nvda"
+      ]
+    },
+    {
+      "id": "coverage_meta_amd",
+      "from": "META",
+      "to": "AMD",
+      "tier": 2,
+      "flowType": "commercial",
+      "status": "initial 1 GW binding; up to 6 GW framework",
+      "title": "AMD GPU purchases",
+      "amountLabel": "1 GW initial / up to 6 GW",
+      "detail": "The AMD filing establishes an initial binding purchase commitment equivalent to 1 GW, directly or via authorized purchasers, within the broader 6 GW partnership. Do not label all 6 GW as an unconditional paid order, or attach an unsourced dollar value. The arrow follows the end-customer commitment; fulfillment can run through authorized purchasers.",
+      "date": "2026-02-24",
+      "sourceIds": [
+        "coverage_meta_amd"
+      ]
+    },
+    {
+      "id": "coverage_amd_meta_warrant",
+      "from": "AMD",
+      "to": "META",
+      "tier": 2,
+      "flowType": "noncash",
+      "status": "conditional noncash right",
+      "title": "Purchase-linked equity incentive",
+      "amountLabel": "Up to 160M AMD shares",
+      "detail": "AMD issued Meta a performance-based warrant. Vesting depends on GPU purchases and other contractual milestones. Direction denotes delivery of a contingent financial right, not cash. As of June 27, 2026 no shares had vested or become exercisable; full exercise is not a completed investment.",
+      "date": "2026-02-24",
+      "sourceIds": [
+        "coverage_meta_amd",
+        "coverage_meta_amd_update"
+      ]
+    },
+    {
+      "id": "coverage_meta_crwv",
+      "from": "META",
+      "to": "CRWV",
+      "tier": 2,
+      "flowType": "commercial",
+      "status": "contract commitment",
+      "title": "Expanded AI cloud agreement",
+      "amountLabel": "Approximately $21B through 2032",
+      "detail": "CoreWeave announced expanded cloud capacity for Meta through December 2032. The filing says the amount includes new capacity and exercise of an existing capacity option. Not cash paid or annual revenue. Do not mechanically add earlier headline contract/option values, because option overlap is explicit.",
+      "date": "2026-04-09",
+      "sourceIds": [
+        "coverage_meta_crwv",
+        "coverage_meta_crwv_filing"
+      ],
+      "amountUSD": 21000000000
+    },
+    {
+      "id": "coverage_meta_corning",
+      "from": "META",
+      "to": "GLW",
+      "tier": 2,
+      "flowType": "supplier",
+      "status": "multiyear commitment ceiling",
+      "title": "Optical fiber and connectivity agreement",
+      "amountLabel": "Up to $6B",
+      "detail": "Corning will supply optical fiber, cable and connectivity for Meta data-center expansion and expand North Carolina capacity. Commitment ceiling, not completed cash payments or current-year revenue.",
+      "date": "2026-01-27",
+      "sourceIds": [
+        "coverage_meta_corning"
+      ],
+      "amountUSD": 6000000000
+    },
+    {
+      "id": "coverage_apple_tsmc",
+      "from": "AAPL",
+      "to": "TSM",
+      "tier": 3,
+      "flowType": "supplier",
+      "status": "multiyear commitment; production underway",
+      "title": "Arizona advanced silicon purchasing",
+      "amountLabel": "Multibillion-dollar commitment",
+      "detail": "Apple disclosed a multibillion-dollar commitment to TSMC Fab 21 and said production of its chips had begun. Broader Apple silicon procurement: no AI-only dollar allocation. Neither the entire US spending pledge nor all Apple chip purchases equal AI server capex.",
+      "date": "2025-02-24",
+      "sourceIds": [
+        "coverage_apple_tsmc",
+        "coverage_apple_update"
+      ]
+    },
+    {
+      "id": "coverage_apple_amkor",
+      "from": "AAPL",
+      "to": "AMKR",
+      "tier": 3,
+      "flowType": "supplier",
+      "status": "investment and future customer relationship",
+      "title": "Advanced packaging capacity support",
+      "amountLabel": "Apple amount undisclosed",
+      "detail": "Apple is investing in the Amkor Arizona packaging facility and says it will be the first and largest customer. It will package TSMC-made Apple silicon. Amkor factory cost is not Apple’s investment amount; no AI-only spending allocation. Source specifically also mentions iPhone chips.",
+      "date": "2025-08-06",
+      "sourceIds": [
+        "coverage_apple_supply",
+        "coverage_apple_update"
+      ]
+    },
+    {
+      "id": "coverage_anthropic_spcx_colossus",
+      "from": "ANTHROPIC",
+      "to": "SPCX",
+      "tier": 1,
+      "flowType": "commercial",
+      "status": "signed agreement",
+      "title": "Claude uses SpaceX Colossus capacity",
+      "amountLabel": ">300MW; dollars undisclosed",
+      "detail": "Agreement for all Colossus 1 capacity (>220,000 NVIDIA GPUs), expected accessible within that month. Orbital capacity was expressed interest only, not funded construction.",
+      "date": "2026-05-06",
+      "sourceIds": [
+        "coverage_anthropicSpaceX"
+      ]
+    },
+    {
+      "id": "coverage_spcx_tesla_megapacks",
+      "from": "SPCX",
+      "to": "TSLA",
+      "tier": 3,
+      "flowType": "supplier",
+      "status": "purchases recorded",
+      "title": "SpaceX buys Tesla Megapacks",
+      "amountLabel": "$329M in H1 2026",
+      "detail": "Recorded in property, plant and equipment. Includes $295M in Q2; do not add Q2 to H1. This disclosure is purchase value, not a separately evidenced cash-settlement schedule.",
+      "date": "2026-06-30",
+      "sourceIds": [
+        "coverage_spcxQ2"
+      ],
+      "dateKind": "period end"
+    },
+    {
+      "id": "coverage_openai_cbrs_capacity",
+      "from": "OPENAI",
+      "to": "CBRS",
+      "tier": 2,
+      "flowType": "commercial",
+      "status": "multiyear agreement",
+      "title": "OpenAI contracts Cerebras inference",
+      "amountLabel": ">$20B; 750MW over several years",
+      "detail": "Issuer June release confirms agreement size and capacity. Do not treat lifetime contract value as recognized or paid revenue.",
+      "date": "2026-06-23",
+      "sourceIds": [
+        "coverage_cbrsQ1"
+      ]
+    },
+    {
+      "id": "coverage_openai_cbrs_loan",
+      "from": "OPENAI",
+      "to": "CBRS",
+      "tier": 2,
+      "flowType": "finance",
+      "status": "funded loan; reported June 23",
+      "title": "OpenAI finances Cerebras working capital",
+      "amountLabel": "$1B loan",
+      "detail": "Separate loan category; not equity, not additional sales revenue. Avoid presenting loan+contract as incremental demand.",
+      "date": "2026-06-23",
+      "sourceIds": [
+        "coverage_cbrsQ1"
+      ],
+      "transactionPeriod": "2026-01"
+    },
+    {
+      "id": "coverage_asml_mistral_equity",
+      "from": "ASML",
+      "to": "MISTRAL",
+      "tier": 3,
+      "flowType": "investment",
+      "status": "announced strategic investment",
+      "title": "ASML backs Mistral",
+      "amountLabel": "€1.3B in Series C",
+      "detail": "Part of €1.7B round, not additive to it. ASML also enters commercial/technical collaboration; fees undisclosed.",
+      "date": "2025-09-09",
+      "sourceIds": [
+        "coverage_asmlMistral"
+      ]
+    },
+    {
+      "id": "coverage_samsung_mistral_equity",
+      "from": "005930.KS",
+      "to": "MISTRAL",
+      "tier": 3,
+      "flowType": "investment",
+      "status": "lead investment announced",
+      "title": "Samsung takes Mistral stake",
+      "amountLabel": "Individual investment undisclosed",
+      "detail": "Samsung leads Series D and secures strategic equity stake; the full funding round must not be attributed to Samsung alone.",
+      "date": "2026-09-09",
+      "sourceIds": [
+        "coverage_samsungMistral"
+      ]
+    },
+    {
+      "id": "coverage_samsung_mistral_services",
+      "from": "005930.KS",
+      "to": "MISTRAL",
+      "tier": 3,
+      "flowType": "commercial",
+      "status": "signed partnership",
+      "title": "Mistral models for Samsung fabs",
+      "amountLabel": "Commercial amount undisclosed",
+      "detail": "On-premises models across semiconductor engineering/manufacturing. Shows investor also becoming user; no tracked-dollar loop.",
+      "date": "2026-09-09",
+      "sourceIds": [
+        "coverage_samsungMistral"
+      ]
+    },
+    {
+      "id": "coverage_meta_scale_investment",
+      "from": "META",
+      "to": "SCALE",
+      "tier": 1,
+      "flowType": "investment",
+      "status": "strategic investment announced",
+      "title": "Meta invests in Scale",
+      "amountLabel": "Stake investment; amount undisclosed here",
+      "detail": "Release gives >$29B Scale valuation, not investment size. Some proceeds distributed to existing equity holders; don't classify entire transaction as operating cash available to Scale.",
+      "date": "2025-06-12",
+      "sourceIds": [
+        "coverage_scaleInvestment",
+        "coverage_scaleIndependent"
+      ]
+    },
+    {
+      "id": "coverage_meta_scale_services",
+      "from": "META",
+      "to": "SCALE",
+      "tier": 1,
+      "flowType": "commercial",
+      "status": "expanded commercial relationship",
+      "title": "Meta expands data-services relationship",
+      "amountLabel": "Undisclosed",
+      "detail": "Separate from equity investment; no supplier revenue amount supplied.",
+      "date": "2025-06-12",
+      "sourceIds": [
+        "coverage_scaleInvestment"
+      ]
+    },
+    {
+      "id": "coverage_msft_g42_investment",
+      "from": "MSFT",
+      "to": "G42",
+      "tier": 1,
+      "flowType": "investment",
+      "status": "announced strategic investment",
+      "title": "Microsoft invests in G42",
+      "amountLabel": "$1.5B",
+      "detail": "Announcement does not establish settlement schedule. Distinct from jointly supported developer fund.",
+      "date": "2024-04-16",
+      "sourceIds": [
+        "coverage_msftG42"
+      ]
+    },
+    {
+      "id": "coverage_g42_msft_cloud",
+      "from": "G42",
+      "to": "MSFT",
+      "tier": 1,
+      "flowType": "commercial",
+      "status": "announced Azure use",
+      "title": "G42 applications on Azure",
+      "amountLabel": "Cloud spend undisclosed",
+      "detail": "Investor/customer relationship; no amount or claim that investment funds purchase exact Azure services.",
+      "date": "2024-04-16",
+      "sourceIds": [
+        "coverage_msftG42"
+      ]
+    },
+    {
+      "id": "coverage_softbank_openai",
+      "from": "9984.T",
+      "to": "OPENAI",
+      "tier": 1,
+      "flowType": "investment",
+      "status": "final tranche funded",
+      "title": "OpenAI follow-on equity investment",
+      "amountLabel": "$10B final tranche; $30B follow-on completed",
+      "amountUSD": 10000000000,
+      "date": "2026-10-01",
+      "sourceIds": [
+        "coverage_softbank_openai"
+      ],
+      "detail": "SoftBank executed the final $10B tranche via Vision Fund 2. This completes the $30B follow-on program; cumulative OpenAI investment is $64.6B. These figures overlap and must not be added."
+    },
+    {
+      "id": "coverage_bondholders_softbank",
+      "from": "SBG_NOTE_INVESTORS",
+      "to": "9984.T",
+      "tier": 1,
+      "flowType": "finance",
+      "status": "notes issued; proceeds used for OpenAI tranche",
+      "title": "Senior-note financing for AI investment",
+      "amountLabel": "$10B USD notes plus €1B notes",
+      "date": "2026-10-01",
+      "sourceIds": [
+        "coverage_softbank_notes",
+        "coverage_softbank_openai"
+      ],
+      "detail": "Notes were priced September 24 with issuance scheduled September 29. The October 1 update confirms note proceeds funded the $10B OpenAI tranche; other proceeds were for general corporate purposes. Borrowing is not operating revenue."
+    },
+    {
+      "id": "coverage_g42_cerebras_revenue",
+      "from": "G42",
+      "to": "CBRS",
+      "tier": 2,
+      "flowType": "commercial",
+      "status": "recognized historical revenue",
+      "title": "Cerebras hardware and compute customer",
+      "amountLabel": "24% of Cerebras FY2025 revenue",
+      "date": "2026-04-17",
+      "sourceIds": [
+        "coverage_cerebras_g42_s1"
+      ],
+      "detail": "Cerebras identified G42 as a significant customer, alongside the separate MBZUAI customer. The percentage describes revenue concentration, not a standalone payment or current-year run rate."
+    },
+    {
+      "id": "coverage_cerebras_g42_warrant",
+      "from": "CBRS",
+      "to": "G42",
+      "tier": 2,
+      "flowType": "noncash",
+      "status": "warrant issued and exercised in April 2026",
+      "title": "Customer equity rights",
+      "amountLabel": "1,655,975 Class N shares at $0.01 exercise price",
+      "date": "2026-04-17",
+      "sourceIds": [
+        "coverage_cerebras_g42_s1"
+      ],
+      "detail": "The issuer reports an April warrant to G42, fully vested and exercised that month. The arrow denotes an equity right, not cash paid to G42. These are historical pre-IPO Class N shares, not a dollar market value."
     }
   ],
   "cases": [
@@ -1752,6 +2523,97 @@
       "insight": "Watch: Prepayments, rent credits and actual billed capacity; Lease duration versus tenant/customer contract duration; Construction cost overruns and power permits; Parent guarantees versus project-only recourse.",
       "limitation": "A landlord’s contracted rent is only as strong as delivery conditions and tenant credit; local construction revenue may be one-off.",
       "tier": 3
+    },
+    {
+      "id": "coverage_spacex_ai",
+      "title": "SpaceXAI: competitor, compute host and power buyer",
+      "tier": 1,
+      "kind": "Commercial and related-party supply paths",
+      "summary": "Anthropic contracts SpaceX compute; SpaceX buys Tesla Megapacks.",
+      "edgeIds": [
+        "coverage_anthropic_spcx_colossus",
+        "coverage_spcx_tesla_megapacks"
+      ],
+      "insight": "One public group can develop rival models and supply compute to another frontier lab, while its physical buildout supports battery demand.",
+      "limitation": "SpaceX/xAI is one listed parent; Tesla is separate. Capacity commitments and recorded equipment purchases are different measures. No same-dollar loop is demonstrated."
+    },
+    {
+      "id": "coverage_intel_capital",
+      "title": "Intel: strategic equity meets future chip demand",
+      "tier": 2,
+      "kind": "Funded equity and commercial framework",
+      "summary": "NVIDIA and SoftBank buy Intel equity while AWS establishes a custom-chip framework.",
+      "edgeIds": [
+        "coverage_nvda_intel",
+        "coverage_softbank_intel",
+        "coverage_aws_intel"
+      ],
+      "insight": "Equity supports the balance sheet; the AWS relationship is a separate route to possible product and wafer revenue.",
+      "limitation": "The $5B and $2B purchases are equity, not sales. The framework is not booked revenue, and NVIDIA equity does not establish a GPU foundry order."
+    },
+    {
+      "id": "coverage_meta_buildout",
+      "title": "Meta: compute demand, warrants and data services",
+      "tier": 2,
+      "kind": "Procurement and non-cash incentive feedback",
+      "summary": "Meta contracts GPUs, cloud and optical connectivity while expanding its Scale relationship.",
+      "edgeIds": [
+        "coverage_meta_nvda",
+        "coverage_meta_amd",
+        "coverage_amd_meta_warrant",
+        "coverage_meta_crwv",
+        "coverage_meta_corning",
+        "coverage_meta_scale_investment",
+        "coverage_meta_scale_services"
+      ],
+      "insight": "Meta spending reaches multiple hardware and cloud suppliers; AMD grants contingent equity rights in the opposite direction.",
+      "limitation": "The 6GW AMD framework is broader than the initial 1GW binding purchase. Warrants are not cash. CoreWeave option overlap prevents adding every contract headline together."
+    },
+    {
+      "id": "coverage_apple_silicon",
+      "title": "Apple: silicon and packaging behind local AI",
+      "tier": 3,
+      "kind": "Broader product supply chain",
+      "summary": "Apple supports TSMC Arizona silicon and Amkor packaging capacity.",
+      "edgeIds": [
+        "coverage_apple_tsmc",
+        "coverage_apple_amkor"
+      ],
+      "insight": "On-device AI and Private Cloud Compute connect to manufacturing capacity as well as model partnerships.",
+      "limitation": "Disclosures cover broader Apple products, including iPhones. No AI-only spending allocation is available. Amkor facility cost is not Apple investment, and Google collaboration has no payment arrow."
+    },
+    {
+      "id": "coverage_frontier_inference",
+      "title": "Cerebras: customers also supply capital",
+      "tier": 2,
+      "kind": "Contract demand, customer loans and equity rights",
+      "summary": "OpenAI provides a loan and contracts inference; G42 generates revenue and receives customer equity rights.",
+      "edgeIds": [
+        "coverage_openai_cbrs_capacity",
+        "coverage_openai_cbrs_loan",
+        "coverage_g42_cerebras_revenue",
+        "coverage_cerebras_g42_warrant"
+      ],
+      "insight": "Customer financing can help a supplier build capacity before service revenue arrives; customer equity rights add another economic connection.",
+      "limitation": "The multiyear contract, loan, annual revenue concentration and non-cash shares are not additive. G42 and OpenAI are distinct customers; the evidence does not trace identical dollars."
+    },
+    {
+      "id": "coverage_capital_industrial_feedback",
+      "title": "From bond markets and chip fabs to AI labs",
+      "tier": 1,
+      "kind": "Debt-funded equity and investor-customer relationships",
+      "summary": "SoftBank funds OpenAI with note proceeds; ASML and Samsung back Mistral, and Samsung adopts its models.",
+      "edgeIds": [
+        "coverage_bondholders_softbank",
+        "coverage_softbank_openai",
+        "coverage_asml_mistral_equity",
+        "coverage_samsung_mistral_equity",
+        "coverage_samsung_mistral_services",
+        "coverage_msft_g42_investment",
+        "coverage_g42_msft_cloud"
+      ],
+      "insight": "AI capital comes from debt investors and industrial companies as well as hyperscalers. Some backers also become customers or suppliers.",
+      "limitation": "These are separate documented paths, not one closed loop. SoftBank tranche, program and cumulative totals overlap. Individual Samsung/Mistral fees are undisclosed; bank debt is not lab revenue."
     }
   ],
   "sources": {
@@ -2016,6 +2878,173 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm",
       "date": "2026-08-10",
       "type": "primary"
+    },
+    "coverage_intel_nvda": {
+      "title": "Intel 2025 annual report: NVIDIA share sale completed December 26, 2025",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/xbrl_doc_only/4132",
+      "date": "2026-01-23",
+      "publisherType": "primary"
+    },
+    "coverage_intel_softbank": {
+      "title": "Intel 8-K: completed $2B SoftBank cash equity purchase",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-25-000159/intc-20250926.htm",
+      "date": "2025-09-29",
+      "publisherType": "primary"
+    },
+    "coverage_intel_aws": {
+      "title": "Intel and AWS multiyear chip design, product and wafer framework",
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/intel-strategic-collaboration.html",
+      "date": "2024-09-16",
+      "publisherType": "primary"
+    },
+    "coverage_meta_nvda": {
+      "title": "Meta builds AI infrastructure with NVIDIA",
+      "url": "https://nvidianews.nvidia.com/news/meta-builds-ai-infrastructure-with-nvidia",
+      "date": "2026-02-17",
+      "publisherType": "primary"
+    },
+    "coverage_meta_amd": {
+      "title": "AMD 8-K: initial binding 1 GW purchase; warrant up to 160 million shares",
+      "url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000045/amd-20260223.htm",
+      "date": "2026-02-24",
+      "publisherType": "primary"
+    },
+    "coverage_meta_amd_update": {
+      "title": "AMD Q2 2026 10-Q: no Meta warrant shares vested as of June 27",
+      "url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000123/amd-20260627.htm",
+      "date": "2026-08-05",
+      "publisherType": "primary"
+    },
+    "coverage_meta_crwv": {
+      "title": "CoreWeave and Meta expanded approximately $21B agreement",
+      "url": "https://www.coreweave.com/news/coreweave-and-meta-announce-21-billion-expanded-ai-infrastructure-agreement",
+      "date": "2026-04-09",
+      "publisherType": "primary"
+    },
+    "coverage_meta_crwv_filing": {
+      "title": "CoreWeave Q1 2026 filing explains $21B includes exercised prior option",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000222/crwv-20260331.htm",
+      "date": "2026-05",
+      "publisherType": "primary"
+    },
+    "coverage_meta_corning": {
+      "title": "Corning and Meta up-to-$6B optical connectivity agreement; NYSE GLW",
+      "url": "https://www.corning.com/worldwide/en/about-us/news-events/news-releases/2026/01/corning-and-meta-announce-multiyear-up-to-6-billion-agreement-to-accelerate-us-data-center-buildout.html",
+      "date": "2026-01-27",
+      "publisherType": "primary"
+    },
+    "coverage_apple_tsmc": {
+      "title": "Apple US manufacturing announcement and TSMC multibillion-dollar commitment",
+      "url": "https://www.apple.com/newsroom/2025/02/apple-will-spend-more-than-500-billion-usd-in-the-us-over-the-next-four-years/",
+      "date": "2025-02-24",
+      "publisherType": "primary"
+    },
+    "coverage_apple_update": {
+      "title": "Apple AI-server manufacturing and Arizona supply-chain update",
+      "url": "https://www.apple.com/newsroom/2026/02/apple-accelerates-us-manufacturing-with-mac-mini-production/",
+      "date": "2026-02-24",
+      "publisherType": "primary"
+    },
+    "coverage_apple_supply": {
+      "title": "Apple American Manufacturing Program, Amkor and TSMC",
+      "url": "https://www.apple.com/newsroom/2025/08/apple-increases-us-commitment-to-600-billion-usd-announces-ambitious-program/",
+      "date": "2025-08-06",
+      "publisherType": "primary"
+    },
+    "coverage_anthropicSpaceX": {
+      "title": "Higher usage limits for Claude and compute deal with SpaceX",
+      "date": "2026-05-06",
+      "url": "https://www.anthropic.com/news/higher-limits-spacex"
+    },
+    "coverage_spcxQ2": {
+      "title": "SpaceX Form 10-Q, quarter ended June 30, 2026",
+      "date": "2026-06-30",
+      "dateKind": "financial period end, not filing date",
+      "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026052535/spcx-20260630.htm"
+    },
+    "coverage_cbrsQ1": {
+      "title": "Cerebras first-quarter 2026 results",
+      "date": "2026-06-23",
+      "url": "https://investors.cerebras.ai/news-releases/news-release-details/cerebras-systems-announces-strong-first-quarter-2026-results"
+    },
+    "coverage_asmlMistral": {
+      "title": "ASML and Mistral strategic partnership",
+      "date": "2025-09-09",
+      "url": "https://investor.asml.com/news-releases/news-release-details/asml-mistral-ai-enter-strategic-partnership"
+    },
+    "coverage_samsungMistral": {
+      "title": "Samsung and Mistral strategic partnership and equity investment",
+      "date": "2026-09-09",
+      "url": "https://news.samsung.com/global/samsung-and-mistral-ai-announce-strategic-partnership-for-intelligence-driven-semiconductor-infrastructure"
+    },
+    "coverage_scaleInvestment": {
+      "title": "Scale announces investment from Meta",
+      "date": "2025-06-12",
+      "url": "https://scale.com/blog/scale-ai-announces-next-phase-of-company-evolution"
+    },
+    "coverage_scaleIndependent": {
+      "title": "Scale remains independent after Meta investment",
+      "date": "2025-06-18",
+      "url": "https://scale.com/blog/customer-trust-scale-meta-deal"
+    },
+    "coverage_msftG42": {
+      "title": "Microsoft strategic investment in G42 and Azure partnership",
+      "date": "2024-04-16",
+      "url": "https://news.microsoft.com/source/2024/04/16/microsoft-invests-1-5-billion-in-abu-dhabis-g42-to-accelerate-ai-development-and-global-expansion/"
+    },
+    "coverage_softbank_openai": {
+      "title": "Execution of follow-on investment third tranche in OpenAI",
+      "url": "https://group.softbank/en/news/press/20261001",
+      "date": "2026-10-01",
+      "publisherType": "primary"
+    },
+    "coverage_softbank_notes": {
+      "title": "SoftBank foreign-currency senior notes and disclosed use of proceeds",
+      "date": "2026-09-24",
+      "url": "https://group.softbank/en/news/press/20260924"
+    },
+    "coverage_cerebras_g42_s1": {
+      "title": "Cerebras April 2026 S-1: strategic customers and G42 warrants",
+      "date": "2026-04-17",
+      "url": "https://investors.cerebras.ai/static-files/69e853fd-a7f2-438a-a0b0-79cb2807ebed"
+    },
+    "coverage_spcxIPO": {
+      "title": "SpaceX prices IPO",
+      "date": "2026-06-11",
+      "url": "https://ir.spacex.com/updates/releases-details/2026/Space-Exploration-Technologies-Corp--Announces-Pricing-of-Initial-Public-Offering/default.aspx"
+    },
+    "coverage_xaiMerger": {
+      "title": "xAI joins SpaceX",
+      "date": "2026-02-02",
+      "url": "https://x.ai/news/xai-joins-spacex"
+    },
+    "coverage_cursorClose": {
+      "title": "SpaceX Form 8-K: Cursor merger completed",
+      "date": "2026-08-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026056945/spcx-20260814.htm"
+    },
+    "coverage_cbrsIPO": {
+      "title": "Cerebras announces closing of IPO",
+      "date": "2026-05-15",
+      "url": "https://investors.cerebras.ai/news-releases/news-release-details/cerebras-systems-announces-closing-initial-public-offering"
+    },
+    "coverage_softbank_listing": {
+      "title": "SoftBank Group general stock information",
+      "url": "https://group.softbank/en/ir/stock/info",
+      "date": null,
+      "publisherType": "primary"
+    },
+    "coverage_apple_google": {
+      "title": "Joint statement from Google and Apple: Gemini collaboration",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/joint-statement-google-apple/",
+      "date": "2026-01-12",
+      "publisherType": "primary"
+    },
+    "coverage_amkor": {
+      "title": "Amkor Q2 2025 results and AI/HPC packaging role; Nasdaq AMKR",
+      "url": "https://ir.amkor.com/news-releases/news-release-details/amkor-technology-reports-financial-results-second-quarter-2025",
+      "date": "2025-07-28",
+      "publisherType": "primary"
     }
   },
   "methodology": [

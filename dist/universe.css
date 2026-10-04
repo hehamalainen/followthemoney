@@ -27,3 +27,11 @@ body.universe-mode>header{flex-wrap:nowrap;min-height:73px;justify-content:space
 
 .u-time-dock{background:linear-gradient(90deg,#070f16f5,#07121bef)}
 @media(max-width:760px){.u-time-dock{min-width:0}.u-time-title strong{display:block;margin:5px 0;text-transform:none;font-size:20px}.u-is-future .u-scene{height:1260px}.u-is-future .u-filter-row{bottom:385px}.u-is-future .u-navigation-hint{bottom:346px}.u-future-controls{grid-template-columns:minmax(0,1fr) 65px;gap:12px}.u-index{grid-column:2;grid-row:1;font-size:23px}.u-index small{font-size:8px}.u-year-track,.u-time-ticks{grid-column:1/-1;min-width:0}.u-year-track{gap:12px}.u-year-track input{width:0}.u-time-title{letter-spacing:1px}.u-time-ticks{padding-left:44px;padding-right:69px}.u-future-note{font-size:9px;line-height:1.6}}
+
+/* Coverage remains discoverable independently of animated labels. */
+.u-search{width:280px}.u-directory-link{display:block;width:100%;background:#0a1821e8;border:0;border-bottom:1px solid #263e49;color:#b8f0da;text-align:left;font-size:11px;padding:10px 5px}.u-featured{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}.u-featured button{font-size:10px;border:1px solid #3b535d;border-radius:20px;background:#0b1a24ed;color:#d3e6e5;padding:5px 9px}.u-featured button:hover,.u-directory-link:hover{background:#21383f}.u-search-results small{min-width:84px;text-align:right;font-size:9px}.u-coverage-note{padding:12px;border-left:2px solid #c1a477;background:#14232b}.u-copy .u-screen-note{font-size:9px}.u-metrics{gap:18px}.u-metrics span{font-size:9px}.u-all-results{border-top:1px solid #344550!important;color:#b8f0da!important}
+@media(max-width:760px){.u-search{width:190px;top:425px}.u-featured{gap:4px}.u-featured button{font-size:9px;padding:4px 7px}.u-directory-link{font-size:10px}.u-search-results{position:absolute;top:43px;left:-80px;right:0;z-index:7;max-height:360px;box-shadow:0 12px 30px #0009}}
+
+/* Keep camera controls clear of directory shortcuts at every breakpoint. */
+@media(min-width:761px){.u-camera{top:220px}}
+@media(max-width:760px){.u-search{left:5%;right:5%;width:auto;top:455px}.u-camera{top:585px}.u-search-results{left:0}.u-search input{font-size:12px}}

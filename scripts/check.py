@@ -15,6 +15,7 @@ def main():
         [sys.executable, 'scripts/validate_data.py'],
         [sys.executable, 'scripts/validate_valuation_source.py'],
         ['node', 'scripts/test_screen.cjs'],
+        ['node', 'scripts/test_coverage.cjs'],
         ['node', 'scripts/test_universe.cjs'],
         *[['node', '--check', str(p.relative_to(ROOT))]
           for p in sorted((ROOT / 'dist').glob('*.js'))],
