@@ -86,6 +86,8 @@ python3 scripts/film/verify.py
 
 GitHub Actions runs these checks and verifies that the saved circulation, directory, scenarios and normalized valuation rebuild without changes. It does not fetch live financial data.
 
+The [adversarial review response](docs/REVIEW_RESPONSE.md) explains the currency, growth, chart-history, link-safety and PDF-content regression checks.
+
 ## Rebuild data or films
 
 The committed datasets are enough to run the app. Rebuilding the financial snapshot requires additional cached SEC inputs; incomplete inputs stop the builders before they replace the saved output. See **[Data and methodology](docs/DATA.md)**.

@@ -10,7 +10,7 @@ window.MoneyCoverage = (() => {
   const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
   const normalize = value => String(value ?? '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, '');
   const financial = item => item.researchStatus === 'financial' && Boolean(item.financialTicker);
-  const safeUrl = value => /^https?:\/\//i.test(String(value ?? '')) ? String(value) : null;
+  const safeUrl = value => safeSourceUrl(value);
 
   function setData(data) {
     records = Array.isArray(data?.entities) ? data.entities.map(item => ({...item, aliases: Array.isArray(item.aliases) ? [...item.aliases] : [], sourceIds: Array.isArray(item.sourceIds) ? [...item.sourceIds] : []})) : [];

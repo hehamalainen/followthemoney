@@ -1,7 +1,11 @@
 import json
 from pathlib import Path
+from validate_valuation_source import validate_valuation_source
 root=Path(__file__).resolve().parents[1]
-d=json.loads((root/'scripts/research/valuation-source.json').read_text());out={}
+d=json.loads((root/'scripts/research/valuation-source.json').read_text())
+financial=json.loads((root/'dist/data.json').read_text())
+validate_valuation_source(d,{c['ticker']:c for c in financial['companies']})
+out={}
 for record in d['companies']:
  v=dict(record);v['shareDate']=v.get('sharesDate');v['marketCurrency']=v.get('currency');v['ratioBasis']=(v.get('earnings')or{}).get('basis','')
  v['missingReasons']=[k+': '+val for k,val in v.get('missingReasons',{}).items()]

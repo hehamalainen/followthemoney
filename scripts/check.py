@@ -14,6 +14,8 @@ def main():
     commands = [
         [sys.executable, 'scripts/validate_data.py'],
         [sys.executable, 'scripts/validate_valuation_source.py'],
+        [sys.executable, 'scripts/test_validators.py'],
+        ['node', 'scripts/test_display.cjs'],
         ['node', 'scripts/test_screen.cjs'],
         ['node', 'scripts/test_coverage.cjs'],
         ['node', 'scripts/test_universe.cjs'],
